@@ -1,5 +1,5 @@
 {
-  "_instructions": "Як додати відео: скопіюйте будь-який блок { ... } з масиву videos, вставте після останнього (не забудьте кому між блоками) і змініть поля. Обов'язкові: id (11 символів з посилання youtube.com/watch?v=ID), title, topic. Необов'язкові: channel, level (B1/B2), duration (у секундах), subs (manual/auto/burned), about, keywords, questions. Теми (topic): money, business, science, tech, history, psychology, sport, food, travel, other. У questions поле answer — номер правильного варіанту, рахуючи з 0.",
+  "_instructions": "Як додати відео: скопіюйте будь-який блок { ... } з масиву videos, вставте після останнього (не забудьте кому між блоками) і змініть поля. Обов'язкові: id (11 символів з посилання youtube.com/watch?v=ID), title, topic. Необов'язкові: channel, level (B1/B2), duration (у секундах), subs (manual/auto/burned), about, keywords, questions. Теми (topic): money, business, science, tech, history, psychology, sport, food, travel, other. У questions поле answer — номер правильного варіанту, рахуючи з 0. Поля dcl (A1/A2/B1) і dclTopic (travail, logement, commerce, transport, sante, administration, evenement, societe) — мітки для розділу DCL.",
   "videos": [
     {
       "id": "ycfu4fV0Vvo",
@@ -11,22 +11,88 @@
       "subs": "manual",
       "about": "Що таке акція, як працює біржа, як на ній заробляють (дивіденди і приріст вартості) і як зменшити ризики за допомогою диверсифікації.",
       "keywords": [
-        { "fr": "une action", "uk": "акція" },
-        { "fr": "la Bourse", "uk": "біржа" },
-        { "fr": "un courtier", "uk": "брокер" },
-        { "fr": "l'offre et la demande", "uk": "попит і пропозиція" },
-        { "fr": "un dividende", "uk": "дивіденд" },
-        { "fr": "la plus-value", "uk": "прибуток від зростання ціни" },
-        { "fr": "diversifier", "uk": "диверсифікувати, розподіляти" },
-        { "fr": "faire fructifier son épargne", "uk": "примножувати заощадження" }
+        {
+          "fr": "une action",
+          "uk": "акція"
+        },
+        {
+          "fr": "la Bourse",
+          "uk": "біржа"
+        },
+        {
+          "fr": "un courtier",
+          "uk": "брокер"
+        },
+        {
+          "fr": "l'offre et la demande",
+          "uk": "попит і пропозиція"
+        },
+        {
+          "fr": "un dividende",
+          "uk": "дивіденд"
+        },
+        {
+          "fr": "la plus-value",
+          "uk": "прибуток від зростання ціни"
+        },
+        {
+          "fr": "diversifier",
+          "uk": "диверсифікувати, розподіляти"
+        },
+        {
+          "fr": "faire fructifier son épargne",
+          "uk": "примножувати заощадження"
+        }
       ],
       "questions": [
-        { "q": "Qu'est-ce qu'une action selon la vidéo ?", "options": ["Un prêt accordé à l'État", "Une fraction d'une entreprise cotée en Bourse", "Un compte d'épargne à la banque"], "answer": 1 },
-        { "q": "Qu'est-ce qui détermine le prix d'une action ?", "options": ["L'offre et la demande", "Le gouvernement", "Le nombre d'employés de l'entreprise"], "answer": 0 },
-        { "q": "Quelles sont les deux façons principales de gagner de l'argent avec des actions ?", "options": ["Les impôts et les salaires", "Les intérêts et les frais bancaires", "Les dividendes et la plus-value"], "answer": 2 },
-        { "q": "Comment se protéger contre le risque lié à une seule entreprise ?", "options": ["Diversifier : plusieurs entreprises, secteurs et pays", "Acheter et vendre chaque jour", "Investir tout dans l'entreprise la plus connue"], "answer": 0 },
-        { "q": "Environ quel pourcentage des Français investit directement en Bourse chaque année ?", "options": ["20 %", "2 %", "50 %"], "answer": 1 }
-      ]
+        {
+          "q": "Qu'est-ce qu'une action selon la vidéo ?",
+          "options": [
+            "Un prêt accordé à l'État",
+            "Une fraction d'une entreprise cotée en Bourse",
+            "Un compte d'épargne à la banque"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce qui détermine le prix d'une action ?",
+          "options": [
+            "L'offre et la demande",
+            "Le gouvernement",
+            "Le nombre d'employés de l'entreprise"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelles sont les deux façons principales de gagner de l'argent avec des actions ?",
+          "options": [
+            "Les impôts et les salaires",
+            "Les intérêts et les frais bancaires",
+            "Les dividendes et la plus-value"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Comment se protéger contre le risque lié à une seule entreprise ?",
+          "options": [
+            "Diversifier : plusieurs entreprises, secteurs et pays",
+            "Acheter et vendre chaque jour",
+            "Investir tout dans l'entreprise la plus connue"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Environ quel pourcentage des Français investit directement en Bourse chaque année ?",
+          "options": [
+            "20 %",
+            "2 %",
+            "50 %"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "SC30iIqjl9U",
@@ -38,21 +104,84 @@
       "subs": "manual",
       "about": "Магія складних відсотків: чому важливо почати інвестувати рано, 4 фактори зростання капіталу, правило 72 і складні відсотки в повсякденному житті.",
       "keywords": [
-        { "fr": "les intérêts composés", "uk": "складні відсотки" },
-        { "fr": "le capital", "uk": "капітал" },
-        { "fr": "un placement", "uk": "вкладення, інвестиція" },
-        { "fr": "le rendement", "uk": "дохідність" },
-        { "fr": "l'effet boule de neige", "uk": "ефект снігової кулі" },
-        { "fr": "un versement régulier", "uk": "регулярний внесок" },
-        { "fr": "doubler", "uk": "подвоїти" }
+        {
+          "fr": "les intérêts composés",
+          "uk": "складні відсотки"
+        },
+        {
+          "fr": "le capital",
+          "uk": "капітал"
+        },
+        {
+          "fr": "un placement",
+          "uk": "вкладення, інвестиція"
+        },
+        {
+          "fr": "le rendement",
+          "uk": "дохідність"
+        },
+        {
+          "fr": "l'effet boule de neige",
+          "uk": "ефект снігової кулі"
+        },
+        {
+          "fr": "un versement régulier",
+          "uk": "регулярний внесок"
+        },
+        {
+          "fr": "doubler",
+          "uk": "подвоїти"
+        }
       ],
       "questions": [
-        { "q": "Un centime qui double chaque jour pendant 30 jours donne environ…", "options": ["10 000 euros", "1 million d'euros", "5,3 millions d'euros"], "answer": 2 },
-        { "q": "Pourquoi Dupont finit-il plus riche que son frère Pondu ?", "options": ["Il a commencé à investir 10 ans plus tôt", "Il a investi beaucoup plus d'argent", "Il a eu un taux de 20 % par an"], "answer": 0 },
-        { "q": "Quels sont les 4 facteurs des intérêts composés ?", "options": ["La chance, l'âge, le pays, la banque", "Le placement initial, les versements réguliers, le taux annuel, la durée", "Le salaire, les impôts, l'inflation, le crédit"], "answer": 1 },
-        { "q": "À quoi sert la règle des 72 ?", "options": ["À calculer ses impôts", "À choisir la meilleure action", "À savoir en combien d'années on double son capital"], "answer": 2 },
-        { "q": "Que dit l'auteur du Livret A ?", "options": ["Il a historiquement rapporté moins que l'inflation", "Il rapporte 10 % par an", "C'est le placement le plus risqué"], "answer": 0 }
-      ]
+        {
+          "q": "Un centime qui double chaque jour pendant 30 jours donne environ…",
+          "options": [
+            "10 000 euros",
+            "1 million d'euros",
+            "5,3 millions d'euros"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi Dupont finit-il plus riche que son frère Pondu ?",
+          "options": [
+            "Il a commencé à investir 10 ans plus tôt",
+            "Il a investi beaucoup plus d'argent",
+            "Il a eu un taux de 20 % par an"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quels sont les 4 facteurs des intérêts composés ?",
+          "options": [
+            "La chance, l'âge, le pays, la banque",
+            "Le placement initial, les versements réguliers, le taux annuel, la durée",
+            "Le salaire, les impôts, l'inflation, le crédit"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "À quoi sert la règle des 72 ?",
+          "options": [
+            "À calculer ses impôts",
+            "À choisir la meilleure action",
+            "À savoir en combien d'années on double son capital"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Que dit l'auteur du Livret A ?",
+          "options": [
+            "Il a historiquement rapporté moins que l'inflation",
+            "Il rapporte 10 % par an",
+            "C'est le placement le plus risqué"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "HKOaGWBWcBs",
@@ -64,22 +193,88 @@
       "subs": "manual",
       "about": "Індекс «Біг-Мака», паритет купівельної спроможності, фіксовані й плаваючі курси валют, сильна і слабка валюта та «валютні війни».",
       "keywords": [
-        { "fr": "le taux de change", "uk": "валютний курс" },
-        { "fr": "une devise", "uk": "валюта" },
-        { "fr": "le pouvoir d'achat", "uk": "купівельна спроможність" },
-        { "fr": "sous-évalué", "uk": "недооцінений" },
-        { "fr": "le marché des changes", "uk": "валютний ринок" },
-        { "fr": "une monnaie forte", "uk": "сильна валюта" },
-        { "fr": "les exportations", "uk": "експорт" },
-        { "fr": "une dévaluation", "uk": "девальвація" }
+        {
+          "fr": "le taux de change",
+          "uk": "валютний курс"
+        },
+        {
+          "fr": "une devise",
+          "uk": "валюта"
+        },
+        {
+          "fr": "le pouvoir d'achat",
+          "uk": "купівельна спроможність"
+        },
+        {
+          "fr": "sous-évalué",
+          "uk": "недооцінений"
+        },
+        {
+          "fr": "le marché des changes",
+          "uk": "валютний ринок"
+        },
+        {
+          "fr": "une monnaie forte",
+          "uk": "сильна валюта"
+        },
+        {
+          "fr": "les exportations",
+          "uk": "експорт"
+        },
+        {
+          "fr": "une dévaluation",
+          "uk": "девальвація"
+        }
       ],
       "questions": [
-        { "q": "Depuis quand The Economist publie-t-il l'indice Big Mac ?", "options": ["1944", "1986", "2013"], "answer": 1 },
-        { "q": "D'après l'indice Big Mac de 2020, le rouble russe était…", "options": ["sous-évalué", "surévalué", "parfaitement à sa valeur"], "answer": 0 },
-        { "q": "Entre 1944 et 1971 (accords de Bretton Woods), les devises avaient…", "options": ["un taux flottant", "un taux fixe par rapport à l'or uniquement", "un taux fixe par rapport au dollar"], "answer": 2 },
-        { "q": "Quel est l'avantage d'une monnaie forte ?", "options": ["Les exportations deviennent plus faciles", "Les importations sont moins chères", "Les prix augmentent"], "answer": 1 },
-        { "q": "Le marché des changes est…", "options": ["le premier marché mondial", "un petit marché réservé aux touristes", "interdit depuis 2013"], "answer": 0 }
-      ]
+        {
+          "q": "Depuis quand The Economist publie-t-il l'indice Big Mac ?",
+          "options": [
+            "1944",
+            "1986",
+            "2013"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "D'après l'indice Big Mac de 2020, le rouble russe était…",
+          "options": [
+            "sous-évalué",
+            "surévalué",
+            "parfaitement à sa valeur"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Entre 1944 et 1971 (accords de Bretton Woods), les devises avaient…",
+          "options": [
+            "un taux flottant",
+            "un taux fixe par rapport à l'or uniquement",
+            "un taux fixe par rapport au dollar"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quel est l'avantage d'une monnaie forte ?",
+          "options": [
+            "Les exportations deviennent plus faciles",
+            "Les importations sont moins chères",
+            "Les prix augmentent"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Le marché des changes est…",
+          "options": [
+            "le premier marché mondial",
+            "un petit marché réservé aux touristes",
+            "interdit depuis 2013"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "commerce"
     },
     {
       "id": "6OHOhcxf0r4",
@@ -91,22 +286,88 @@
       "subs": "manual",
       "about": "Державний борг Франції: як держава позичає через облігації, чому зростання ставок стало проблемою і які витрати (зокрема пенсії) збільшують дефіцит.",
       "keywords": [
-        { "fr": "la dette publique", "uk": "державний борг" },
-        { "fr": "le déficit", "uk": "дефіцит" },
-        { "fr": "une obligation", "uk": "облігація" },
-        { "fr": "emprunter", "uk": "позичати" },
-        { "fr": "le taux d'intérêt", "uk": "відсоткова ставка" },
-        { "fr": "le PIB", "uk": "ВВП" },
-        { "fr": "les retraites", "uk": "пенсії" },
-        { "fr": "une prime de risque", "uk": "премія за ризик" }
+        {
+          "fr": "la dette publique",
+          "uk": "державний борг"
+        },
+        {
+          "fr": "le déficit",
+          "uk": "дефіцит"
+        },
+        {
+          "fr": "une obligation",
+          "uk": "облігація"
+        },
+        {
+          "fr": "emprunter",
+          "uk": "позичати"
+        },
+        {
+          "fr": "le taux d'intérêt",
+          "uk": "відсоткова ставка"
+        },
+        {
+          "fr": "le PIB",
+          "uk": "ВВП"
+        },
+        {
+          "fr": "les retraites",
+          "uk": "пенсії"
+        },
+        {
+          "fr": "une prime de risque",
+          "uk": "премія за ризик"
+        }
       ],
       "questions": [
-        { "q": "La dette française représente environ…", "options": ["60 % du PIB", "200 % du PIB", "115 % du PIB"], "answer": 2 },
-        { "q": "Que fait l'État quand une obligation arrive à échéance ?", "options": ["Il réemprunte sur les marchés pour la rembourser", "Il augmente tous les impôts", "Il imprime de nouveaux billets"], "answer": 0 },
-        { "q": "Pourquoi la charge de la dette a-t-elle doublé entre 2020 et 2024 ?", "options": ["La France a arrêté d'emprunter", "Les taux d'intérêt ont remonté", "Le PIB a baissé de moitié"], "answer": 1 },
-        { "q": "Quel est le premier poste de dépenses publiques en France ?", "options": ["La défense", "Les retraites", "L'éducation"], "answer": 1 },
-        { "q": "Pourquoi les investisseurs demandent-ils un taux plus élevé à la France ?", "options": ["À cause de l'instabilité politique", "Parce que la France a quitté l'euro", "Parce que la dette française n'intéresse personne"], "answer": 0 }
-      ]
+        {
+          "q": "La dette française représente environ…",
+          "options": [
+            "60 % du PIB",
+            "200 % du PIB",
+            "115 % du PIB"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Que fait l'État quand une obligation arrive à échéance ?",
+          "options": [
+            "Il réemprunte sur les marchés pour la rembourser",
+            "Il augmente tous les impôts",
+            "Il imprime de nouveaux billets"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi la charge de la dette a-t-elle doublé entre 2020 et 2024 ?",
+          "options": [
+            "La France a arrêté d'emprunter",
+            "Les taux d'intérêt ont remonté",
+            "Le PIB a baissé de moitié"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel est le premier poste de dépenses publiques en France ?",
+          "options": [
+            "La défense",
+            "Les retraites",
+            "L'éducation"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi les investisseurs demandent-ils un taux plus élevé à la France ?",
+          "options": [
+            "À cause de l'instabilité politique",
+            "Parce que la France a quitté l'euro",
+            "Parce que la dette française n'intéresse personne"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "administration"
     },
     {
       "id": "shGt1pgUCu4",
@@ -118,22 +379,88 @@
       "subs": "manual",
       "about": "Чому авіакомпанії орендують, а не купують літаки: види лізингу (dry, wet), схема «продаж і зворотна оренда», ризики і криза у виробництві літаків.",
       "keywords": [
-        { "fr": "louer", "uk": "орендувати" },
-        { "fr": "une compagnie aérienne", "uk": "авіакомпанія" },
-        { "fr": "la flotte", "uk": "парк літаків, флот" },
-        { "fr": "un loueur", "uk": "орендодавець, лізингова компанія" },
-        { "fr": "l'équipage", "uk": "екіпаж" },
-        { "fr": "la trésorerie", "uk": "вільні гроші компанії" },
-        { "fr": "la maintenance", "uk": "техобслуговування" },
-        { "fr": "un retard", "uk": "затримка" }
+        {
+          "fr": "louer",
+          "uk": "орендувати"
+        },
+        {
+          "fr": "une compagnie aérienne",
+          "uk": "авіакомпанія"
+        },
+        {
+          "fr": "la flotte",
+          "uk": "парк літаків, флот"
+        },
+        {
+          "fr": "un loueur",
+          "uk": "орендодавець, лізингова компанія"
+        },
+        {
+          "fr": "l'équipage",
+          "uk": "екіпаж"
+        },
+        {
+          "fr": "la trésorerie",
+          "uk": "вільні гроші компанії"
+        },
+        {
+          "fr": "la maintenance",
+          "uk": "техобслуговування"
+        },
+        {
+          "fr": "un retard",
+          "uk": "затримка"
+        }
       ],
       "questions": [
-        { "q": "Quelle part de la flotte d'Air France est louée ?", "options": ["Un dixième", "Deux tiers", "La moitié"], "answer": 1 },
-        { "q": "Dans un contrat « wet », la compagnie loue…", "options": ["l'avion seulement", "seulement les pilotes", "l'avion, la maintenance, l'assurance et l'équipage"], "answer": 2 },
-        { "q": "Le « sale and leaseback », c'est…", "options": ["acheter un avion, le vendre à un loueur puis le louer", "louer un avion puis l'acheter après 25 ans", "vendre de vieux avions en pièces détachées"], "answer": 0 },
-        { "q": "Dans quel pays sont basées beaucoup de sociétés de leasing ?", "options": ["La Suisse", "Le Japon", "L'Irlande"], "answer": 2 },
-        { "q": "Pourquoi Ryanair refuse-t-elle le leasing ?", "options": ["Pour maîtriser à 100 % ses coûts", "Parce que c'est interdit en Irlande", "Parce qu'elle n'a pas d'avions"], "answer": 0 }
-      ]
+        {
+          "q": "Quelle part de la flotte d'Air France est louée ?",
+          "options": [
+            "Un dixième",
+            "Deux tiers",
+            "La moitié"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Dans un contrat « wet », la compagnie loue…",
+          "options": [
+            "l'avion seulement",
+            "seulement les pilotes",
+            "l'avion, la maintenance, l'assurance et l'équipage"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Le « sale and leaseback », c'est…",
+          "options": [
+            "acheter un avion, le vendre à un loueur puis le louer",
+            "louer un avion puis l'acheter après 25 ans",
+            "vendre de vieux avions en pièces détachées"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Dans quel pays sont basées beaucoup de sociétés de leasing ?",
+          "options": [
+            "La Suisse",
+            "Le Japon",
+            "L'Irlande"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi Ryanair refuse-t-elle le leasing ?",
+          "options": [
+            "Pour maîtriser à 100 % ses coûts",
+            "Parce que c'est interdit en Irlande",
+            "Parce qu'elle n'a pas d'avions"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "transport"
     },
     {
       "id": "Sq7MNk4pnus",
@@ -145,22 +472,88 @@
       "subs": "manual",
       "about": "Хто виготовляє, купує і обслуговує опори ліній електропередачі у Франції, скільки вони коштують і чому країні потрібно 85 000 нових.",
       "keywords": [
-        { "fr": "un pylône", "uk": "опора ЛЕП" },
-        { "fr": "une ligne à haute tension", "uk": "високовольтна лінія" },
-        { "fr": "le réseau", "uk": "мережа" },
-        { "fr": "un transformateur", "uk": "трансформатор" },
-        { "fr": "un poteau", "uk": "стовп" },
-        { "fr": "un boulon", "uk": "болт" },
-        { "fr": "l'entretien", "uk": "обслуговування, догляд" },
-        { "fr": "un agriculteur", "uk": "фермер" }
+        {
+          "fr": "un pylône",
+          "uk": "опора ЛЕП"
+        },
+        {
+          "fr": "une ligne à haute tension",
+          "uk": "високовольтна лінія"
+        },
+        {
+          "fr": "le réseau",
+          "uk": "мережа"
+        },
+        {
+          "fr": "un transformateur",
+          "uk": "трансформатор"
+        },
+        {
+          "fr": "un poteau",
+          "uk": "стовп"
+        },
+        {
+          "fr": "un boulon",
+          "uk": "болт"
+        },
+        {
+          "fr": "l'entretien",
+          "uk": "обслуговування, догляд"
+        },
+        {
+          "fr": "un agriculteur",
+          "uk": "фермер"
+        }
       ],
       "questions": [
-        { "q": "Combien de pylônes y a-t-il en France ?", "options": ["24 500", "245 000", "2,4 millions"], "answer": 1 },
-        { "q": "Quelle entreprise gère le réseau de transport et ses pylônes ?", "options": ["RTE", "Enedis", "La SNCF"], "answer": 0 },
-        { "q": "Comment un pylône est-il livré ?", "options": ["Déjà monté, par hélicoptère", "En kit, comme un meuble IKEA", "Imprimé en 3D sur place"], "answer": 1 },
-        { "q": "Combien touche environ un agriculteur par an et par pylône sur son terrain ?", "options": ["200 €", "2 000 €", "20 000 €"], "answer": 0 },
-        { "q": "Combien de nouveaux pylônes faudra-t-il d'ici 2040 ?", "options": ["8 500", "850 000", "85 000"], "answer": 2 }
-      ]
+        {
+          "q": "Combien de pylônes y a-t-il en France ?",
+          "options": [
+            "24 500",
+            "245 000",
+            "2,4 millions"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle entreprise gère le réseau de transport et ses pylônes ?",
+          "options": [
+            "RTE",
+            "Enedis",
+            "La SNCF"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Comment un pylône est-il livré ?",
+          "options": [
+            "Déjà monté, par hélicoptère",
+            "En kit, comme un meuble IKEA",
+            "Imprimé en 3D sur place"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Combien touche environ un agriculteur par an et par pylône sur son terrain ?",
+          "options": [
+            "200 €",
+            "2 000 €",
+            "20 000 €"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Combien de nouveaux pylônes faudra-t-il d'ici 2040 ?",
+          "options": [
+            "8 500",
+            "850 000",
+            "85 000"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "travail"
     },
     {
       "id": "VNW_8-JdiqM",
@@ -172,21 +565,84 @@
       "subs": "manual",
       "about": "Як виробник шин створив найвідоміший ресторанний гід: геніальна маркетингова ідея братів Мішлен 1900 року.",
       "keywords": [
-        { "fr": "un pneu", "uk": "шина" },
-        { "fr": "tomber en panne", "uk": "зламатися (про машину)" },
-        { "fr": "une étoile", "uk": "зірка" },
-        { "fr": "gratuit / payant", "uk": "безкоштовний / платний" },
-        { "fr": "un inspecteur", "uk": "інспектор" },
-        { "fr": "anonymement", "uk": "анонімно" },
-        { "fr": "la couverture", "uk": "обкладинка" }
+        {
+          "fr": "un pneu",
+          "uk": "шина"
+        },
+        {
+          "fr": "tomber en panne",
+          "uk": "зламатися (про машину)"
+        },
+        {
+          "fr": "une étoile",
+          "uk": "зірка"
+        },
+        {
+          "fr": "gratuit / payant",
+          "uk": "безкоштовний / платний"
+        },
+        {
+          "fr": "un inspecteur",
+          "uk": "інспектор"
+        },
+        {
+          "fr": "anonymement",
+          "uk": "анонімно"
+        },
+        {
+          "fr": "la couverture",
+          "uk": "обкладинка"
+        }
       ],
       "questions": [
-        { "q": "En 1900, de quoi parlait le premier guide Michelin ?", "options": ["De gastronomie", "De voyages en voiture : routes, hôtels, garages", "De mode"], "answer": 1 },
-        { "q": "Pourquoi les frères Michelin voulaient-ils aider les gens à voyager ?", "options": ["Pour qu'ils usent leurs pneus et en rachètent", "Pour vendre des hôtels", "Pour promouvoir le train"], "answer": 0 },
-        { "q": "En quelle année le guide devient-il payant ?", "options": ["1900", "1906", "1920"], "answer": 2 },
-        { "q": "Comment les inspecteurs testent-ils les restaurants ?", "options": ["Ils préviennent le chef", "Anonymement", "Avec une caméra"], "answer": 1 },
-        { "q": "Que représentait le dessin sur la première couverture ?", "options": ["Un pneu sur une jante, vu en coupe", "Une étoile", "Une voiture rouge"], "answer": 0 }
-      ]
+        {
+          "q": "En 1900, de quoi parlait le premier guide Michelin ?",
+          "options": [
+            "De gastronomie",
+            "De voyages en voiture : routes, hôtels, garages",
+            "De mode"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi les frères Michelin voulaient-ils aider les gens à voyager ?",
+          "options": [
+            "Pour qu'ils usent leurs pneus et en rachètent",
+            "Pour vendre des hôtels",
+            "Pour promouvoir le train"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "En quelle année le guide devient-il payant ?",
+          "options": [
+            "1900",
+            "1906",
+            "1920"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Comment les inspecteurs testent-ils les restaurants ?",
+          "options": [
+            "Ils préviennent le chef",
+            "Anonymement",
+            "Avec une caméra"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Que représentait le dessin sur la première couverture ?",
+          "options": [
+            "Un pneu sur une jante, vu en coupe",
+            "Une étoile",
+            "Une voiture rouge"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "commerce"
     },
     {
       "id": "X2kUhDrd6eA",
@@ -198,22 +654,88 @@
       "subs": "auto",
       "about": "IP-адрес IPv4 стає замало, тож на них виник вторинний ринок на мільйони доларів. Чому перехід на IPv6 такий повільний.",
       "keywords": [
-        { "fr": "une adresse IP", "uk": "IP-адреса" },
-        { "fr": "une pénurie", "uk": "дефіцит, нестача" },
-        { "fr": "un appareil connecté", "uk": "підключений пристрій" },
-        { "fr": "un fournisseur d'accès", "uk": "інтернет-провайдер" },
-        { "fr": "partager", "uk": "ділити, спільно використовувати" },
-        { "fr": "revendre", "uk": "перепродувати" },
-        { "fr": "facturer", "uk": "виставляти рахунок" },
-        { "fr": "la transition", "uk": "перехід" }
+        {
+          "fr": "une adresse IP",
+          "uk": "IP-адреса"
+        },
+        {
+          "fr": "une pénurie",
+          "uk": "дефіцит, нестача"
+        },
+        {
+          "fr": "un appareil connecté",
+          "uk": "підключений пристрій"
+        },
+        {
+          "fr": "un fournisseur d'accès",
+          "uk": "інтернет-провайдер"
+        },
+        {
+          "fr": "partager",
+          "uk": "ділити, спільно використовувати"
+        },
+        {
+          "fr": "revendre",
+          "uk": "перепродувати"
+        },
+        {
+          "fr": "facturer",
+          "uk": "виставляти рахунок"
+        },
+        {
+          "fr": "la transition",
+          "uk": "перехід"
+        }
       ],
       "questions": [
-        { "q": "Pourquoi les adresses IPv4 coûtent-elles de plus en plus cher ?", "options": ["Elles sont devenues rares", "Elles sont taxées par l'État", "Elles sont plus rapides qu'avant"], "answer": 0 },
-        { "q": "Qu'est-ce que le NAT ?", "options": ["Un nouveau protocole qui remplace IPv4", "Plusieurs appareils partagent une seule adresse IP publique", "Un virus informatique"], "answer": 1 },
-        { "q": "Quelle université a revendu des millions d'adresses à Amazon ?", "options": ["Harvard", "Stanford", "Le MIT"], "answer": 2 },
-        { "q": "Pourquoi la transition vers IPv6 est-elle si lente ?", "options": ["IPv6 est payant", "Une entreprise n'y gagne rien tout de suite et c'est un chantier énorme", "IPv6 est moins sûr"], "answer": 1 },
-        { "q": "Quelle part environ du trafic mondial passe en IPv6 ?", "options": ["45 %", "5 %", "95 %"], "answer": 0 }
-      ]
+        {
+          "q": "Pourquoi les adresses IPv4 coûtent-elles de plus en plus cher ?",
+          "options": [
+            "Elles sont devenues rares",
+            "Elles sont taxées par l'État",
+            "Elles sont plus rapides qu'avant"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce que le NAT ?",
+          "options": [
+            "Un nouveau protocole qui remplace IPv4",
+            "Plusieurs appareils partagent une seule adresse IP publique",
+            "Un virus informatique"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle université a revendu des millions d'adresses à Amazon ?",
+          "options": [
+            "Harvard",
+            "Stanford",
+            "Le MIT"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi la transition vers IPv6 est-elle si lente ?",
+          "options": [
+            "IPv6 est payant",
+            "Une entreprise n'y gagne rien tout de suite et c'est un chantier énorme",
+            "IPv6 est moins sûr"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle part environ du trafic mondial passe en IPv6 ?",
+          "options": [
+            "45 %",
+            "5 %",
+            "95 %"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "commerce"
     },
     {
       "id": "1Uhbki--UPw",
@@ -225,22 +747,88 @@
       "subs": "manual",
       "about": "Пісок — ні рідина, ні тверде тіло. Чому з мокрого піску можна будувати замки, чому пісочний годинник рівномірний і чому великі горіхи спливають нагору.",
       "keywords": [
-        { "fr": "un grain de sable", "uk": "піщинка" },
-        { "fr": "un tas", "uk": "купа" },
-        { "fr": "l'humidité", "uk": "вологість" },
-        { "fr": "mouillé / sec", "uk": "мокрий / сухий" },
-        { "fr": "s'écouler", "uk": "витікати, сипатися" },
-        { "fr": "un sablier", "uk": "пісочний годинник" },
-        { "fr": "se dilater", "uk": "розширюватися" },
-        { "fr": "un caillou", "uk": "камінець" }
+        {
+          "fr": "un grain de sable",
+          "uk": "піщинка"
+        },
+        {
+          "fr": "un tas",
+          "uk": "купа"
+        },
+        {
+          "fr": "l'humidité",
+          "uk": "вологість"
+        },
+        {
+          "fr": "mouillé / sec",
+          "uk": "мокрий / сухий"
+        },
+        {
+          "fr": "s'écouler",
+          "uk": "витікати, сипатися"
+        },
+        {
+          "fr": "un sablier",
+          "uk": "пісочний годинник"
+        },
+        {
+          "fr": "se dilater",
+          "uk": "розширюватися"
+        },
+        {
+          "fr": "un caillou",
+          "uk": "камінець"
+        }
       ],
       "questions": [
-        { "q": "Le sable est un milieu…", "options": ["granulaire, entre solide et liquide", "purement liquide", "gazeux"], "answer": 0 },
-        { "q": "Quelle quantité d'eau est optimale pour un château de sable ?", "options": ["Environ 50 %", "Pas d'eau du tout", "Environ 1 % en volume"], "answer": 2 },
-        { "q": "Pourquoi le sable mouillé devient-il blanc sous nos pieds ?", "options": ["Il se dilate et devient moins humide", "Il chauffe au soleil", "Il se remplit de sel"], "answer": 0 },
-        { "q": "Dans un sablier, la vitesse d'écoulement du sable…", "options": ["diminue comme pour l'eau", "reste constante", "augmente à la fin"], "answer": 1 },
-        { "q": "Qu'est-ce que « l'effet noix du Brésil » ?", "options": ["Les petits grains remontent", "Le sable devient liquide", "Les gros objets remontent à la surface quand on secoue"], "answer": 2 }
-      ]
+        {
+          "q": "Le sable est un milieu…",
+          "options": [
+            "granulaire, entre solide et liquide",
+            "purement liquide",
+            "gazeux"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle quantité d'eau est optimale pour un château de sable ?",
+          "options": [
+            "Environ 50 %",
+            "Pas d'eau du tout",
+            "Environ 1 % en volume"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi le sable mouillé devient-il blanc sous nos pieds ?",
+          "options": [
+            "Il se dilate et devient moins humide",
+            "Il chauffe au soleil",
+            "Il se remplit de sel"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Dans un sablier, la vitesse d'écoulement du sable…",
+          "options": [
+            "diminue comme pour l'eau",
+            "reste constante",
+            "augmente à la fin"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce que « l'effet noix du Brésil » ?",
+          "options": [
+            "Les petits grains remontent",
+            "Le sable devient liquide",
+            "Les gros objets remontent à la surface quand on secoue"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "8bUNGLlp048",
@@ -252,22 +840,88 @@
       "subs": "manual",
       "about": "Чому у воді при 25 °C холодно, а в повітрі — ні. Відчуття холоду залежить від теплового потоку, а «відчутна температура» з прогнозу погоди — сумнівне поняття.",
       "keywords": [
-        { "fr": "la température ressentie", "uk": "відчутна температура" },
-        { "fr": "le flux de chaleur", "uk": "тепловий потік" },
-        { "fr": "avoir froid", "uk": "мерзнути" },
-        { "fr": "le vent", "uk": "вітер" },
-        { "fr": "s'habiller chaudement", "uk": "тепло вдягатися" },
-        { "fr": "un glaçon", "uk": "кубик льоду" },
-        { "fr": "le carrelage", "uk": "кахель, плитка" },
-        { "fr": "les gelures", "uk": "обмороження" }
+        {
+          "fr": "la température ressentie",
+          "uk": "відчутна температура"
+        },
+        {
+          "fr": "le flux de chaleur",
+          "uk": "тепловий потік"
+        },
+        {
+          "fr": "avoir froid",
+          "uk": "мерзнути"
+        },
+        {
+          "fr": "le vent",
+          "uk": "вітер"
+        },
+        {
+          "fr": "s'habiller chaudement",
+          "uk": "тепло вдягатися"
+        },
+        {
+          "fr": "un glaçon",
+          "uk": "кубик льоду"
+        },
+        {
+          "fr": "le carrelage",
+          "uk": "кахель, плитка"
+        },
+        {
+          "fr": "les gelures",
+          "uk": "обмороження"
+        }
       ],
       "questions": [
-        { "q": "Pourquoi a-t-on froid dans un bain à 25 °C, mais pas dans l'air à 25 °C ?", "options": ["L'eau est toujours plus froide que l'air", "La peau échange beaucoup mieux la chaleur avec l'eau", "À cause du savon"], "answer": 1 },
-        { "q": "Selon la vidéo, ce qui compte pour la sensation de froid, c'est…", "options": ["le flux de chaleur", "seulement la température", "seulement l'humidité"], "answer": 0 },
-        { "q": "Sur quelle surface un glaçon fond-il plus vite ?", "options": ["Sur le polystyrène", "C'est pareil", "Sur le carrelage"], "answer": 2 },
-        { "q": "Quel est l'effet des vêtements sur l'impact du vent ?", "options": ["Ils réduisent beaucoup l'effet du vent", "Ils l'augmentent", "Aucun effet"], "answer": 0 },
-        { "q": "S'il fait 2 °C et « -5 °C ressenti », une bouteille d'eau dehors…", "options": ["va geler", "descendra à -5 °C", "ne descendra pas sous 2 °C"], "answer": 2 }
-      ]
+        {
+          "q": "Pourquoi a-t-on froid dans un bain à 25 °C, mais pas dans l'air à 25 °C ?",
+          "options": [
+            "L'eau est toujours plus froide que l'air",
+            "La peau échange beaucoup mieux la chaleur avec l'eau",
+            "À cause du savon"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Selon la vidéo, ce qui compte pour la sensation de froid, c'est…",
+          "options": [
+            "le flux de chaleur",
+            "seulement la température",
+            "seulement l'humidité"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Sur quelle surface un glaçon fond-il plus vite ?",
+          "options": [
+            "Sur le polystyrène",
+            "C'est pareil",
+            "Sur le carrelage"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quel est l'effet des vêtements sur l'impact du vent ?",
+          "options": [
+            "Ils réduisent beaucoup l'effet du vent",
+            "Ils l'augmentent",
+            "Aucun effet"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "S'il fait 2 °C et « -5 °C ressenti », une bouteille d'eau dehors…",
+          "options": [
+            "va geler",
+            "descendra à -5 °C",
+            "ne descendra pas sous 2 °C"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "sante"
     },
     {
       "id": "_YU8MV0tR5c",
@@ -279,22 +933,88 @@
       "subs": "auto",
       "about": "Чиста вода не замерзає при 0 °C — їй потрібне «ядро». Виявляється, найкращі ядра для льоду, снігу і граду створюють бактерії.",
       "keywords": [
-        { "fr": "un flocon de neige", "uk": "сніжинка" },
-        { "fr": "geler", "uk": "замерзати" },
-        { "fr": "la glace", "uk": "лід" },
-        { "fr": "un noyau", "uk": "ядро" },
-        { "fr": "une bactérie", "uk": "бактерія" },
-        { "fr": "le givre", "uk": "іній" },
-        { "fr": "la grêle", "uk": "град" },
-        { "fr": "un nuage", "uk": "хмара" }
+        {
+          "fr": "un flocon de neige",
+          "uk": "сніжинка"
+        },
+        {
+          "fr": "geler",
+          "uk": "замерзати"
+        },
+        {
+          "fr": "la glace",
+          "uk": "лід"
+        },
+        {
+          "fr": "un noyau",
+          "uk": "ядро"
+        },
+        {
+          "fr": "une bactérie",
+          "uk": "бактерія"
+        },
+        {
+          "fr": "le givre",
+          "uk": "іній"
+        },
+        {
+          "fr": "la grêle",
+          "uk": "град"
+        },
+        {
+          "fr": "un nuage",
+          "uk": "хмара"
+        }
       ],
       "questions": [
-        { "q": "L'eau pure gèle-t-elle toujours à 0 °C ?", "options": ["Oui, toujours", "Non, elle peut rester liquide bien en dessous de 0 °C", "Seulement en montagne"], "answer": 1 },
-        { "q": "De quoi un cristal de glace a-t-il besoin pour se former ?", "options": ["D'un noyau de départ", "De lumière", "De sel"], "answer": 0 },
-        { "q": "Que vend l'entreprise Snomax ?", "options": ["Des skis", "Des protéines pour les canons à neige", "Des vaccins"], "answer": 1 },
-        { "q": "Qu'ont trouvé les chercheurs au cœur des grêlons ?", "options": ["Du sable", "Des microplastiques uniquement", "Des bactéries"], "answer": 2 },
-        { "q": "Qu'ont provoqué les premières bactéries photosynthétiques il y a 2,5 milliards d'années ?", "options": ["La grande oxygénation de l'atmosphère", "La disparition des dinosaures", "La formation de la Lune"], "answer": 0 }
-      ]
+        {
+          "q": "L'eau pure gèle-t-elle toujours à 0 °C ?",
+          "options": [
+            "Oui, toujours",
+            "Non, elle peut rester liquide bien en dessous de 0 °C",
+            "Seulement en montagne"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "De quoi un cristal de glace a-t-il besoin pour se former ?",
+          "options": [
+            "D'un noyau de départ",
+            "De lumière",
+            "De sel"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que vend l'entreprise Snomax ?",
+          "options": [
+            "Des skis",
+            "Des protéines pour les canons à neige",
+            "Des vaccins"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'ont trouvé les chercheurs au cœur des grêlons ?",
+          "options": [
+            "Du sable",
+            "Des microplastiques uniquement",
+            "Des bactéries"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Qu'ont provoqué les premières bactéries photosynthétiques il y a 2,5 milliards d'années ?",
+          "options": [
+            "La grande oxygénation de l'atmosphère",
+            "La disparition des dinosaures",
+            "La formation de la Lune"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "6we2X6fyBAE",
@@ -306,22 +1026,88 @@
       "subs": "manual",
       "about": "Репортаж із корабля, що прокладає підводні кабелі, і з заводу в Кале: як влаштований інтернет на дні океану і чому кабелі стали питанням геополітики.",
       "keywords": [
-        { "fr": "un câble sous-marin", "uk": "підводний кабель" },
-        { "fr": "poser", "uk": "прокладати" },
-        { "fr": "la profondeur", "uk": "глибина" },
-        { "fr": "enterrer", "uk": "закопувати" },
-        { "fr": "la fibre optique", "uk": "оптоволокно" },
-        { "fr": "un requin", "uk": "акула" },
-        { "fr": "une coupure", "uk": "обрив, розрив" },
-        { "fr": "l'espionnage", "uk": "шпигунство" }
+        {
+          "fr": "un câble sous-marin",
+          "uk": "підводний кабель"
+        },
+        {
+          "fr": "poser",
+          "uk": "прокладати"
+        },
+        {
+          "fr": "la profondeur",
+          "uk": "глибина"
+        },
+        {
+          "fr": "enterrer",
+          "uk": "закопувати"
+        },
+        {
+          "fr": "la fibre optique",
+          "uk": "оптоволокно"
+        },
+        {
+          "fr": "un requin",
+          "uk": "акула"
+        },
+        {
+          "fr": "une coupure",
+          "uk": "обрив, розрив"
+        },
+        {
+          "fr": "l'espionnage",
+          "uk": "шпигунство"
+        }
       ],
       "questions": [
-        { "q": "Quelle part de l'Internet mondial passe par les câbles sous-marins ?", "options": ["10 %", "50 %", "99 %"], "answer": 2 },
-        { "q": "Pourquoi enterre-t-on les câbles près des côtes ?", "options": ["Pour les protéger (pêche, ancres, requins)", "Pour qu'Internet aille plus vite", "Pour les cacher aux touristes"], "answer": 0 },
-        { "q": "Dans quelle ville européenne l'entreprise ASN fabrique-t-elle ces câbles ?", "options": ["Marseille", "Calais", "Brest"], "answer": 1 },
-        { "q": "Que ressent l'utilisateur quand un câble est coupé ?", "options": ["Internet s'arrête dans tout le pays", "Presque rien : les données passent par une autre route", "Son téléphone se bloque"], "answer": 1 },
-        { "q": "Selon la vidéo, qu'est-ce qui va faire exploser la consommation de données ?", "options": ["L'intelligence artificielle", "Les e-mails", "La radio"], "answer": 0 }
-      ]
+        {
+          "q": "Quelle part de l'Internet mondial passe par les câbles sous-marins ?",
+          "options": [
+            "10 %",
+            "50 %",
+            "99 %"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi enterre-t-on les câbles près des côtes ?",
+          "options": [
+            "Pour les protéger (pêche, ancres, requins)",
+            "Pour qu'Internet aille plus vite",
+            "Pour les cacher aux touristes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Dans quelle ville européenne l'entreprise ASN fabrique-t-elle ces câbles ?",
+          "options": [
+            "Marseille",
+            "Calais",
+            "Brest"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Que ressent l'utilisateur quand un câble est coupé ?",
+          "options": [
+            "Internet s'arrête dans tout le pays",
+            "Presque rien : les données passent par une autre route",
+            "Son téléphone se bloque"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Selon la vidéo, qu'est-ce qui va faire exploser la consommation de données ?",
+          "options": [
+            "L'intelligence artificielle",
+            "Les e-mails",
+            "La radio"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "travail"
     },
     {
       "id": "tf4-_4IbXPs",
@@ -333,20 +1119,75 @@
       "subs": "auto",
       "about": "Безпілотні авто, яких обманюють наліпки, чат-бот, що став расистом, і алгоритм найму, що дискримінує жінок: чому штучному інтелекту потрібна етика.",
       "keywords": [
-        { "fr": "l'intelligence artificielle", "uk": "штучний інтелект" },
-        { "fr": "une voiture autonome", "uk": "безпілотний автомобіль" },
-        { "fr": "les données", "uk": "дані" },
-        { "fr": "biaisé", "uk": "упереджений, викривлений" },
-        { "fr": "l'embauche", "uk": "найм на роботу" },
-        { "fr": "une boîte noire", "uk": "чорна скринька" },
-        { "fr": "un cadre légal", "uk": "правова база" }
+        {
+          "fr": "l'intelligence artificielle",
+          "uk": "штучний інтелект"
+        },
+        {
+          "fr": "une voiture autonome",
+          "uk": "безпілотний автомобіль"
+        },
+        {
+          "fr": "les données",
+          "uk": "дані"
+        },
+        {
+          "fr": "biaisé",
+          "uk": "упереджений, викривлений"
+        },
+        {
+          "fr": "l'embauche",
+          "uk": "найм на роботу"
+        },
+        {
+          "fr": "une boîte noire",
+          "uk": "чорна скринька"
+        },
+        {
+          "fr": "un cadre légal",
+          "uk": "правова база"
+        }
       ],
       "questions": [
-        { "q": "Qu'ont montré des chercheurs en 2017 avec de petits stickers ?", "options": ["Les voitures autonomes prenaient des panneaux stop pour des panneaux 50 km/h", "Les robots savaient lire", "Les stickers rendaient les voitures plus sûres"], "answer": 0 },
-        { "q": "Pourquoi le robot de discussion de Microsoft a-t-il été désactivé en 2016 ?", "options": ["Il était trop lent", "Des internautes lui ont appris des propos haineux", "Il coûtait trop cher"], "answer": 1 },
-        { "q": "Pourquoi un algorithme de recrutement peut-il discriminer ?", "options": ["Parce qu'il est méchant", "Parce qu'il apprend à partir de données biaisées", "Parce qu'il ne lit pas les CV"], "answer": 1 },
-        { "q": "Quelles solutions la vidéo propose-t-elle ?", "options": ["Interdire totalement l'IA", "Laisser les entreprises décider seules", "Des technologies traçables, des philosophes et sociologues, un cadre légal"], "answer": 2 }
-      ]
+        {
+          "q": "Qu'ont montré des chercheurs en 2017 avec de petits stickers ?",
+          "options": [
+            "Les voitures autonomes prenaient des panneaux stop pour des panneaux 50 km/h",
+            "Les robots savaient lire",
+            "Les stickers rendaient les voitures plus sûres"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi le robot de discussion de Microsoft a-t-il été désactivé en 2016 ?",
+          "options": [
+            "Il était trop lent",
+            "Des internautes lui ont appris des propos haineux",
+            "Il coûtait trop cher"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi un algorithme de recrutement peut-il discriminer ?",
+          "options": [
+            "Parce qu'il est méchant",
+            "Parce qu'il apprend à partir de données biaisées",
+            "Parce qu'il ne lit pas les CV"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelles solutions la vidéo propose-t-elle ?",
+          "options": [
+            "Interdire totalement l'IA",
+            "Laisser les entreprises décider seules",
+            "Des technologies traçables, des philosophes et sociologues, un cadre légal"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "travail"
     },
     {
       "id": "7Z0YDbJ7xNs",
@@ -358,22 +1199,88 @@
       "subs": "auto",
       "about": "Бум генеративного ШІ змушує будувати гігантські дата-центри: вода, електрика, електронні відходи — і чому через них не закривають вугільні станції.",
       "keywords": [
-        { "fr": "un centre de données", "uk": "дата-центр" },
-        { "fr": "la puissance de calcul", "uk": "обчислювальна потужність" },
-        { "fr": "consommer", "uk": "споживати" },
-        { "fr": "le refroidissement", "uk": "охолодження" },
-        { "fr": "les déchets électroniques", "uk": "електронні відходи" },
-        { "fr": "l'empreinte carbone", "uk": "вуглецевий слід" },
-        { "fr": "les gaz à effet de serre", "uk": "парникові гази" },
-        { "fr": "frugal", "uk": "ощадливий" }
+        {
+          "fr": "un centre de données",
+          "uk": "дата-центр"
+        },
+        {
+          "fr": "la puissance de calcul",
+          "uk": "обчислювальна потужність"
+        },
+        {
+          "fr": "consommer",
+          "uk": "споживати"
+        },
+        {
+          "fr": "le refroidissement",
+          "uk": "охолодження"
+        },
+        {
+          "fr": "les déchets électroniques",
+          "uk": "електронні відходи"
+        },
+        {
+          "fr": "l'empreinte carbone",
+          "uk": "вуглецевий слід"
+        },
+        {
+          "fr": "les gaz à effet de serre",
+          "uk": "парникові гази"
+        },
+        {
+          "fr": "frugal",
+          "uk": "ощадливий"
+        }
       ],
       "questions": [
-        { "q": "D'ici 2030, les data centers pourraient consommer autant d'électricité que…", "options": ["le Luxembourg", "le Japon", "toute l'Europe"], "answer": 1 },
-        { "q": "Pourquoi les data centers utilisent-ils beaucoup d'eau ?", "options": ["Pour refroidir les serveurs", "Pour nettoyer les bâtiments", "Pour produire de l'électricité"], "answer": 0 },
-        { "q": "Quelle part des déchets électroniques est recyclée dans le monde ?", "options": ["Presque 100 %", "Environ 80 %", "Environ 20 %"], "answer": 2 },
-        { "q": "Pourquoi certaines centrales à charbon restent-elles ouvertes ?", "options": ["Les data centers ont besoin de beaucoup d'énergie stable tout de suite", "Le charbon est devenu propre", "C'est la loi"], "answer": 0 },
-        { "q": "Selon une experte, les modèles d'IA utiles pour le climat sont souvent…", "options": ["gigantesques", "petits, ils tournent en local", "interdits"], "answer": 1 }
-      ]
+        {
+          "q": "D'ici 2030, les data centers pourraient consommer autant d'électricité que…",
+          "options": [
+            "le Luxembourg",
+            "le Japon",
+            "toute l'Europe"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi les data centers utilisent-ils beaucoup d'eau ?",
+          "options": [
+            "Pour refroidir les serveurs",
+            "Pour nettoyer les bâtiments",
+            "Pour produire de l'électricité"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle part des déchets électroniques est recyclée dans le monde ?",
+          "options": [
+            "Presque 100 %",
+            "Environ 80 %",
+            "Environ 20 %"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi certaines centrales à charbon restent-elles ouvertes ?",
+          "options": [
+            "Les data centers ont besoin de beaucoup d'énergie stable tout de suite",
+            "Le charbon est devenu propre",
+            "C'est la loi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Selon une experte, les modèles d'IA utiles pour le climat sont souvent…",
+          "options": [
+            "gigantesques",
+            "petits, ils tournent en local",
+            "interdits"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "JmzrfrPQsqk",
@@ -385,22 +1292,88 @@
       "subs": "auto",
       "about": "Французька революція за 5 хвилин: причини, взяття Бастилії, Декларація прав людини, терор і прихід Наполеона. Плюс три корисні вирази.",
       "keywords": [
-        { "fr": "la monarchie", "uk": "монархія" },
-        { "fr": "le tiers état", "uk": "третій стан" },
-        { "fr": "un privilège", "uk": "привілей" },
-        { "fr": "les impôts", "uk": "податки" },
-        { "fr": "les Lumières", "uk": "Просвітництво" },
-        { "fr": "abolir", "uk": "скасувати" },
-        { "fr": "la goutte d'eau qui fait déborder le vase", "uk": "остання крапля" },
-        { "fr": "faire table rase", "uk": "почати з чистого аркуша" }
+        {
+          "fr": "la monarchie",
+          "uk": "монархія"
+        },
+        {
+          "fr": "le tiers état",
+          "uk": "третій стан"
+        },
+        {
+          "fr": "un privilège",
+          "uk": "привілей"
+        },
+        {
+          "fr": "les impôts",
+          "uk": "податки"
+        },
+        {
+          "fr": "les Lumières",
+          "uk": "Просвітництво"
+        },
+        {
+          "fr": "abolir",
+          "uk": "скасувати"
+        },
+        {
+          "fr": "la goutte d'eau qui fait déborder le vase",
+          "uk": "остання крапля"
+        },
+        {
+          "fr": "faire table rase",
+          "uk": "почати з чистого аркуша"
+        }
       ],
       "questions": [
-        { "q": "Combien de prisonniers y avait-il dans la Bastille le 14 juillet 1789 ?", "options": ["Sept", "83", "Plus de 300"], "answer": 0 },
-        { "q": "Qu'est-ce qui a été « la goutte d'eau qui fait déborder le vase » ?", "options": ["La mort du roi", "Le prix du pain qui s'envole", "Une guerre avec l'Angleterre"], "answer": 1 },
-        { "q": "Le tiers état, c'est…", "options": ["le clergé", "la noblesse", "l'immense majorité de la population"], "answer": 2 },
-        { "q": "Qu'est-ce que les députés jurent lors du serment du Jeu de paume ?", "options": ["De donner une constitution à la France", "De tuer le roi", "De quitter Paris"], "answer": 0 },
-        { "q": "Quel événement marque généralement la fin de la Révolution ?", "options": ["La prise de la Bastille", "La mort de Robespierre", "Le coup d'État de Bonaparte en 1799"], "answer": 2 }
-      ]
+        {
+          "q": "Combien de prisonniers y avait-il dans la Bastille le 14 juillet 1789 ?",
+          "options": [
+            "Sept",
+            "83",
+            "Plus de 300"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce qui a été « la goutte d'eau qui fait déborder le vase » ?",
+          "options": [
+            "La mort du roi",
+            "Le prix du pain qui s'envole",
+            "Une guerre avec l'Angleterre"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Le tiers état, c'est…",
+          "options": [
+            "le clergé",
+            "la noblesse",
+            "l'immense majorité de la population"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Qu'est-ce que les députés jurent lors du serment du Jeu de paume ?",
+          "options": [
+            "De donner une constitution à la France",
+            "De tuer le roi",
+            "De quitter Paris"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quel événement marque généralement la fin de la Révolution ?",
+          "options": [
+            "La prise de la Bastille",
+            "La mort de Robespierre",
+            "Le coup d'État de Bonaparte en 1799"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "societe"
     },
     {
       "id": "1vd2AxWxzuU",
@@ -412,22 +1385,88 @@
       "subs": "auto",
       "about": "Життя Шарля де Голля: заклик 18 червня, Вільна Франція, звільнення Парижа, П'ята республіка, травень 1968 і відставка.",
       "keywords": [
-        { "fr": "un officier", "uk": "офіцер" },
-        { "fr": "s'évader", "uk": "втекти (з полону)" },
-        { "fr": "un appel", "uk": "заклик" },
-        { "fr": "la défaite", "uk": "поразка" },
-        { "fr": "libérer", "uk": "звільнити" },
-        { "fr": "le droit de vote", "uk": "право голосу" },
-        { "fr": "démissionner", "uk": "піти у відставку" },
-        { "fr": "tenir parole", "uk": "дотримати слова" }
+        {
+          "fr": "un officier",
+          "uk": "офіцер"
+        },
+        {
+          "fr": "s'évader",
+          "uk": "втекти (з полону)"
+        },
+        {
+          "fr": "un appel",
+          "uk": "заклик"
+        },
+        {
+          "fr": "la défaite",
+          "uk": "поразка"
+        },
+        {
+          "fr": "libérer",
+          "uk": "звільнити"
+        },
+        {
+          "fr": "le droit de vote",
+          "uk": "право голосу"
+        },
+        {
+          "fr": "démissionner",
+          "uk": "піти у відставку"
+        },
+        {
+          "fr": "tenir parole",
+          "uk": "дотримати слова"
+        }
       ],
       "questions": [
-        { "q": "Depuis quelle ville de Gaulle lance-t-il l'appel du 18 juin ?", "options": ["Paris", "Londres", "Alger"], "answer": 1 },
-        { "q": "Pourquoi peu de Français ont-ils entendu l'appel en direct ?", "options": ["De Gaulle était presque inconnu", "La radio était interdite", "Il a parlé en anglais"], "answer": 0 },
-        { "q": "Sous le gouvernement provisoire de de Gaulle, les Françaises obtiennent…", "options": ["le droit de travailler", "le droit de vote", "le droit de conduire"], "answer": 1 },
-        { "q": "Que se passe-t-il en 1958 ?", "options": ["La libération de Paris", "Mai 68", "La naissance de la 5e République"], "answer": 2 },
-        { "q": "Pourquoi de Gaulle démissionne-t-il en 1969 ?", "options": ["Le « non » l'emporte à son référendum", "Il est très malade", "Il perd l'élection présidentielle"], "answer": 0 }
-      ]
+        {
+          "q": "Depuis quelle ville de Gaulle lance-t-il l'appel du 18 juin ?",
+          "options": [
+            "Paris",
+            "Londres",
+            "Alger"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi peu de Français ont-ils entendu l'appel en direct ?",
+          "options": [
+            "De Gaulle était presque inconnu",
+            "La radio était interdite",
+            "Il a parlé en anglais"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Sous le gouvernement provisoire de de Gaulle, les Françaises obtiennent…",
+          "options": [
+            "le droit de travailler",
+            "le droit de vote",
+            "le droit de conduire"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Que se passe-t-il en 1958 ?",
+          "options": [
+            "La libération de Paris",
+            "Mai 68",
+            "La naissance de la 5e République"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi de Gaulle démissionne-t-il en 1969 ?",
+          "options": [
+            "Le « non » l'emporte à son référendum",
+            "Il est très malade",
+            "Il perd l'élection présidentielle"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "administration"
     },
     {
       "id": "xT_WDTyEHAY",
@@ -439,21 +1478,84 @@
       "subs": "auto",
       "about": "Карл Великий — ні француз, ні німець. Як Франція і Німеччина «привласнювали» його образ: від Наполеона й Віктора Гюго до премії імені Карла Великого.",
       "keywords": [
-        { "fr": "un empereur", "uk": "імператор" },
-        { "fr": "être sacré", "uk": "бути коронованим (помазаним)" },
-        { "fr": "une nation", "uk": "нація" },
-        { "fr": "un empire", "uk": "імперія" },
-        { "fr": "un roi guerrier", "uk": "король-воїн" },
-        { "fr": "la tombe", "uk": "могила" },
-        { "fr": "s'approprier", "uk": "привласнювати" }
+        {
+          "fr": "un empereur",
+          "uk": "імператор"
+        },
+        {
+          "fr": "être sacré",
+          "uk": "бути коронованим (помазаним)"
+        },
+        {
+          "fr": "une nation",
+          "uk": "нація"
+        },
+        {
+          "fr": "un empire",
+          "uk": "імперія"
+        },
+        {
+          "fr": "un roi guerrier",
+          "uk": "король-воїн"
+        },
+        {
+          "fr": "la tombe",
+          "uk": "могила"
+        },
+        {
+          "fr": "s'approprier",
+          "uk": "привласнювати"
+        }
       ],
       "questions": [
-        { "q": "Selon les historiens, Charlemagne est…", "options": ["français", "allemand", "ni français ni allemand"], "answer": 2 },
-        { "q": "En quelle année Charlemagne est-il sacré empereur ?", "options": ["800", "1066", "1804"], "answer": 0 },
-        { "q": "Quelle ville est associée au pouvoir de Charlemagne côté allemand ?", "options": ["Berlin", "Aix-la-Chapelle", "Munich"], "answer": 1 },
-        { "q": "Selon une chanson française très connue, Charlemagne aurait inventé…", "options": ["l'école", "le pain", "la bière"], "answer": 0 },
-        { "q": "Qu'est-ce que le prix Charlemagne d'Aix-la-Chapelle, créé en 1949 ?", "options": ["Un prix de cuisine", "Un prix militaire", "Un prix pour l'unification européenne"], "answer": 2 }
-      ]
+        {
+          "q": "Selon les historiens, Charlemagne est…",
+          "options": [
+            "français",
+            "allemand",
+            "ni français ni allemand"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "En quelle année Charlemagne est-il sacré empereur ?",
+          "options": [
+            "800",
+            "1066",
+            "1804"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle ville est associée au pouvoir de Charlemagne côté allemand ?",
+          "options": [
+            "Berlin",
+            "Aix-la-Chapelle",
+            "Munich"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Selon une chanson française très connue, Charlemagne aurait inventé…",
+          "options": [
+            "l'école",
+            "le pain",
+            "la bière"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce que le prix Charlemagne d'Aix-la-Chapelle, créé en 1949 ?",
+          "options": [
+            "Un prix de cuisine",
+            "Un prix militaire",
+            "Un prix pour l'unification européenne"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "societe"
     },
     {
       "id": "Eh7l4Gvx054",
@@ -465,22 +1567,88 @@
       "subs": "manual",
       "about": "Дослідник натовпів показує на помідорах, як змінюється поведінка людей залежно від щільності — від порожньої вулиці до смертельної тисняви.",
       "keywords": [
-        { "fr": "une foule", "uk": "натовп" },
-        { "fr": "la densité", "uk": "щільність" },
-        { "fr": "par mètre carré", "uk": "на квадратний метр" },
-        { "fr": "serré", "uk": "тісний, щільний" },
-        { "fr": "bousculer", "uk": "штовхати" },
-        { "fr": "dangereux", "uk": "небезпечний" },
-        { "fr": "la vitesse de marche", "uk": "швидкість ходьби" },
-        { "fr": "un blessé", "uk": "поранений" }
+        {
+          "fr": "une foule",
+          "uk": "натовп"
+        },
+        {
+          "fr": "la densité",
+          "uk": "щільність"
+        },
+        {
+          "fr": "par mètre carré",
+          "uk": "на квадратний метр"
+        },
+        {
+          "fr": "serré",
+          "uk": "тісний, щільний"
+        },
+        {
+          "fr": "bousculer",
+          "uk": "штовхати"
+        },
+        {
+          "fr": "dangereux",
+          "uk": "небезпечний"
+        },
+        {
+          "fr": "la vitesse de marche",
+          "uk": "швидкість ходьби"
+        },
+        {
+          "fr": "un blessé",
+          "uk": "поранений"
+        }
       ],
       "questions": [
-        { "q": "Selon le chercheur, qu'est-ce qui compte le plus dans une foule ?", "options": ["Le nombre total de personnes", "La densité : le nombre de personnes par m²", "L'âge des gens"], "answer": 1 },
-        { "q": "Pourquoi utilise-t-il des tomates ?", "options": ["Elles ont à peu près la forme d'un corps vu du dessus", "Elles sont rouges", "Il n'avait rien d'autre à manger"], "answer": 0 },
-        { "q": "Trois personnes par m², c'est par exemple…", "options": ["une rue vide", "un champ", "le métro le lundi matin"], "answer": 2 },
-        { "q": "Qu'est-ce que « l'effet accordéon » ?", "options": ["La foule chante", "Le déplacement devient discontinu : on avance, on s'arrête", "Les gens dansent"], "answer": 1 },
-        { "q": "À partir de quelle densité la situation devient-elle vraiment dangereuse ?", "options": ["Environ 1 personne par m²", "Environ 2 personnes par m²", "Environ 6 à 7 personnes par m²"], "answer": 2 }
-      ]
+        {
+          "q": "Selon le chercheur, qu'est-ce qui compte le plus dans une foule ?",
+          "options": [
+            "Le nombre total de personnes",
+            "La densité : le nombre de personnes par m²",
+            "L'âge des gens"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi utilise-t-il des tomates ?",
+          "options": [
+            "Elles ont à peu près la forme d'un corps vu du dessus",
+            "Elles sont rouges",
+            "Il n'avait rien d'autre à manger"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Trois personnes par m², c'est par exemple…",
+          "options": [
+            "une rue vide",
+            "un champ",
+            "le métro le lundi matin"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Qu'est-ce que « l'effet accordéon » ?",
+          "options": [
+            "La foule chante",
+            "Le déplacement devient discontinu : on avance, on s'arrête",
+            "Les gens dansent"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "À partir de quelle densité la situation devient-elle vraiment dangereuse ?",
+          "options": [
+            "Environ 1 personne par m²",
+            "Environ 2 personnes par m²",
+            "Environ 6 à 7 personnes par m²"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "evenement"
     },
     {
       "id": "JGsUQdGX_qM",
@@ -492,20 +1660,75 @@
       "subs": "auto",
       "about": "Ефект якоря в супермаркеті, упередження підтвердження, групове мислення і доступність інформації: як наш мозок помиляється і як цьому протидіяти.",
       "keywords": [
-        { "fr": "un biais cognitif", "uk": "когнітивне упередження" },
-        { "fr": "une bonne affaire", "uk": "вигідна покупка" },
-        { "fr": "prendre une décision", "uk": "ухвалювати рішення" },
-        { "fr": "la pensée rapide", "uk": "швидке (інтуїтивне) мислення" },
-        { "fr": "confirmer", "uk": "підтверджувати" },
-        { "fr": "un désaccord", "uk": "незгода" },
-        { "fr": "l'excès de confiance", "uk": "надмірна самовпевненість" }
+        {
+          "fr": "un biais cognitif",
+          "uk": "когнітивне упередження"
+        },
+        {
+          "fr": "une bonne affaire",
+          "uk": "вигідна покупка"
+        },
+        {
+          "fr": "prendre une décision",
+          "uk": "ухвалювати рішення"
+        },
+        {
+          "fr": "la pensée rapide",
+          "uk": "швидке (інтуїтивне) мислення"
+        },
+        {
+          "fr": "confirmer",
+          "uk": "підтверджувати"
+        },
+        {
+          "fr": "un désaccord",
+          "uk": "незгода"
+        },
+        {
+          "fr": "l'excès de confiance",
+          "uk": "надмірна самовпевненість"
+        }
       ],
       "questions": [
-        { "q": "Pourquoi un produit à 9 € « au lieu de 15 € » nous paraît-il une bonne affaire ?", "options": ["Parce que 9 € est vraiment bon marché", "Parce qu'on est « ancré » sur le chiffre de 15 €", "Parce que c'est la loi"], "answer": 1 },
-        { "q": "Le biais de confirmation, c'est…", "options": ["donner plus de poids aux informations qui confirment notre avis", "toujours changer d'avis", "confirmer chaque achat"], "answer": 0 },
-        { "q": "Dans l'exemple du restaurant italien, quel est le piège ?", "options": ["Le restaurant est trop cher", "Personne n'a faim", "La pensée de groupe : les autres n'osent pas donner leur avis"], "answer": 2 },
-        { "q": "Que conseille l'expert pour se protéger des biais ?", "options": ["Suivre son instinct", "Demander l'aide des autres et utiliser une méthode de décision", "Décider seul et très vite"], "answer": 1 }
-      ]
+        {
+          "q": "Pourquoi un produit à 9 € « au lieu de 15 € » nous paraît-il une bonne affaire ?",
+          "options": [
+            "Parce que 9 € est vraiment bon marché",
+            "Parce qu'on est « ancré » sur le chiffre de 15 €",
+            "Parce que c'est la loi"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Le biais de confirmation, c'est…",
+          "options": [
+            "donner plus de poids aux informations qui confirment notre avis",
+            "toujours changer d'avis",
+            "confirmer chaque achat"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Dans l'exemple du restaurant italien, quel est le piège ?",
+          "options": [
+            "Le restaurant est trop cher",
+            "Personne n'a faim",
+            "La pensée de groupe : les autres n'osent pas donner leur avis"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Que conseille l'expert pour se protéger des biais ?",
+          "options": [
+            "Suivre son instinct",
+            "Demander l'aide des autres et utiliser une méthode de décision",
+            "Décider seul et très vite"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "commerce"
     },
     {
       "id": "f85tFXm8-6Y",
@@ -517,20 +1740,75 @@
       "subs": "burned",
       "about": "Вуличне опитування в Парижі: що для французів означає «успішне життя» — мрії, родина, гроші, вільний час чи здоров'я?",
       "keywords": [
-        { "fr": "réussir sa vie", "uk": "досягти успіху в житті" },
-        { "fr": "réaliser ses rêves", "uk": "здійснити мрії" },
-        { "fr": "fonder une famille", "uk": "створити сім'ю" },
-        { "fr": "être épanoui", "uk": "бути реалізованим, щасливим" },
-        { "fr": "se sentir à sa place", "uk": "почуватися на своєму місці" },
-        { "fr": "le temps libre", "uk": "вільний час" },
-        { "fr": "la santé", "uk": "здоров'я" }
+        {
+          "fr": "réussir sa vie",
+          "uk": "досягти успіху в житті"
+        },
+        {
+          "fr": "réaliser ses rêves",
+          "uk": "здійснити мрії"
+        },
+        {
+          "fr": "fonder une famille",
+          "uk": "створити сім'ю"
+        },
+        {
+          "fr": "être épanoui",
+          "uk": "бути реалізованим, щасливим"
+        },
+        {
+          "fr": "se sentir à sa place",
+          "uk": "почуватися на своєму місці"
+        },
+        {
+          "fr": "le temps libre",
+          "uk": "вільний час"
+        },
+        {
+          "fr": "la santé",
+          "uk": "здоров'я"
+        }
       ],
       "questions": [
-        { "q": "Pour un des passants, réussir sa vie en tant qu'homme, c'est…", "options": ["devenir célèbre", "fonder une famille et subvenir à ses besoins", "voyager partout"], "answer": 1 },
-        { "q": "La plupart des personnes interrogées pensent-elles avoir déjà réussi leur vie ?", "options": ["Oui, toutes", "Non : « pas encore », elles sont « sur le chemin »", "Elles refusent de répondre"], "answer": 1 },
-        { "q": "Quel lien la plupart des passants font-ils entre l'argent et la réussite ?", "options": ["L'argent n'est pas l'essentiel", "Sans argent, pas de réussite", "Il faut être millionnaire"], "answer": 0 },
-        { "q": "Selon la dernière personne, quelle est la chose la plus importante ?", "options": ["Le travail", "L'argent", "La santé"], "answer": 2 }
-      ]
+        {
+          "q": "Pour un des passants, réussir sa vie en tant qu'homme, c'est…",
+          "options": [
+            "devenir célèbre",
+            "fonder une famille et subvenir à ses besoins",
+            "voyager partout"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "La plupart des personnes interrogées pensent-elles avoir déjà réussi leur vie ?",
+          "options": [
+            "Oui, toutes",
+            "Non : « pas encore », elles sont « sur le chemin »",
+            "Elles refusent de répondre"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel lien la plupart des passants font-ils entre l'argent et la réussite ?",
+          "options": [
+            "L'argent n'est pas l'essentiel",
+            "Sans argent, pas de réussite",
+            "Il faut être millionnaire"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Selon la dernière personne, quelle est la chose la plus importante ?",
+          "options": [
+            "Le travail",
+            "L'argent",
+            "La santé"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "travail"
     },
     {
       "id": "wb38pcngHaE",
@@ -542,20 +1820,75 @@
       "subs": "manual",
       "about": "Статистика 311 пенальті: куди треба бити, щоб забити, і чому і гравці, і воротарі обирають гірші рішення — зі страху виглядати смішно.",
       "keywords": [
-        { "fr": "un penalty", "uk": "пенальті" },
-        { "fr": "le gardien", "uk": "воротар" },
-        { "fr": "marquer un but", "uk": "забити гол" },
-        { "fr": "tirer", "uk": "бити (по м'ячу)" },
-        { "fr": "plonger", "uk": "стрибати (про воротаря)" },
-        { "fr": "rater", "uk": "схибити, промахнутися" },
-        { "fr": "avoir peur du ridicule", "uk": "боятися виглядати смішно" }
+        {
+          "fr": "un penalty",
+          "uk": "пенальті"
+        },
+        {
+          "fr": "le gardien",
+          "uk": "воротар"
+        },
+        {
+          "fr": "marquer un but",
+          "uk": "забити гол"
+        },
+        {
+          "fr": "tirer",
+          "uk": "бити (по м'ячу)"
+        },
+        {
+          "fr": "plonger",
+          "uk": "стрибати (про воротаря)"
+        },
+        {
+          "fr": "rater",
+          "uk": "схибити, промахнутися"
+        },
+        {
+          "fr": "avoir peur du ridicule",
+          "uk": "боятися виглядати смішно"
+        }
       ],
       "questions": [
-        { "q": "Dans quelle zone du but les penaltys cadrés sont-ils marqués à 100 % ?", "options": ["Le tiers inférieur", "Le tiers du milieu", "Le tiers supérieur"], "answer": 2 },
-        { "q": "Où les joueurs tirent-ils le plus souvent ?", "options": ["Dans le tiers inférieur du but", "Dans le tiers supérieur", "Toujours au centre"], "answer": 0 },
-        { "q": "Combien de fois les gardiens restent-ils au centre du but ?", "options": ["Dans 50 % des cas", "Dans seulement 6 % des cas", "Dans 33 % des cas"], "answer": 1 },
-        { "q": "Pourquoi les gardiens plongent-ils presque toujours ?", "options": ["Le règlement l'oblige", "Ils voient la direction du ballon", "Ils ont peur de paraître ridicules s'ils restent immobiles"], "answer": 2 }
-      ]
+        {
+          "q": "Dans quelle zone du but les penaltys cadrés sont-ils marqués à 100 % ?",
+          "options": [
+            "Le tiers inférieur",
+            "Le tiers du milieu",
+            "Le tiers supérieur"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Où les joueurs tirent-ils le plus souvent ?",
+          "options": [
+            "Dans le tiers inférieur du but",
+            "Dans le tiers supérieur",
+            "Toujours au centre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Combien de fois les gardiens restent-ils au centre du but ?",
+          "options": [
+            "Dans 50 % des cas",
+            "Dans seulement 6 % des cas",
+            "Dans 33 % des cas"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi les gardiens plongent-ils presque toujours ?",
+          "options": [
+            "Le règlement l'oblige",
+            "Ils voient la direction du ballon",
+            "Ils ont peur de paraître ridicules s'ils restent immobiles"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "evenement"
     },
     {
       "id": "lGvh3ksF4wU",
@@ -567,22 +1900,88 @@
       "subs": "auto",
       "about": "Матчі без глядачів під час пандемії стали експериментом: чи справді вболівальники допомагають команді вигравати вдома — і на кого вони насправді впливають.",
       "keywords": [
-        { "fr": "un supporter", "uk": "вболівальник" },
-        { "fr": "jouer à domicile", "uk": "грати вдома" },
-        { "fr": "jouer à l'extérieur", "uk": "грати на виїзді" },
-        { "fr": "le décalage horaire", "uk": "різниця в часі" },
-        { "fr": "l'altitude", "uk": "висота над рівнем моря" },
-        { "fr": "l'arbitre", "uk": "суддя, арбітр" },
-        { "fr": "un carton jaune", "uk": "жовта картка" },
-        { "fr": "siffler une faute", "uk": "свиснути порушення" }
+        {
+          "fr": "un supporter",
+          "uk": "вболівальник"
+        },
+        {
+          "fr": "jouer à domicile",
+          "uk": "грати вдома"
+        },
+        {
+          "fr": "jouer à l'extérieur",
+          "uk": "грати на виїзді"
+        },
+        {
+          "fr": "le décalage horaire",
+          "uk": "різниця в часі"
+        },
+        {
+          "fr": "l'altitude",
+          "uk": "висота над рівнем моря"
+        },
+        {
+          "fr": "l'arbitre",
+          "uk": "суддя, арбітр"
+        },
+        {
+          "fr": "un carton jaune",
+          "uk": "жовта картка"
+        },
+        {
+          "fr": "siffler une faute",
+          "uk": "свиснути порушення"
+        }
       ],
       "questions": [
-        { "q": "Le « FC Moyen » gagne à domicile environ…", "options": ["45 % de ses matchs", "30 % de ses matchs", "80 % de ses matchs"], "answer": 0 },
-        { "q": "En 2020, sans public, l'avantage à domicile…", "options": ["a complètement disparu", "a légèrement diminué mais existe toujours", "a doublé"], "answer": 1 },
-        { "q": "Qu'est-ce qui affecte le plus les joueurs en déplacement ?", "options": ["La distance en kilomètres", "La nourriture", "Le décalage horaire"], "answer": 2 },
-        { "q": "Pourquoi est-il difficile de battre la Bolivie chez elle ?", "options": ["Son stade est à 3 650 m d'altitude", "Son public est le plus bruyant du monde", "Il fait toujours très chaud"], "answer": 0 },
-        { "q": "Que montre l'étude sur 40 arbitres ?", "options": ["Les arbitres sont toujours objectifs", "Le bruit du public influence leurs décisions", "Les arbitres préfèrent les matchs sans son"], "answer": 1 }
-      ]
+        {
+          "q": "Le « FC Moyen » gagne à domicile environ…",
+          "options": [
+            "45 % de ses matchs",
+            "30 % de ses matchs",
+            "80 % de ses matchs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "En 2020, sans public, l'avantage à domicile…",
+          "options": [
+            "a complètement disparu",
+            "a légèrement diminué mais existe toujours",
+            "a doublé"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce qui affecte le plus les joueurs en déplacement ?",
+          "options": [
+            "La distance en kilomètres",
+            "La nourriture",
+            "Le décalage horaire"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi est-il difficile de battre la Bolivie chez elle ?",
+          "options": [
+            "Son stade est à 3 650 m d'altitude",
+            "Son public est le plus bruyant du monde",
+            "Il fait toujours très chaud"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que montre l'étude sur 40 arbitres ?",
+          "options": [
+            "Les arbitres sont toujours objectifs",
+            "Le bruit du public influence leurs décisions",
+            "Les arbitres préfèrent les matchs sans son"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "evenement"
     },
     {
       "id": "3Z_12UnCNRQ",
@@ -594,22 +1993,88 @@
       "subs": "manual",
       "about": "Чому відрив на «Тур де Франс» зазвичай наздоганяє пелотон: опір повітря, зона аеродинамічної тіні і «дилема в'язня» між гонщиками.",
       "keywords": [
-        { "fr": "une échappée", "uk": "відрив (група гонщиків попереду)" },
-        { "fr": "le peloton", "uk": "пелотон, основна група" },
-        { "fr": "un coureur", "uk": "гонщик" },
-        { "fr": "la résistance de l'air", "uk": "опір повітря" },
-        { "fr": "se relayer", "uk": "змінювати одне одного" },
-        { "fr": "une étape", "uk": "етап" },
-        { "fr": "rattraper", "uk": "наздогнати" },
-        { "fr": "trahir", "uk": "зрадити" }
+        {
+          "fr": "une échappée",
+          "uk": "відрив (група гонщиків попереду)"
+        },
+        {
+          "fr": "le peloton",
+          "uk": "пелотон, основна група"
+        },
+        {
+          "fr": "un coureur",
+          "uk": "гонщик"
+        },
+        {
+          "fr": "la résistance de l'air",
+          "uk": "опір повітря"
+        },
+        {
+          "fr": "se relayer",
+          "uk": "змінювати одне одного"
+        },
+        {
+          "fr": "une étape",
+          "uk": "етап"
+        },
+        {
+          "fr": "rattraper",
+          "uk": "наздогнати"
+        },
+        {
+          "fr": "trahir",
+          "uk": "зрадити"
+        }
       ],
       "questions": [
-        { "q": "Entre 2013 et 2016, quelle part des échappées a gagné l'étape ?", "options": ["Plus de la moitié", "Moins d'un tiers", "Aucune"], "answer": 1 },
-        { "q": "Sur le plat, quel est le plus grand obstacle pour un cycliste ?", "options": ["L'air", "La gravité", "Les spectateurs"], "answer": 0 },
-        { "q": "Rouler dans la « zone d'aspiration » d'un autre coureur réduit l'effort d'environ…", "options": ["5 %", "90 %", "40 %"], "answer": 2 },
-        { "q": "Où les échappées réussissent-elles près d'une fois sur deux ?", "options": ["Sur le plat", "En montagne", "Sous la pluie"], "answer": 1 },
-        { "q": "Quel concept explique pourquoi les échappés refusent parfois de se relayer ?", "options": ["Le dilemme du prisonnier", "L'effet papillon", "La loi de l'offre et de la demande"], "answer": 0 }
-      ]
+        {
+          "q": "Entre 2013 et 2016, quelle part des échappées a gagné l'étape ?",
+          "options": [
+            "Plus de la moitié",
+            "Moins d'un tiers",
+            "Aucune"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Sur le plat, quel est le plus grand obstacle pour un cycliste ?",
+          "options": [
+            "L'air",
+            "La gravité",
+            "Les spectateurs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Rouler dans la « zone d'aspiration » d'un autre coureur réduit l'effort d'environ…",
+          "options": [
+            "5 %",
+            "90 %",
+            "40 %"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Où les échappées réussissent-elles près d'une fois sur deux ?",
+          "options": [
+            "Sur le plat",
+            "En montagne",
+            "Sous la pluie"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel concept explique pourquoi les échappés refusent parfois de se relayer ?",
+          "options": [
+            "Le dilemme du prisonnier",
+            "L'effet papillon",
+            "La loi de l'offre et de la demande"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "B1",
+      "dclTopic": "evenement"
     },
     {
       "id": "vMIed3rlZtg",
@@ -621,22 +2086,88 @@
       "subs": "manual",
       "about": "Звідки взявся багет, як його печуть крок за кроком і що таке справжня «багет традиції». Розповідає Жамі — легенда французького науково-популярного ТБ.",
       "keywords": [
-        { "fr": "un boulanger", "uk": "пекар" },
-        { "fr": "la farine", "uk": "борошно" },
-        { "fr": "la levure", "uk": "дріжджі" },
-        { "fr": "la pâte", "uk": "тісто" },
-        { "fr": "la mie", "uk": "м'якуш хліба" },
-        { "fr": "la croûte", "uk": "скоринка" },
-        { "fr": "la cuisson", "uk": "випікання" },
-        { "fr": "un jambon-beurre", "uk": "сендвіч з шинкою і маслом" }
+        {
+          "fr": "un boulanger",
+          "uk": "пекар"
+        },
+        {
+          "fr": "la farine",
+          "uk": "борошно"
+        },
+        {
+          "fr": "la levure",
+          "uk": "дріжджі"
+        },
+        {
+          "fr": "la pâte",
+          "uk": "тісто"
+        },
+        {
+          "fr": "la mie",
+          "uk": "м'якуш хліба"
+        },
+        {
+          "fr": "la croûte",
+          "uk": "скоринка"
+        },
+        {
+          "fr": "la cuisson",
+          "uk": "випікання"
+        },
+        {
+          "fr": "un jambon-beurre",
+          "uk": "сендвіч з шинкою і маслом"
+        }
       ],
       "questions": [
-        { "q": "Sait-on avec certitude qui a inventé la baguette ?", "options": ["Oui, les boulangers de Napoléon", "Non, aucune hypothèse n'a été vérifiée", "Oui, un boulanger autrichien en 1835"], "answer": 1 },
-        { "q": "Quels sont les ingrédients de base d'une baguette ?", "options": ["Eau, farine, sel, levure ou levain", "Lait, œufs, sucre, beurre", "Farine, huile, vinaigre"], "answer": 0 },
-        { "q": "Combien pèse la pâte pour une baguette classique ?", "options": ["100 g", "1 kg", "250 g"], "answer": 2 },
-        { "q": "Pour s'appeler « tradition », une baguette…", "options": ["doit être faite à Paris", "ne doit contenir aucun additif et ne peut pas être surgelée", "doit mesurer 1 mètre"], "answer": 1 },
-        { "q": "Combien de jambon-beurre se vendent par an en France ?", "options": ["1,2 milliard", "12 millions", "120 000"], "answer": 0 }
-      ]
+        {
+          "q": "Sait-on avec certitude qui a inventé la baguette ?",
+          "options": [
+            "Oui, les boulangers de Napoléon",
+            "Non, aucune hypothèse n'a été vérifiée",
+            "Oui, un boulanger autrichien en 1835"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quels sont les ingrédients de base d'une baguette ?",
+          "options": [
+            "Eau, farine, sel, levure ou levain",
+            "Lait, œufs, sucre, beurre",
+            "Farine, huile, vinaigre"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Combien pèse la pâte pour une baguette classique ?",
+          "options": [
+            "100 g",
+            "1 kg",
+            "250 g"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pour s'appeler « tradition », une baguette…",
+          "options": [
+            "doit être faite à Paris",
+            "ne doit contenir aucun additif et ne peut pas être surgelée",
+            "doit mesurer 1 mètre"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Combien de jambon-beurre se vendent par an en France ?",
+          "options": [
+            "1,2 milliard",
+            "12 millions",
+            "120 000"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "commerce"
     },
     {
       "id": "M3SFh_d6iGk",
@@ -648,21 +2179,84 @@
       "subs": "manual",
       "about": "Легенда і правда про крок-месьє, рецепт із соусом бешамель, крок-мадам, рекордний сендвіч зі Страсбурга і навіть Марсель Пруст.",
       "keywords": [
-        { "fr": "le pain de mie", "uk": "тостовий хліб" },
-        { "fr": "le jambon", "uk": "шинка" },
-        { "fr": "le fromage râpé", "uk": "тертий сир" },
-        { "fr": "la poêle", "uk": "сковорідка" },
-        { "fr": "le four", "uk": "духовка" },
-        { "fr": "croustillant", "uk": "хрусткий" },
-        { "fr": "un œuf au plat", "uk": "яєчня-глазунья" }
+        {
+          "fr": "le pain de mie",
+          "uk": "тостовий хліб"
+        },
+        {
+          "fr": "le jambon",
+          "uk": "шинка"
+        },
+        {
+          "fr": "le fromage râpé",
+          "uk": "тертий сир"
+        },
+        {
+          "fr": "la poêle",
+          "uk": "сковорідка"
+        },
+        {
+          "fr": "le four",
+          "uk": "духовка"
+        },
+        {
+          "fr": "croustillant",
+          "uk": "хрусткий"
+        },
+        {
+          "fr": "un œuf au plat",
+          "uk": "яєчня-глазунья"
+        }
       ],
       "questions": [
-        { "q": "Selon la légende, pourquoi le patron du « Bel Âge » a-t-il inventé le croque-monsieur ?", "options": ["Il n'avait plus de baguette", "Un client était malade", "Il voulait gagner un concours"], "answer": 0 },
-        { "q": "Pourquoi cette légende de 1910 pose-t-elle problème ?", "options": ["Le patron n'a jamais existé", "Le croque-monsieur est déjà mentionné en 1891", "Le café était à Lyon"], "answer": 1 },
-        { "q": "Qui a inventé le moule du pain de mie tel qu'on le connaît ?", "options": ["Les Italiens", "Les Allemands", "Les Anglais"], "answer": 2 },
-        { "q": "Comment s'appelle un croque-monsieur avec un œuf dessus ?", "options": ["Un croque-madame", "Un croque-papa", "Un croque-œuf"], "answer": 0 },
-        { "q": "Avec quoi a-t-on chauffé le plus grand croque-monsieur du monde ?", "options": ["Un four géant", "Un fer à repasser", "Le soleil"], "answer": 1 }
-      ]
+        {
+          "q": "Selon la légende, pourquoi le patron du « Bel Âge » a-t-il inventé le croque-monsieur ?",
+          "options": [
+            "Il n'avait plus de baguette",
+            "Un client était malade",
+            "Il voulait gagner un concours"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi cette légende de 1910 pose-t-elle problème ?",
+          "options": [
+            "Le patron n'a jamais existé",
+            "Le croque-monsieur est déjà mentionné en 1891",
+            "Le café était à Lyon"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qui a inventé le moule du pain de mie tel qu'on le connaît ?",
+          "options": [
+            "Les Italiens",
+            "Les Allemands",
+            "Les Anglais"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Comment s'appelle un croque-monsieur avec un œuf dessus ?",
+          "options": [
+            "Un croque-madame",
+            "Un croque-papa",
+            "Un croque-œuf"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Avec quoi a-t-on chauffé le plus grand croque-monsieur du monde ?",
+          "options": [
+            "Un four géant",
+            "Un fer à repasser",
+            "Le soleil"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "commerce"
     },
     {
       "id": "x93ArGbTJSA",
@@ -674,21 +2268,84 @@
       "subs": "manual",
       "about": "Як роблять сир, звідки береться його сильний запах (бактерії, дозрівання, сире молоко), чи можна їсти скоринку і як позбутися запаху в холодильнику.",
       "keywords": [
-        { "fr": "sentir mauvais / puer", "uk": "погано пахнути / смердіти" },
-        { "fr": "le lait cru", "uk": "сире (непастеризоване) молоко" },
-        { "fr": "l'affinage", "uk": "дозрівання сиру" },
-        { "fr": "une bactérie", "uk": "бактерія" },
-        { "fr": "un champignon", "uk": "гриб, пліснява" },
-        { "fr": "la croûte", "uk": "скоринка" },
-        { "fr": "le réfrigérateur", "uk": "холодильник" }
+        {
+          "fr": "sentir mauvais / puer",
+          "uk": "погано пахнути / смердіти"
+        },
+        {
+          "fr": "le lait cru",
+          "uk": "сире (непастеризоване) молоко"
+        },
+        {
+          "fr": "l'affinage",
+          "uk": "дозрівання сиру"
+        },
+        {
+          "fr": "une bactérie",
+          "uk": "бактерія"
+        },
+        {
+          "fr": "un champignon",
+          "uk": "гриб, пліснява"
+        },
+        {
+          "fr": "la croûte",
+          "uk": "скоринка"
+        },
+        {
+          "fr": "le réfrigérateur",
+          "uk": "холодильник"
+        }
       ],
       "questions": [
-        { "q": "Selon l'étude anglaise de 2004, les dix fromages qui sentent le plus mauvais sont…", "options": ["tous anglais", "tous français", "tous italiens"], "answer": 1 },
-        { "q": "À quelle étape l'odeur du fromage se développe-t-elle ?", "options": ["Pendant l'affinage", "Pendant le caillage", "Quand on achète le lait"], "answer": 0 },
-        { "q": "Pourquoi l'emmental sent-il beaucoup moins fort que le maroilles ?", "options": ["Il est plus jeune", "Il est fait avec du lait de chèvre", "Il ne contient pas les bactéries responsables des odeurs"], "answer": 2 },
-        { "q": "Pourquoi un fromage pasteurisé a-t-il moins de goût ?", "options": ["La pasteurisation tue aussi les bonnes bactéries", "On ajoute de l'eau", "Il n'est pas salé"], "answer": 0 },
-        { "q": "Quelle astuce Jamy propose-t-il contre les odeurs dans le frigo ?", "options": ["Une boîte hermétique", "Un bol de café moulu", "Du sucre"], "answer": 1 }
-      ]
+        {
+          "q": "Selon l'étude anglaise de 2004, les dix fromages qui sentent le plus mauvais sont…",
+          "options": [
+            "tous anglais",
+            "tous français",
+            "tous italiens"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "À quelle étape l'odeur du fromage se développe-t-elle ?",
+          "options": [
+            "Pendant l'affinage",
+            "Pendant le caillage",
+            "Quand on achète le lait"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi l'emmental sent-il beaucoup moins fort que le maroilles ?",
+          "options": [
+            "Il est plus jeune",
+            "Il est fait avec du lait de chèvre",
+            "Il ne contient pas les bactéries responsables des odeurs"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi un fromage pasteurisé a-t-il moins de goût ?",
+          "options": [
+            "La pasteurisation tue aussi les bonnes bactéries",
+            "On ajoute de l'eau",
+            "Il n'est pas salé"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle astuce Jamy propose-t-il contre les odeurs dans le frigo ?",
+          "options": [
+            "Une boîte hermétique",
+            "Un bol de café moulu",
+            "Du sucre"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "commerce"
     },
     {
       "id": "nDCVXdenDII",
@@ -700,21 +2357,84 @@
       "subs": "burned",
       "about": "10 речей, яких краще не робити у Франції: від «бонжур» у крамниці та різання сиру до часу вечері, «біз» і льоду у вині.",
       "keywords": [
-        { "fr": "un commerce", "uk": "крамниця" },
-        { "fr": "payer par carte", "uk": "платити карткою" },
-        { "fr": "être en retard", "uk": "запізнюватися" },
-        { "fr": "couper le fromage", "uk": "різати сир" },
-        { "fr": "faire la bise", "uk": "цілуватися в щоку при вітанні" },
-        { "fr": "serrer la main", "uk": "потиснути руку" },
-        { "fr": "c'est mal vu", "uk": "це погано сприймають" }
+        {
+          "fr": "un commerce",
+          "uk": "крамниця"
+        },
+        {
+          "fr": "payer par carte",
+          "uk": "платити карткою"
+        },
+        {
+          "fr": "être en retard",
+          "uk": "запізнюватися"
+        },
+        {
+          "fr": "couper le fromage",
+          "uk": "різати сир"
+        },
+        {
+          "fr": "faire la bise",
+          "uk": "цілуватися в щоку при вітанні"
+        },
+        {
+          "fr": "serrer la main",
+          "uk": "потиснути руку"
+        },
+        {
+          "fr": "c'est mal vu",
+          "uk": "це погано сприймають"
+        }
       ],
       "questions": [
-        { "q": "Que faut-il toujours dire en entrant dans un commerce ?", "options": ["« Salut ! »", "« Bonjour »", "Rien du tout"], "answer": 1 },
-        { "q": "Pour un rendez-vous informel entre amis, il vaut mieux arriver…", "options": ["10 ou 15 minutes en retard", "15 minutes en avance", "exactement à l'heure"], "answer": 0 },
-        { "q": "Comment coupe-t-on un fromage en pointe, comme le brie ?", "options": ["On coupe la pointe pour soi", "En petits cubes", "Dans la longueur, pour que chacun ait du cœur et de la croûte"], "answer": 2 },
-        { "q": "À quelle heure ouvre la cuisine du restaurant pour le dîner dans la vidéo ?", "options": ["17 h", "19 h", "22 h"], "answer": 1 },
-        { "q": "Mettre des glaçons dans son vin au restaurant, c'est…", "options": ["très mal vu", "tout à fait normal", "obligatoire en été"], "answer": 0 }
-      ]
+        {
+          "q": "Que faut-il toujours dire en entrant dans un commerce ?",
+          "options": [
+            "« Salut ! »",
+            "« Bonjour »",
+            "Rien du tout"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pour un rendez-vous informel entre amis, il vaut mieux arriver…",
+          "options": [
+            "10 ou 15 minutes en retard",
+            "15 minutes en avance",
+            "exactement à l'heure"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Comment coupe-t-on un fromage en pointe, comme le brie ?",
+          "options": [
+            "On coupe la pointe pour soi",
+            "En petits cubes",
+            "Dans la longueur, pour que chacun ait du cœur et de la croûte"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "À quelle heure ouvre la cuisine du restaurant pour le dîner dans la vidéo ?",
+          "options": [
+            "17 h",
+            "19 h",
+            "22 h"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Mettre des glaçons dans son vin au restaurant, c'est…",
+          "options": [
+            "très mal vu",
+            "tout à fait normal",
+            "obligatoire en été"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "A1",
+      "dclTopic": "commerce"
     },
     {
       "id": "6yi9N-5MDgs",
@@ -726,21 +2446,84 @@
       "subs": "burned",
       "about": "Парижани радять найкрасивіші місця Франції: Бретань, Нормандія, Корсика, Прованс, Марсель із каланками, Піренеї та Овернь.",
       "keywords": [
-        { "fr": "un endroit", "uk": "місце" },
-        { "fr": "recommander", "uk": "радити, рекомендувати" },
-        { "fr": "la côte", "uk": "узбережжя" },
-        { "fr": "la campagne", "uk": "сільська місцевість" },
-        { "fr": "un paysage", "uk": "краєвид" },
-        { "fr": "un village", "uk": "село, містечко" },
-        { "fr": "la lumière", "uk": "світло" }
+        {
+          "fr": "un endroit",
+          "uk": "місце"
+        },
+        {
+          "fr": "recommander",
+          "uk": "радити, рекомендувати"
+        },
+        {
+          "fr": "la côte",
+          "uk": "узбережжя"
+        },
+        {
+          "fr": "la campagne",
+          "uk": "сільська місцевість"
+        },
+        {
+          "fr": "un paysage",
+          "uk": "краєвид"
+        },
+        {
+          "fr": "un village",
+          "uk": "село, містечко"
+        },
+        {
+          "fr": "la lumière",
+          "uk": "світло"
+        }
       ],
       "questions": [
-        { "q": "Quelles régions les Parisiens citent-ils le plus souvent ?", "options": ["Seulement Paris", "La Bretagne, la Normandie, la Provence, la Corse", "Uniquement l'Alsace"], "answer": 1 },
-        { "q": "Pourquoi une passante aime-t-elle les plages du Nord ?", "options": ["Pour la lumière qui change", "Pour la chaleur", "Pour les boîtes de nuit"], "answer": 0 },
-        { "q": "Qu'est-ce que la « Suisse normande » ?", "options": ["Une ville suisse", "Un fromage", "Une région de Normandie qui ressemble à la Suisse"], "answer": 2 },
-        { "q": "Qu'est-ce qui rend Marseille spéciale selon une passante ?", "options": ["Les calanques : la mer à côté de la grande ville", "Ses gratte-ciel", "La neige"], "answer": 0 },
-        { "q": "Pourquoi, selon un passant, la Côte d'Azur a-t-elle perdu son charme ?", "options": ["Il pleut tout le temps", "Il y a trop de voitures et de touristes", "Les plages ont disparu"], "answer": 1 }
-      ]
+        {
+          "q": "Quelles régions les Parisiens citent-ils le plus souvent ?",
+          "options": [
+            "Seulement Paris",
+            "La Bretagne, la Normandie, la Provence, la Corse",
+            "Uniquement l'Alsace"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi une passante aime-t-elle les plages du Nord ?",
+          "options": [
+            "Pour la lumière qui change",
+            "Pour la chaleur",
+            "Pour les boîtes de nuit"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce que la « Suisse normande » ?",
+          "options": [
+            "Une ville suisse",
+            "Un fromage",
+            "Une région de Normandie qui ressemble à la Suisse"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Qu'est-ce qui rend Marseille spéciale selon une passante ?",
+          "options": [
+            "Les calanques : la mer à côté de la grande ville",
+            "Ses gratte-ciel",
+            "La neige"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi, selon un passant, la Côte d'Azur a-t-elle perdu son charme ?",
+          "options": [
+            "Il pleut tout le temps",
+            "Il y a trop de voitures et de touristes",
+            "Les plages ont disparu"
+          ],
+          "answer": 1
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "transport"
     },
     {
       "id": "_3XDqfEjeK8",
@@ -752,20 +2535,75 @@
       "subs": "burned",
       "about": "Подорож на Корсику — «острів краси»: місцеві й туристи пояснюють, чому повертаються сюди щороку, і радять улюблені місця.",
       "keywords": [
-        { "fr": "une île", "uk": "острів" },
-        { "fr": "un surnom", "uk": "прізвисько" },
-        { "fr": "à couper le souffle", "uk": "аж дух захоплює" },
-        { "fr": "la plage", "uk": "пляж" },
-        { "fr": "un bateau", "uk": "корабель, човен" },
-        { "fr": "tranquille", "uk": "спокійний" },
-        { "fr": "revenir", "uk": "повертатися" }
+        {
+          "fr": "une île",
+          "uk": "острів"
+        },
+        {
+          "fr": "un surnom",
+          "uk": "прізвисько"
+        },
+        {
+          "fr": "à couper le souffle",
+          "uk": "аж дух захоплює"
+        },
+        {
+          "fr": "la plage",
+          "uk": "пляж"
+        },
+        {
+          "fr": "un bateau",
+          "uk": "корабель, човен"
+        },
+        {
+          "fr": "tranquille",
+          "uk": "спокійний"
+        },
+        {
+          "fr": "revenir",
+          "uk": "повертатися"
+        }
       ],
       "questions": [
-        { "q": "Quel est le surnom de la Corse ?", "options": ["L'île aux fleurs", "L'île de beauté", "La perle du Nord"], "answer": 1 },
-        { "q": "La plupart des personnes interrogées trouvent que la Corse est…", "options": ["la plus belle région de France", "trop chère", "ennuyeuse"], "answer": 0 },
-        { "q": "Un homme qui prend environ 100 avions par an explique que…", "options": ["il ne vient plus jamais en Corse", "il préfère l'Italie", "chaque année, il revient finalement en Corse"], "answer": 2 },
-        { "q": "Pour découvrir la « Corse profonde », il faut aller…", "options": ["dans les petits villages", "à l'aéroport", "seulement dans les grandes villes"], "answer": 0 }
-      ]
+        {
+          "q": "Quel est le surnom de la Corse ?",
+          "options": [
+            "L'île aux fleurs",
+            "L'île de beauté",
+            "La perle du Nord"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "La plupart des personnes interrogées trouvent que la Corse est…",
+          "options": [
+            "la plus belle région de France",
+            "trop chère",
+            "ennuyeuse"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Un homme qui prend environ 100 avions par an explique que…",
+          "options": [
+            "il ne vient plus jamais en Corse",
+            "il préfère l'Italie",
+            "chaque année, il revient finalement en Corse"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pour découvrir la « Corse profonde », il faut aller…",
+          "options": [
+            "dans les petits villages",
+            "à l'aéroport",
+            "seulement dans les grandes villes"
+          ],
+          "answer": 0
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "transport"
     },
     {
       "id": "NkCc4U3QhIA",
@@ -777,19 +2615,521 @@
       "subs": "burned",
       "about": "Що краще: Париж чи «провінція»? Парижани порівнюють культуру, ціни, спокій, неділі й життя з родиною.",
       "keywords": [
-        { "fr": "la province", "uk": "провінція (уся Франція поза Парижем)" },
-        { "fr": "déménager", "uk": "переїжджати" },
-        { "fr": "un loyer", "uk": "орендна плата" },
-        { "fr": "bruyant", "uk": "галасливий" },
-        { "fr": "la tranquillité", "uk": "спокій" },
-        { "fr": "les transports en commun", "uk": "громадський транспорт" },
-        { "fr": "épuisant", "uk": "виснажливий" }
+        {
+          "fr": "la province",
+          "uk": "провінція (уся Франція поза Парижем)"
+        },
+        {
+          "fr": "déménager",
+          "uk": "переїжджати"
+        },
+        {
+          "fr": "un loyer",
+          "uk": "орендна плата"
+        },
+        {
+          "fr": "bruyant",
+          "uk": "галасливий"
+        },
+        {
+          "fr": "la tranquillité",
+          "uk": "спокій"
+        },
+        {
+          "fr": "les transports en commun",
+          "uk": "громадський транспорт"
+        },
+        {
+          "fr": "épuisant",
+          "uk": "виснажливий"
+        }
       ],
       "questions": [
-        { "q": "Que signifie « la province » en France ?", "options": ["Le sud de la France", "Tout ce qui n'est pas Paris", "Les petits villages seulement"], "answer": 1 },
-        { "q": "Quel avantage de Paris cite une passante pour le dimanche ?", "options": ["Tout est fermé, c'est calme", "Les transports sont gratuits", "Tout est ouvert, comme un jour de semaine"], "answer": 2 },
-        { "q": "Pourquoi plusieurs personnes préfèrent-elles la province à long terme ?", "options": ["Loyer moins cher, calme, maison avec jardin", "Plus de musées", "Plus de bruit et de monde"], "answer": 0 },
-        { "q": "Dans quelle ville la dernière femme veut-elle retourner plus tard ?", "options": ["Lyon", "Nantes", "Toulouse"], "answer": 2 }
+        {
+          "q": "Que signifie « la province » en France ?",
+          "options": [
+            "Le sud de la France",
+            "Tout ce qui n'est pas Paris",
+            "Les petits villages seulement"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel avantage de Paris cite une passante pour le dimanche ?",
+          "options": [
+            "Tout est fermé, c'est calme",
+            "Les transports sont gratuits",
+            "Tout est ouvert, comme un jour de semaine"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Pourquoi plusieurs personnes préfèrent-elles la province à long terme ?",
+          "options": [
+            "Loyer moins cher, calme, maison avec jardin",
+            "Plus de musées",
+            "Plus de bruit et de monde"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Dans quelle ville la dernière femme veut-elle retourner plus tard ?",
+          "options": [
+            "Lyon",
+            "Nantes",
+            "Toulouse"
+          ],
+          "answer": 2
+        }
+      ],
+      "dcl": "A2",
+      "dclTopic": "logement"
+    },
+    {
+      "id": "071rT-6irr8",
+      "title": "At The Doctor's In French | Super Easy French",
+      "channel": "Easy French",
+      "topic": "daily",
+      "level": "A2",
+      "duration": 432,
+      "subs": "burned",
+      "dcl": "A1",
+      "dclTopic": "sante",
+      "about": "Як записатися до лікаря у Франції, що питає лікар, як описати симптоми і що робити в екстреній ситуації (номери 15 і 112).",
+      "keywords": [
+        {
+          "fr": "prendre rendez-vous",
+          "uk": "записатися на прийом"
+        },
+        {
+          "fr": "un créneau",
+          "uk": "вільний час (віконце) у розкладі"
+        },
+        {
+          "fr": "la carte Vitale",
+          "uk": "картка медичного страхування"
+        },
+        {
+          "fr": "la fièvre",
+          "uk": "температура, жар"
+        },
+        {
+          "fr": "tousser",
+          "uk": "кашляти"
+        },
+        {
+          "fr": "avoir mal à la gorge",
+          "uk": "боліти горло"
+        },
+        {
+          "fr": "une ordonnance",
+          "uk": "рецепт"
+        },
+        {
+          "fr": "un arrêt de travail",
+          "uk": "лікарняний"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Hélène ne peut pas voir le docteur Dupont ?",
+          "options": [
+            "Il est en vacances",
+            "Il n'a pas de disponibilité avant deux semaines",
+            "Le cabinet est fermé"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "À quelle heure est son rendez-vous avec le docteur Malodo ?",
+          "options": [
+            "À 9 h",
+            "À 15 h",
+            "À 18 h"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce qu'elle ne doit pas oublier ?",
+          "options": [
+            "Sa carte Vitale",
+            "Son passeport",
+            "Une photo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quel est le diagnostic du médecin ?",
+          "options": [
+            "Une angine",
+            "Une allergie",
+            "Un syndrome grippal"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quel numéro appeler en France pour une urgence médicale ?",
+          "options": [
+            "Le 15 (SAMU)",
+            "Le 17",
+            "Le 3615"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "HADlVv4nZZQ",
+      "title": "Inside Hélène's New Apartment – Slow French Conversation",
+      "channel": "Easy French",
+      "topic": "daily",
+      "level": "A2",
+      "duration": 706,
+      "subs": "burned",
+      "dcl": "A1",
+      "dclTopic": "logement",
+      "about": "Відеотур новою квартирою Елен у Гаазі: кімнати, меблі, техніка — базова лексика про житло.",
+      "keywords": [
+        {
+          "fr": "déménager",
+          "uk": "переїжджати"
+        },
+        {
+          "fr": "un immeuble",
+          "uk": "багатоквартирний будинок"
+        },
+        {
+          "fr": "l'étage",
+          "uk": "поверх"
+        },
+        {
+          "fr": "non meublé",
+          "uk": "без меблів"
+        },
+        {
+          "fr": "le salon / le séjour",
+          "uk": "вітальня"
+        },
+        {
+          "fr": "une armoire",
+          "uk": "шафа"
+        },
+        {
+          "fr": "le lave-vaisselle",
+          "uk": "посудомийна машина"
+        },
+        {
+          "fr": "le bail",
+          "uk": "договір оренди"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où Hélène a-t-elle déménagé ?",
+          "options": [
+            "À Bruxelles",
+            "À La Haye, aux Pays-Bas",
+            "À Lyon"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "À quel étage est son appartement ?",
+          "options": [
+            "Au 3e étage",
+            "Au rez-de-chaussée",
+            "Au 10e étage"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi a-t-elle acheté tous les meubles ?",
+          "options": [
+            "Ses meubles étaient cassés",
+            "L'appartement était non meublé",
+            "Elle aime faire les magasins"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce qu'il n'y a pas souvent aux fenêtres aux Pays-Bas ?",
+          "options": [
+            "Des rideaux",
+            "Des volets",
+            "Des vitres"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Où est la machine à laver ?",
+          "options": [
+            "Dans la cuisine",
+            "Dans la salle de bain",
+            "Dans le bureau, qui sert aussi de buanderie"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "t-avin9iHrI",
+      "title": "Rent: How Much Do Parisians Pay To Live in Paris?",
+      "channel": "Easy French",
+      "topic": "daily",
+      "level": "B1",
+      "duration": 515,
+      "subs": "burned",
+      "dcl": "A2",
+      "dclTopic": "logement",
+      "about": "Парижани розповідають, скільки платять за оренду, яку площу отримують і що обирають: маленьку квартиру в центрі чи більшу на околиці.",
+      "keywords": [
+        {
+          "fr": "le loyer",
+          "uk": "орендна плата"
+        },
+        {
+          "fr": "louer",
+          "uk": "орендувати"
+        },
+        {
+          "fr": "être propriétaire",
+          "uk": "бути власником"
+        },
+        {
+          "fr": "un prêt",
+          "uk": "кредит"
+        },
+        {
+          "fr": "un studio",
+          "uk": "квартира-студія"
+        },
+        {
+          "fr": "les mètres carrés",
+          "uk": "квадратні метри"
+        },
+        {
+          "fr": "la banlieue",
+          "uk": "передмістя"
+        },
+        {
+          "fr": "un logement social",
+          "uk": "соціальне житло"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Selon la plupart des passants, habiter à Paris, c'est…",
+          "options": [
+            "cher",
+            "bon marché",
+            "gratuit"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi certains jeunes ne paient pas de loyer ?",
+          "options": [
+            "Ils habitent chez leurs parents",
+            "Ils ont gagné au loto",
+            "L'État paie pour eux"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi des Parisiens partent-ils en banlieue ?",
+          "options": [
+            "Pour trouver un logement moins cher",
+            "Pour être plus près du travail",
+            "Parce qu'il fait plus chaud"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Entre un petit appartement au centre et un grand en périphérie, beaucoup de passants préfèrent…",
+          "options": [
+            "le grand appartement en périphérie",
+            "le petit appartement bien placé au centre",
+            "une maison à la campagne"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "cxl-necIvrA",
+      "title": "French Job Interview | Super Easy French",
+      "channel": "Easy French",
+      "topic": "work",
+      "level": "B1",
+      "duration": 300,
+      "subs": "burned",
+      "dcl": "A2",
+      "dclTopic": "travail",
+      "about": "Співбесіда при прийомі на роботу: типові запитання рекрутера і як на них відповідати (і як не варто).",
+      "keywords": [
+        {
+          "fr": "un entretien d'embauche",
+          "uk": "співбесіда"
+        },
+        {
+          "fr": "le CV",
+          "uk": "резюме"
+        },
+        {
+          "fr": "un stage",
+          "uk": "стажування"
+        },
+        {
+          "fr": "un poste",
+          "uk": "посада"
+        },
+        {
+          "fr": "les points forts / faibles",
+          "uk": "сильні / слабкі сторони"
+        },
+        {
+          "fr": "les prétentions salariales",
+          "uk": "бажана зарплата"
+        },
+        {
+          "fr": "être disponible",
+          "uk": "бути вільним, доступним"
+        },
+        {
+          "fr": "à plein temps",
+          "uk": "на повну ставку"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Pour quel poste la candidate passe-t-elle un entretien ?",
+          "options": [
+            "Serveuse",
+            "Professeure de français",
+            "Directrice"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce qui intrigue la directrice dans son CV ?",
+          "options": [
+            "Une année sans travailler après ses études",
+            "Ses notes",
+            "Sa photo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "En France, lors d'un entretien, on s'intéresse surtout…",
+          "options": [
+            "à la vie privée",
+            "au parcours académique et professionnel",
+            "aux loisirs"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi faut-il poser des questions à la fin ?",
+          "options": [
+            "Pour gagner du temps",
+            "Pour montrer qu'on est intéressé et qu'on a réfléchi au poste",
+            "C'est obligatoire"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "PjcbR7TxxF8",
+      "title": "Job Interview in French: Getting Hired at Easy Coffee (Slow French)",
+      "channel": "Easy French",
+      "topic": "work",
+      "level": "B1",
+      "duration": 899,
+      "subs": "burned",
+      "dcl": "A2",
+      "dclTopic": "travail",
+      "about": "Дві співбесіди в кафе: підготовлена Жудіт і неорганізований Аксель. Як представитися, розповісти про досвід, якості й доступність.",
+      "keywords": [
+        {
+          "fr": "avoir rendez-vous",
+          "uk": "мати призначену зустріч"
+        },
+        {
+          "fr": "l'expérience",
+          "uk": "досвід"
+        },
+        {
+          "fr": "accueillir les clients",
+          "uk": "зустрічати клієнтів"
+        },
+        {
+          "fr": "prendre les commandes",
+          "uk": "приймати замовлення"
+        },
+        {
+          "fr": "la caisse",
+          "uk": "каса"
+        },
+        {
+          "fr": "ponctuel",
+          "uk": "пунктуальний"
+        },
+        {
+          "fr": "les horaires",
+          "uk": "графік роботи"
+        },
+        {
+          "fr": "le SMIC",
+          "uk": "мінімальна зарплата у Франції"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Combien de temps Judith a-t-elle travaillé dans une boulangerie ?",
+          "options": [
+            "6 mois",
+            "2 ans",
+            "10 ans"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle formation Judith a-t-elle faite ?",
+          "options": [
+            "Un CAP boulangerie et pâtisserie",
+            "Un master de marketing",
+            "Aucune"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi Judith cherche-t-elle un nouveau poste ?",
+          "options": [
+            "Elle a besoin d'argent",
+            "Elle veut apprendre et avoir plus de responsabilités",
+            "Elle déménage"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quels seront les horaires de travail ?",
+          "options": [
+            "De 7 h à 20 h",
+            "De 7 h à 16 h, avec une heure de pause",
+            "De 10 h à 18 h"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel salaire propose le café ?",
+          "options": [
+            "Un peu plus que le SMIC",
+            "Le double du SMIC",
+            "Pas de salaire"
+          ],
+          "answer": 0
+        }
       ]
     }
   ]

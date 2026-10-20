@@ -1,0 +1,17 @@
+{
+  "_instructions": "Список файлів сценаріїв DCL. Щоб додати сценарій: скопіюйте dcl/scenarios/_template.json, перейменуйте (наприклад a2-banque-compte.json), заповніть і допишіть назву файлу в масив scenarios нижче (через кому).",
+  "scenarios": [
+    "a1-stage-boulangerie.json",
+    "a1-fleuriste-commande.json",
+    "a1-transport-retard.json",
+    "a1-sante-rendez-vous.json",
+    "a2-logement-colocation.json",
+    "a2-evenement-repas.json",
+    "a2-administration-ecole.json",
+    "a2-commerce-reclamation.json",
+    "b1-travail-stagiaire.json",
+    "b1-evenement-seminaire.json",
+    "b1-transport-deplacement.json",
+    "b1-sante-travail.json"
+  ]
+}

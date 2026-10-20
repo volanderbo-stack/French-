@@ -1,0 +1,93 @@
+{
+  "id": "a1-stage-boulangerie",
+  "level": "A1",
+  "topic": "travail",
+  "title": "Premier stage à la boulangerie",
+  "titleUk": "Перше стажування в пекарні",
+  "role": "Vous êtes Olena Kovalenko. Vous commencez un stage à la boulangerie « Au bon pain », à Lyon.",
+  "interlocutor": "Mme Sophie Martin, responsable de la boulangerie",
+  "mission": "Votre stage commence lundi. Lisez les documents et écoutez le message pour connaître vos jours, vos horaires et ce qu'il faut apporter. Ensuite, téléphonez à Mme Martin pour confirmer. Enfin, écrivez un message à votre conseillère emploi, Mme Petit.",
+  "missionUk": "Ви — стажистка в пекарні. Дізнайтеся з документів і повідомлення свій графік та що принести, зателефонуйте керівниці, щоб підтвердити, і напишіть повідомлення своїй консультантці з працевлаштування.",
+  "vocab": [
+    { "fr": "un stage", "uk": "стажування" },
+    { "fr": "les horaires", "uk": "графік, години роботи" },
+    { "fr": "une pièce d'identité", "uk": "посвідчення особи" },
+    { "fr": "un tablier", "uk": "фартух" },
+    { "fr": "fermé", "uk": "зачинено" },
+    { "fr": "un tuteur", "uk": "наставник" },
+    { "fr": "la caisse", "uk": "каса" }
+  ],
+  "documents": [
+    {
+      "type": "email",
+      "title": "E-mail de Mme Martin",
+      "text": "De : sophie.martin@aubonpain.fr\nÀ : olena.kovalenko@mail.fr\nObjet : Votre stage\n\nBonjour Olena,\n\nBienvenue dans notre équipe ! Votre stage commence le lundi 3 mars et dure deux semaines.\n\nVos horaires : du lundi au vendredi, de 7 h à 13 h.\n\nLe premier jour, venez à 6 h 45 avec une pièce d'identité. Nous vous donnons le tablier. Apportez des chaussures fermées et confortables.\n\nÀ lundi !\nSophie Martin\nResponsable"
+    },
+    {
+      "type": "affiche",
+      "title": "Affiche sur la porte de la boulangerie",
+      "text": "BOULANGERIE « AU BON PAIN »\n12, rue des Lilas – Lyon 3e\n\nOuvert du jeudi au mardi : 6 h 30 – 19 h 30\nFermé le mercredi\n\nPain frais toute la journée\nBaguette : 1,10 € – Croissant : 1,20 €\nTél. : 04 78 12 34 56"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message sur votre répondeur",
+      "voice": "f",
+      "text": "Bonjour Olena, c'est Sophie Martin, de la boulangerie Au bon pain. Petit changement pour votre stage. Le mercredi, la boulangerie est fermée. Alors, vous ne travaillez pas le mercredi, mais vous travaillez le samedi, de sept heures à treize heures. Le premier jour, demandez Karim, à la caisse. C'est votre tuteur. Si vous avez des questions, appelez-moi au zéro six, douze, quarante-cinq, soixante-dix-huit, quatre-vingt-dix. Merci et à lundi !"
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Quand commence le stage ?", "options": ["Le samedi 1er mars", "Le lundi 3 mars", "Le mercredi 5 mars"], "answer": 1 },
+    { "part": "lecture", "q": "À quelle heure Olena arrive le premier jour ?", "options": ["À 6 h 30", "À 7 h", "À 6 h 45"], "answer": 2 },
+    { "part": "lecture", "q": "Qu'est-ce qu'Olena apporte ?", "options": ["Une pièce d'identité et des chaussures fermées", "Un tablier", "Des croissants"], "answer": 0 },
+    { "part": "lecture", "q": "Combien coûte une baguette ? (écrivez le prix)", "accept": ["1,10", "1,10 €", "1,10€", "1.10", "1,1", "1 euro 10"] },
+    { "part": "ecoute", "q": "Quel jour Olena ne travaille pas ?", "options": ["Le lundi", "Le mercredi", "Le vendredi"], "answer": 1 },
+    { "part": "ecoute", "q": "Quel jour Olena travaille en plus ?", "options": ["Le samedi", "Le dimanche", "Le jeudi"], "answer": 0 },
+    { "part": "ecoute", "q": "Qui est Karim ?", "options": ["Un client", "Le directeur", "Son tuteur, à la caisse"], "answer": 2 }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте пані Мартен, керівниці пекарні. Привітайтеся, назвіться, підтвердьте зміни в графіку, поставте запитання і попрощайтеся.",
+    "turns": [
+      {
+        "examiner": "Allô, boulangerie Au bon pain, bonjour !",
+        "task": "Привітайтеся, назвіться і скажіть, чому телефонуєте.",
+        "model": "Bonjour madame. Je m'appelle Olena Kovalenko, je suis la stagiaire. Je vous appelle pour mon stage.",
+        "check": ["Привітання (Bonjour madame)", "Ім'я і хто ви (je suis la stagiaire)", "Мета дзвінка"]
+      },
+      {
+        "examiner": "Ah, bonjour Olena ! Vous avez eu mon message ?",
+        "task": "Підтвердіть: у середу не працюєте, у суботу працюєте з 7 до 13.",
+        "model": "Oui, merci. Alors, je ne travaille pas le mercredi, et je travaille le samedi, de 7 heures à 13 heures. C'est bien ça ?",
+        "check": ["Не працюєте в середу", "Субота з 7:00 до 13:00"]
+      },
+      {
+        "examiner": "Oui, c'est ça. Vous avez une question ?",
+        "task": "Поставте одне запитання, наприклад де залишити речі.",
+        "model": "Oui, j'ai une question : où est-ce que je mets mes affaires ?",
+        "check": ["Поставили запитання (Où… ? / Est-ce que… ?)"]
+      },
+      {
+        "examiner": "Il y a un vestiaire derrière la caisse. Et lundi, vous arrivez à quelle heure ?",
+        "task": "Скажіть, о котрій прийдете в понеділок (6:45).",
+        "model": "Lundi, j'arrive à 7 heures moins le quart, à 6 h 45.",
+        "check": ["Правильний час: 6:45"]
+      },
+      {
+        "examiner": "Parfait. Alors à lundi, Olena !",
+        "task": "Подякуйте і попрощайтеся.",
+        "model": "Merci beaucoup, madame. Bonne journée et à lundi !",
+        "check": ["Подяка", "Прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail à votre conseillère emploi, Mme Petit. Donnez les informations sur votre stage : la date, les jours, les horaires et ce que vous apportez.",
+    "taskUk": "Напишіть e-mail консультантці Pôle emploi пані Петі: дата початку, дні, години роботи і що треба принести.",
+    "minWords": 25,
+    "maxWords": 50,
+    "model": "Bonjour Madame Petit,\n\nJe commence mon stage à la boulangerie Au bon pain le lundi 3 mars, pour deux semaines. Je travaille le lundi, le mardi, le jeudi, le vendredi et le samedi, de 7 h à 13 h. Je ne travaille pas le mercredi. J'apporte une pièce d'identité et des chaussures fermées.\n\nCordialement,\nOlena Kovalenko",
+    "checklist": ["Звертання (Bonjour Madame Petit,)", "Дата початку і тривалість стажування", "Дні та години роботи (без середи, із суботою)", "Що принести", "Завершальна формула і підпис"]
+  },
+  "relatedVideos": ["PjcbR7TxxF8", "vMIed3rlZtg"]
+}

@@ -2,12 +2,13 @@
    - Зберігає файли застосунку, щоб він відкривався навіть без інтернету.
    - videos.json завжди спершу береться з мережі (щоб нові відео з'являлися одразу).
    Якщо змінили app.js / styles.css і зміни не видно — збільшіть номер версії нижче. */
-const CACHE = 'ecoute-v3';
+const CACHE = 'ecoute-v4';
 const SHELL = [
   './',
   './index.html',
   './styles.css',
   './app.js',
+  './dcl.js',
   './videos.json',
   './manifest.webmanifest',
   './icons/icon.svg',
@@ -36,14 +37,14 @@ self.addEventListener('fetch', (e) => {
   // Тренажер для столяра (папка menuisier) — окремий застосунок, його не кешуємо
   if (url.pathname.includes('/menuisier/')) return;
 
-  // videos.json: спершу мережа, якщо офлайн — збережена копія
-  if (url.pathname.endsWith('/videos.json')) {
+  // Дані (videos.json і файли dcl/*.json): спершу мережа, якщо офлайн — збережена копія
+  if (url.pathname.endsWith('/videos.json') || url.pathname.includes('/dcl/')) {
     e.respondWith(
       fetch(req).then((res) => {
         const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put('./videos.json', copy));
+        if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));
         return res;
-      }).catch(() => caches.match('./videos.json'))
+      }).catch(() => caches.match(req, { ignoreSearch: true }))
     );
     return;
   }

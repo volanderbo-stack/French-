@@ -1,0 +1,110 @@
+{
+  "id": "b1-travail-stagiaire",
+  "level": "B1",
+  "topic": "travail",
+  "title": "Choisir un stagiaire",
+  "titleUk": "Обрати стажиста",
+  "role": "Vous êtes Kateryna Hrytsenko, assistante RH (ressources humaines) chez « GreenBox », une entreprise d'emballages écologiques à Bordeaux.",
+  "interlocutor": "M. Marc Laurent, responsable marketing",
+  "mission": "Votre responsable, M. Laurent, vous demande de choisir un ou une stagiaire en marketing parmi trois candidatures. Lisez l'offre de stage et les profils, écoutez son message, puis téléphonez-lui pour présenter et défendre votre choix. Enfin, écrivez-lui un compte rendu.",
+  "missionUk": "Ви — асистентка відділу кадрів. Порівняйте трьох кандидатів зі стажування за вимогами вакансії та новими вказівками керівника, обґрунтуйте вибір по телефону і напишіть звіт.",
+  "vocab": [
+    { "fr": "une candidature", "uk": "кандидатура, заявка" },
+    { "fr": "un profil", "uk": "профіль кандидата" },
+    { "fr": "bac+3", "uk": "3 роки навчання після бакалаврату (≈ ступінь бакалавра)" },
+    { "fr": "maîtriser", "uk": "добре володіти" },
+    { "fr": "un salon professionnel", "uk": "галузева виставка" },
+    { "fr": "le permis B", "uk": "водійські права категорії B" },
+    { "fr": "la gratification", "uk": "стипендія стажиста" },
+    { "fr": "un compte rendu", "uk": "звіт" }
+  ],
+  "documents": [
+    {
+      "type": "annonce",
+      "title": "Offre de stage",
+      "text": "GREENBOX recrute un(e) stagiaire en marketing digital\nDurée : 6 mois, à partir du 1er février\n\nMissions : gérer nos réseaux sociaux, rédiger des articles pour notre site, participer à l'organisation de salons professionnels.\n\nProfil : formation en marketing ou en communication (bac+3 minimum) ; très bonne maîtrise de l'anglais (nos clients sont européens) ; autonomie ; intérêt pour l'environnement. Permis B souhaité (déplacements sur les salons).\n\nGratification : 650 € par mois + tickets restaurant."
+    },
+    {
+      "type": "fiche",
+      "title": "Candidat 1 – Lucas Moreau",
+      "text": "Lucas Moreau, 22 ans\nLicence de communication (bac+3)\nStage de 2 mois dans une agence de publicité : création de posts Instagram\nAnglais : niveau B1\nBénévole dans une association de recyclage\nPermis B – Disponible le 1er février"
+    },
+    {
+      "type": "fiche",
+      "title": "Candidate 2 – Amina Diallo",
+      "text": "Amina Diallo, 24 ans\nMaster 1 marketing (bac+4)\nStage de 4 mois chez un fabricant de cosmétiques bio : rédaction de newsletters, gestion de la page LinkedIn\nAnglais courant (un semestre Erasmus à Dublin)\nPas de permis – Disponible le 15 février"
+    },
+    {
+      "type": "fiche",
+      "title": "Candidat 3 – Hugo Petit",
+      "text": "Hugo Petit, 25 ans\nBTS commerce (bac+2)\n3 ans d'expérience comme vendeur en magasin\nTrès actif sur les réseaux sociaux : blog de voyage personnel (10 000 abonnés)\nAnglais : niveau B2\nPermis B – Disponible tout de suite"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de M. Laurent",
+      "voice": "m",
+      "text": "Bonjour Kateryna, c'est Marc Laurent. Deux petites précisions pour le stage. D'abord, le premier salon professionnel a lieu à Lyon le cinq février, et nous aimerions que le stagiaire vienne avec nous. Ensuite, pour les déplacements, nous prenons toujours le train : le permis de conduire n'est donc plus nécessaire. Et la directrice insiste sur un point : les articles du site sont publiés en français et en anglais. Appelez-moi cet après-midi pour me dire qui vous choisissez. Merci !"
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Combien de temps dure le stage ?", "options": ["2 mois", "4 mois", "6 mois"], "answer": 2 },
+    { "part": "lecture", "q": "Quel candidat n'a pas le niveau d'études demandé ?", "options": ["Lucas", "Amina", "Hugo"], "answer": 2 },
+    { "part": "lecture", "q": "Qui a le meilleur niveau d'anglais ?", "options": ["Lucas", "Amina", "Hugo"], "answer": 1 },
+    { "part": "lecture", "q": "Combien est la gratification par mois ? (en euros)", "accept": ["650", "650 €", "650€", "650 euros"] },
+    { "part": "ecoute", "q": "Où et quand a lieu le premier salon ?", "options": ["À Lyon, le 5 février", "À Bordeaux, le 1er février", "À Paris, le 15 février"], "answer": 0 },
+    { "part": "ecoute", "q": "Pourquoi le permis n'est plus nécessaire ?", "options": ["Le stagiaire ne va plus aux salons", "L'équipe voyage en train", "L'entreprise a un chauffeur"], "answer": 1 },
+    { "part": "ecoute", "q": "Sur quel point insiste la directrice ?", "options": ["Les articles sont en français et en anglais", "Le stagiaire doit avoir un master", "Le stage commence le 1er février"], "answer": 0 }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте пану Лорану. Запропонуйте кандидата (найлогічніше — Аміна: найкраща англійська, досвід написання текстів, права більше не потрібні), наведіть аргументи. Він ставитиме під сумнів ваш вибір — відповідайте контраргументами.",
+    "turns": [
+      {
+        "examiner": "Marc Laurent, j'écoute.",
+        "task": "Привітайтеся, назвіться, скажіть мету дзвінка.",
+        "model": "Bonjour monsieur Laurent, c'est Kateryna, du service RH. Je vous appelle au sujet du stage en marketing : j'ai étudié les trois candidatures.",
+        "check": ["Привітання та хто ви", "Мета дзвінка (au sujet de…)"]
+      },
+      {
+        "examiner": "Très bien. Alors, qui est-ce que vous me proposez ?",
+        "task": "Представте вибір і 2–3 аргументи.",
+        "model": "Je vous propose Amina Diallo. D'abord, elle a un master 1 en marketing, donc le bon niveau d'études. Ensuite, elle parle anglais couramment : c'est essentiel pour les articles en deux langues et pour nos clients européens. Enfin, elle a déjà rédigé des newsletters et géré une page LinkedIn.",
+        "check": ["Чіткий вибір (Je vous propose…)", "Щонайменше 2 аргументи", "Структура: d'abord, ensuite, enfin"]
+      },
+      {
+        "examiner": "Mais elle ne peut commencer que le 15 février… Et le salon de Lyon, le 5, alors ?",
+        "task": "Контраргумент: стажування 6 місяців — 2 тижні не критичні; запропонуйте спитати, чи може вона приїхати на виставку або почати раніше.",
+        "model": "C'est vrai, c'est un inconvénient. Mais le stage dure six mois : deux semaines, ce n'est pas très important. Je peux lui demander si elle peut commencer plus tôt, ou au moins venir au salon de Lyon le 5 février.",
+        "check": ["Визнали недолік (C'est vrai, mais…)", "Контраргумент", "Конкретна пропозиція"]
+      },
+      {
+        "examiner": "Et pourquoi pas Lucas ? Il est disponible le 1er février et il a le permis.",
+        "task": "Поясніть: англійська B1 недостатня для статей двома мовами; права вже не потрібні.",
+        "model": "Lucas a un bon profil, mais son anglais est seulement de niveau B1. Pour écrire des articles en anglais, ce n'est pas suffisant. Et comme vous voyagez en train, le permis n'est plus un critère.",
+        "check": ["Порівняння кандидатів", "Аргумент про англійську", "Посилання на нову інформацію (train)"]
+      },
+      {
+        "examiner": "Hmm. Et Hugo ? Il a dix mille abonnés sur son blog, c'est intéressant pour les réseaux sociaux…",
+        "task": "Визнайте плюс, але поясніть: bac+2 замість bac+3, досвід у продажах, а не в маркетингу.",
+        "model": "Oui, c'est un point positif. Mais il a un BTS, c'est-à-dire bac+2, et l'offre demande bac+3 minimum. Son expérience est surtout dans la vente, pas dans le marketing. On peut garder son CV pour un autre poste.",
+        "check": ["Визнали перевагу", "Аргумент про освіту", "Пропозиція на майбутнє"]
+      },
+      {
+        "examiner": "D'accord, vous m'avez convaincu. Vous lui écrivez ?",
+        "task": "Підтвердіть наступні кроки, пообіцяйте звіт листом, попрощайтеся.",
+        "model": "Oui, je contacte Amina aujourd'hui et je lui pose la question pour le salon. Je vous envoie un compte rendu par e-mail cet après-midi. Merci, bonne journée !",
+        "check": ["Наступні кроки", "Обіцянка звіту", "Прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un compte rendu à M. Laurent : votre choix, vos arguments, la comparaison avec les deux autres candidats, votre proposition pour le salon de Lyon et les prochaines étapes.",
+    "taskUk": "Напишіть звіт пану Лорану: вибір, аргументи, порівняння з іншими кандидатами, пропозиція щодо виставки в Ліоні, наступні кроки.",
+    "minWords": 120,
+    "maxWords": 180,
+    "model": "Objet : Choix du stagiaire en marketing\n\nMonsieur,\n\nSuite à notre conversation, je vous confirme mon choix : je propose Amina Diallo pour le stage en marketing digital.\n\nAmina a un master 1 en marketing et elle parle anglais couramment. C'est essentiel, car les articles de notre site sont publiés en français et en anglais. De plus, elle a déjà rédigé des newsletters et géré une page LinkedIn.\n\nLucas Moreau est disponible plus tôt, mais son niveau d'anglais (B1) est insuffisant. Hugo Petit est très actif sur les réseaux sociaux, mais il n'a pas le niveau d'études demandé (bac+2).\n\nAmina est disponible seulement le 15 février. Je vais lui demander si elle peut venir au salon de Lyon le 5 février ou commencer plus tôt.\n\nJe vous tiens informé de sa réponse.\n\nCordialement,\nKateryna Hrytsenko\nService RH",
+    "checklist": ["Тема листа і офіційне звертання", "Чітко названий вибір", "Аргументи з посиланням на вимоги", "Порівняння з двома іншими кандидатами", "Рішення щодо дати / виставки", "Наступні кроки", "Зв'язки: de plus, car, mais, donc", "Cordialement + ім'я і посада"]
+  },
+  "relatedVideos": ["PjcbR7TxxF8", "tf4-_4IbXPs"]
+}

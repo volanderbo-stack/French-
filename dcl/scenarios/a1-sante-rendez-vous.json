@@ -1,0 +1,92 @@
+{
+  "id": "a1-sante-rendez-vous",
+  "level": "A1",
+  "topic": "sante",
+  "title": "Rendez-vous chez le médecin",
+  "titleUk": "Запис до лікаря",
+  "role": "Vous êtes Maria Silva. Vous travaillez à la réception d'un hôtel. Nous sommes le mercredi 10 avril. Vous êtes malade.",
+  "interlocutor": "La secrétaire du cabinet médical",
+  "mission": "Vous avez de la fièvre et mal à la gorge. Lisez l'affiche du cabinet médical et le SMS de votre collègue, écoutez le répondeur, puis téléphonez au cabinet pour prendre rendez-vous. Ensuite, écrivez un e-mail à votre collègue Julie.",
+  "missionUk": "Ви захворіли. Дізнайтеся з оголошення і автовідповідача, до якого лікаря можна записатися, зателефонуйте в кабінет і напишіть колезі, що не вийдете на роботу.",
+  "vocab": [
+    { "fr": "un rendez-vous", "uk": "запис на прийом, зустріч" },
+    { "fr": "un médecin généraliste", "uk": "лікар загальної практики" },
+    { "fr": "la fièvre", "uk": "температура, жар" },
+    { "fr": "avoir mal à la gorge", "uk": "боліти горло" },
+    { "fr": "la carte Vitale", "uk": "картка медичного страхування" },
+    { "fr": "un arrêt de travail", "uk": "лікарняний" },
+    { "fr": "en congé", "uk": "у відпустці" }
+  ],
+  "documents": [
+    {
+      "type": "affiche",
+      "title": "Affiche du cabinet médical",
+      "text": "CABINET MÉDICAL DES TILLEULS\n\nDr Claire Lefèvre – médecin généraliste\nlundi, mardi, jeudi : 9 h – 12 h / 14 h – 18 h\n\nDr Ahmed Benali – médecin généraliste\nmercredi, vendredi : 8 h 30 – 12 h 30\nsamedi : 9 h – 12 h\n\nRendez-vous par téléphone : 03 20 45 67 89\nUrgences : appelez le 15\nApportez votre carte Vitale."
+    },
+    {
+      "type": "sms",
+      "title": "SMS de votre collègue",
+      "text": "Julie (réception) :\nMaria, si tu es malade, va chez le médecin et envoie-moi un e-mail. Il faut aussi ton arrêt de travail. Bon rétablissement !"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Répondeur du cabinet médical",
+      "voice": "f",
+      "text": "Bonjour, vous êtes bien au cabinet médical des Tilleuls. Le docteur Lefèvre est en congé jusqu'au quinze avril. Pour un rendez-vous avec le docteur Benali, restez en ligne, ou rappelez entre huit heures et midi. En cas d'urgence, composez le quinze. Merci."
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Quels jours travaille le docteur Benali ?", "options": ["Lundi, mardi, jeudi", "Mercredi, vendredi, samedi", "Tous les jours"], "answer": 1 },
+    { "part": "lecture", "q": "Qu'est-ce qu'il faut apporter chez le médecin ?", "options": ["La carte Vitale", "Le passeport", "Une photo"], "answer": 0 },
+    { "part": "lecture", "q": "Qu'est-ce que Julie demande ?", "options": ["Un SMS ce soir", "Un e-mail et l'arrêt de travail", "Un appel à l'hôtel"], "answer": 1 },
+    { "part": "ecoute", "q": "Pourquoi Maria ne peut pas voir le docteur Lefèvre ?", "options": ["Elle est malade", "Elle est en congé", "Le cabinet est fermé"], "answer": 1 },
+    { "part": "ecoute", "q": "Quand faut-il rappeler ?", "options": ["Entre 8 h et midi", "Après 18 h", "Le samedi"], "answer": 0 },
+    { "part": "ecoute", "q": "Quel numéro appeler en cas d'urgence ? (chiffres)", "accept": ["15", "le 15"] }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте в медичний кабінет. Попросіть запис до лікаря Беналі, опишіть симптоми, оберіть час і продиктуйте своє ім'я.",
+    "turns": [
+      {
+        "examiner": "Cabinet médical des Tilleuls, bonjour.",
+        "task": "Привітайтеся і попросіть запис до лікаря Беналі.",
+        "model": "Bonjour madame. Je voudrais un rendez-vous avec le docteur Benali, s'il vous plaît.",
+        "check": ["Привітання", "Прохання: Je voudrais un rendez-vous…", "S'il vous plaît"]
+      },
+      {
+        "examiner": "Oui. C'est pour quoi ?",
+        "task": "Опишіть симптоми: температура, болить горло, два дні.",
+        "model": "Je suis malade. J'ai de la fièvre et j'ai mal à la gorge depuis deux jours.",
+        "check": ["Температура (de la fièvre)", "Горло (mal à la gorge)", "Відколи (depuis deux jours)"]
+      },
+      {
+        "examiner": "Je peux vous proposer vendredi à dix heures, ou aujourd'hui à onze heures trente.",
+        "task": "Оберіть сьогодні об 11:30 і поясніть чому.",
+        "model": "Aujourd'hui à 11 h 30, s'il vous plaît. C'est un peu urgent.",
+        "check": ["Обрали час", "Пояснення (c'est urgent)"]
+      },
+      {
+        "examiner": "C'est noté. Votre nom, s'il vous plaît ?",
+        "task": "Назвіть ім'я і продиктуйте прізвище по літерах.",
+        "model": "Maria Silva. Silva : S, I, L, V, A.",
+        "check": ["Ім'я і прізвище", "Продиктували по літерах"]
+      },
+      {
+        "examiner": "Merci, madame Silva. N'oubliez pas votre carte Vitale. Au revoir.",
+        "task": "Подякуйте і попрощайтеся.",
+        "model": "D'accord, merci beaucoup. Au revoir, madame.",
+        "check": ["Подяка", "Прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail à Julie. Expliquez que vous êtes malade, donnez l'heure de votre rendez-vous et dites quand vous envoyez l'arrêt de travail.",
+    "taskUk": "Напишіть Жулі: що ви захворіли, коли прийом у лікаря, і коли надішлете лікарняний.",
+    "minWords": 25,
+    "maxWords": 50,
+    "model": "Bonjour Julie,\n\nJe suis malade : j'ai de la fièvre et mal à la gorge. J'ai rendez-vous chez le docteur Benali aujourd'hui à 11 h 30. Je ne peux pas venir au travail aujourd'hui. Je t'envoie l'arrêt de travail ce soir.\n\nMerci,\nMaria",
+    "checklist": ["Звертання", "Що з вами (симптоми)", "Лікар і час прийому", "Що не прийдете на роботу", "Коли надішлете лікарняний", "Підпис"]
+  },
+  "relatedVideos": ["071rT-6irr8", "8bUNGLlp048"]
+}

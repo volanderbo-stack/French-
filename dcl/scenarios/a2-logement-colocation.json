@@ -1,0 +1,111 @@
+{
+  "id": "a2-logement-colocation",
+  "level": "A2",
+  "topic": "logement",
+  "title": "Trouver une chambre en colocation",
+  "titleUk": "Знайти кімнату в спільній квартирі",
+  "role": "Vous êtes Andriy Shevchuk. Vous commencez un nouveau travail à Lyon, dans un bureau près de la gare Part-Dieu, le 1er septembre.",
+  "interlocutor": "Mme Nathalie Garnier, propriétaire",
+  "mission": "Vous cherchez une chambre. Lisez vos critères et les trois annonces, choisissez la meilleure chambre et écoutez le message de la propriétaire. Téléphonez-lui pour organiser une visite. Enfin, écrivez un e-mail à votre ami Paul pour expliquer votre choix.",
+  "missionUk": "Оберіть найкращу кімнату з трьох оголошень за вашими критеріями, зателефонуйте власниці, домовтеся про перегляд і напишіть другові, чому обрали саме її.",
+  "vocab": [
+    { "fr": "une colocation", "uk": "спільна оренда квартири" },
+    { "fr": "le loyer", "uk": "орендна плата" },
+    { "fr": "les charges comprises", "uk": "з урахуванням комунальних" },
+    { "fr": "libre le…", "uk": "вільна з…" },
+    { "fr": "un dépôt de garantie", "uk": "застава" },
+    { "fr": "visiter", "uk": "оглянути (житло)" },
+    { "fr": "un colocataire", "uk": "сусід по квартирі" },
+    { "fr": "augmenter", "uk": "зростати, підвищувати" }
+  ],
+  "documents": [
+    {
+      "type": "note",
+      "title": "Mes critères",
+      "text": "– Budget maximum : 550 € par mois, charges comprises\n– Maximum 30 minutes de trajet jusqu'à la Part-Dieu\n– Je commence le travail le 1er septembre\n– Je n'ai pas de voiture"
+    },
+    {
+      "type": "annonce",
+      "title": "Annonce A – Villeurbanne",
+      "text": "Colocation à Villeurbanne. Chambre de 12 m² dans un appartement de 3 chambres, cuisine équipée.\nLoyer : 480 € + 60 € de charges.\nÀ 15 minutes de la Part-Dieu en tram.\nLibre le 15 août. Non-fumeurs.\nContact : Mme Garnier – 06 45 12 78 90"
+    },
+    {
+      "type": "annonce",
+      "title": "Annonce B – Bellecour",
+      "text": "Grande chambre de 18 m², en plein centre-ville (place Bellecour). Appartement rénové avec balcon.\n620 € par mois, charges comprises.\nMétro direct pour la Part-Dieu : 10 minutes.\nLibre tout de suite."
+    },
+    {
+      "type": "annonce",
+      "title": "Annonce C – Vaulx-en-Velin",
+      "text": "Chambre chez l'habitant, 14 m², quartier calme avec jardin.\n420 € par mois, charges comprises.\nBus + tram jusqu'à la Part-Dieu : 50 minutes. Parking gratuit.\nLibre le 1er octobre."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de Mme Garnier",
+      "voice": "f",
+      "text": "Bonjour, ici Nathalie Garnier, pour la chambre à Villeurbanne. Merci pour votre message. Alors, la chambre est toujours libre. Dans l'appartement, il y a deux autres colocataires : Léa, qui est étudiante, et Tom, qui travaille dans un hôpital. Pour louer la chambre, il faut payer un dépôt de garantie d'un mois de loyer. Vous pouvez visiter samedi matin ou lundi soir, après dix-huit heures. Rappelez-moi pour choisir le jour. Au revoir !"
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Combien coûte la chambre A par mois, charges comprises ?", "options": ["480 €", "540 €", "600 €"], "answer": 1 },
+    { "part": "lecture", "q": "Pourquoi la chambre B ne correspond pas aux critères ?", "options": ["Elle est trop loin", "Elle est trop chère", "Elle n'est pas libre en septembre"], "answer": 1 },
+    { "part": "lecture", "q": "Quels sont les problèmes de la chambre C ?", "options": ["Trop loin et libre seulement en octobre", "Trop chère et trop petite", "Pas de jardin et pas de parking"], "answer": 0 },
+    { "part": "lecture", "q": "Quelle chambre Andriy doit choisir ? (A, B ou C)", "accept": ["a", "la chambre a", "chambre a", "annonce a"] },
+    { "part": "ecoute", "q": "Combien de colocataires il y a dans l'appartement ?", "options": ["Un", "Deux", "Trois"], "answer": 1 },
+    { "part": "ecoute", "q": "Que fait Tom ?", "options": ["Il est étudiant", "Il travaille dans un hôpital", "Il est propriétaire"], "answer": 1 },
+    { "part": "ecoute", "q": "Le dépôt de garantie, c'est…", "options": ["un mois de loyer", "deux mois de loyer", "100 €"], "answer": 0 },
+    { "part": "ecoute", "q": "Quand est-ce qu'on peut visiter ?", "options": ["Samedi matin ou lundi soir", "Dimanche toute la journée", "Mercredi après-midi"], "answer": 0 }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте пані Гарньє. Представтеся, домовтеся про перегляд. Увага: вона повідомить нову інформацію про ціну — відреагуйте і спробуйте домовитися.",
+    "turns": [
+      {
+        "examiner": "Allô, Nathalie Garnier, j'écoute.",
+        "task": "Привітайтеся, назвіться, скажіть, що телефонуєте щодо кімнати у Віллербані.",
+        "model": "Bonjour madame. Je m'appelle Andriy Shevchuk. Je vous appelle pour la chambre à Villeurbanne. Merci pour votre message.",
+        "check": ["Привітання та ім'я", "Про яку кімнату йдеться"]
+      },
+      {
+        "examiner": "Ah oui, bonjour ! Alors, vous voulez visiter ?",
+        "task": "Оберіть суботу вранці й запитайте, о котрій годині.",
+        "model": "Oui, je voudrais visiter samedi matin, si c'est possible. À quelle heure est-ce que je peux venir ?",
+        "check": ["Обрали день", "Запитали про годину"]
+      },
+      {
+        "examiner": "Samedi à dix heures, c'est parfait. L'adresse, c'est le quatorze, rue Francis-de-Pressensé.",
+        "task": "Підтвердьте і перепитайте адресу (попросіть повторити або продиктувати по літерах).",
+        "model": "D'accord, samedi à 10 heures. Pardon, vous pouvez répéter le nom de la rue, s'il vous plaît ? Comment ça s'écrit ?",
+        "check": ["Підтвердили час", "Перепитали ввічливо (Vous pouvez répéter… ?)"]
+      },
+      {
+        "examiner": "Francis-de-Pressensé, P-R-E-S-S-E-N-S-É. Ah, et une information importante : en janvier, le loyer augmente de trente euros.",
+        "task": "Відреагуйте: тоді буде 570 € — більше вашого бюджету 550 €. Запитайте, чи можна залишити ціну.",
+        "model": "Ah, c'est un problème pour moi. Avec 30 euros de plus, ça fait 570 euros, et mon budget maximum, c'est 550 euros. Est-ce que c'est possible de garder le même loyer ?",
+        "check": ["Пояснили проблему з бюджетом", "Назвали суми (570 € / 550 €)", "Запитали про можливість домовитися"]
+      },
+      {
+        "examiner": "Hmm… Si vous restez un an, je peux garder quatre cent quatre-vingts euros jusqu'en juin. Ça vous va ?",
+        "task": "Погодьтеся і підтвердьте умову (залишаєтесь на рік).",
+        "model": "Oui, ça me va. Je reste un an, c'est sûr, parce que je commence un nouveau travail à Lyon. Merci beaucoup.",
+        "check": ["Згода", "Аргумент (нова робота в Ліоні)"]
+      },
+      {
+        "examiner": "Parfait. Alors à samedi, monsieur Shevchuk !",
+        "task": "Подякуйте і попрощайтеся.",
+        "model": "Merci, madame. À samedi, bonne journée !",
+        "check": ["Подяка", "Прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail à votre ami Paul. Expliquez quelle chambre vous avez choisie et pourquoi, pourquoi les autres ne vont pas, et parlez de la visite et du loyer.",
+    "taskUk": "Напишіть другові Полю: яку кімнату обрали і чому, чому не підходять інші, коли перегляд і що з орендною платою.",
+    "minWords": 60,
+    "maxWords": 100,
+    "model": "Salut Paul,\n\nJ'ai trouvé une chambre en colocation à Villeurbanne. Elle coûte 540 € par mois avec les charges et elle est à 15 minutes de la Part-Dieu en tram. Les deux autres annonces ne vont pas : la chambre de Bellecour est trop chère (620 €) et celle de Vaulx-en-Velin est trop loin et libre seulement en octobre. Je visite samedi à 10 heures. Le loyer augmente en janvier, mais la propriétaire garde le même prix jusqu'en juin si je reste un an.\n\nÀ bientôt,\nAndriy",
+    "checklist": ["Звертання і підпис", "Обрана кімната та 2 переваги", "Чому не підходять інші два варіанти", "Дата і час перегляду", "Інформація про ціну (підвищення / домовленість)", "Слова-зв'язки: mais, parce que, et"]
+  },
+  "relatedVideos": ["t-avin9iHrI", "NkCc4U3QhIA"]
+}

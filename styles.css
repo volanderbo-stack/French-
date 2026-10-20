@@ -323,3 +323,85 @@ input[type="range"] { width: 100%; accent-color: var(--accent); height: 32px; }
 @media (max-width: 330px) {
   .word-pair { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================
+   Розділ DCL
+   ========================================================== */
+.tag.dcl { background: var(--warn-soft); color: var(--text); }
+.ok-text { color: var(--good); }
+.bad-text { color: var(--bad); }
+.list { margin: 0; padding-left: 20px; }
+.list li + li { margin-top: 6px; }
+
+/* Картка «Тренування DCL на сьогодні» */
+.today-dcl { display: flex; align-items: center; gap: 12px; color: var(--text); margin-bottom: 12px; border-color: var(--accent); }
+.today-dcl .big-ico { font-size: 1.8rem; flex: none; }
+
+/* Плитки на головній DCL */
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tile { display: flex; flex-direction: column; gap: 2px; color: var(--text); padding: 14px; }
+.tile span { font-size: 1.5rem; }
+.tile small { color: var(--muted); font-size: .8rem; }
+.scen { display: block; color: var(--text); }
+.steps { margin-top: 12px; }
+.steps .chip { display: inline-flex; align-items: center; }
+
+/* Документи сценарію */
+.doc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); }
+.doc-title { font-weight: 700; margin-bottom: 8px; }
+.doc-text { white-space: pre-wrap; line-height: 1.55; font-size: .95rem; }
+.doc-email { border-left: 4px solid var(--accent); }
+.doc-affiche, .doc-annonce { background: var(--warn-soft); border-color: transparent; }
+.doc-affiche .doc-text { text-align: center; }
+.doc-horaires .doc-text, .doc-fiche .doc-text { font-variant-numeric: tabular-nums; }
+.doc-sms { border-radius: 18px 18px 18px 4px; background: var(--accent-soft); border-color: transparent; }
+.doc-audio { display: flex; flex-direction: column; gap: 8px; }
+.mission { background: var(--accent-soft); border-radius: 12px; padding: 12px 14px; font-weight: 500; }
+.model { background: var(--good-soft); border-radius: 12px; padding: 10px 12px; margin-top: 12px; }
+.model-text { background: var(--surface-2); border-radius: 12px; padding: 12px; }
+textarea.write { min-height: 220px; font-size: 1rem; }
+
+/* Розмова */
+.turn { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.done-turn { opacity: .75; font-size: .92rem; }
+.done-turn > div { margin-top: 4px; }
+.turn-now { border-color: var(--accent); }
+.checks { display: grid; gap: 6px; margin-top: 12px; }
+.check { display: flex; gap: 10px; align-items: flex-start; min-height: 40px; padding: 8px 10px; border-radius: 10px; background: var(--surface-2); cursor: pointer; }
+.check input { width: 20px; height: 20px; flex: none; margin-top: 1px; accent-color: var(--good); }
+
+/* Етапи, порівняння, таблиці */
+.phases { display: grid; gap: 6px; margin-top: 10px; }
+.phase { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 10px; background: var(--surface-2); }
+.phase span { color: var(--muted); font-size: .9rem; }
+.phase.time { background: var(--accent-soft); color: var(--accent); font-size: .9rem; }
+.cmp { display: grid; grid-template-columns: auto 1fr 1fr; gap: 8px 12px; margin-top: 10px; font-size: .9rem; }
+.cmp > span:nth-child(3n+1) { color: var(--muted); font-weight: 600; }
+.gtable { display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; margin-top: 8px; font-size: .92rem; }
+.blank { color: var(--accent); font-weight: 700; }
+.opt.sel { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.pick { display: grid; gap: 2px; }
+
+/* Таймер іспиту */
+.exbar { position: sticky; top: calc(64px + env(safe-area-inset-top)); z-index: 5; display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; margin: 0 -4px; border-radius: 12px; background: var(--text); color: var(--bg); }
+.exbar .timer { font-variant-numeric: tabular-nums; font-weight: 800; font-size: 1.1rem; }
+.exbar.late { background: var(--bad); color: #fff; }
+
+/* Смужки вмінь */
+.bars { display: grid; gap: 10px; margin-top: 10px; }
+.barrow { display: grid; grid-template-columns: 120px 1fr 48px; gap: 10px; align-items: center; font-size: .92rem; }
+.barrow .bar { height: 10px; }
+.barrow b { text-align: right; }
+.barrow.weak span, .barrow.weak b { color: var(--bad); }
+.barrow.weak .bar > i { background: var(--bad); }
+.small-flash { min-height: 170px; }
+
+@media (min-width: 640px) { .tiles { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 380px) {
+  .barrow { grid-template-columns: 96px 1fr 42px; }
+  .cmp { grid-template-columns: 1fr 1fr; }
+  .cmp > :first-child { display: none; }
+  .cmp > span:nth-child(3n+1) { grid-column: 1 / -1; margin-top: 6px; }
+}
+.tabbar a { font-size: .7rem; }

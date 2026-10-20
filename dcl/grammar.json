@@ -1,0 +1,562 @@
+{
+  "_instructions": "Картки граматики. Кожна тема: правило (rule — абзаци українською), таблиця форм (table), приклади (examples) і вправи (exercises). У вправі або options + answer (номер правильного з 0), або accept (список правильних відповідей для введення). explain — коротке пояснення після відповіді.",
+  "topics": [
+    {
+      "id": "present",
+      "level": "A1",
+      "title": "Le présent",
+      "titleUk": "Теперішній час",
+      "rule": [
+        "Présent описує те, що відбувається зараз, звички і факти: Je travaille le samedi.",
+        "Дієслова на -er (travailler, parler, commencer): основа + -e, -es, -e, -ons, -ez, -ent. Закінчення -e, -es, -ent не вимовляються.",
+        "Найважливіші неправильні дієслова треба вивчити напам'ять: être, avoir, aller, faire, pouvoir, vouloir, venir, prendre."
+      ],
+      "table": [
+        [
+          "travailler",
+          "je travaille, tu travailles, il travaille, nous travaillons, vous travaillez, ils travaillent"
+        ],
+        [
+          "être",
+          "je suis, tu es, il est, nous sommes, vous êtes, ils sont"
+        ],
+        [
+          "avoir",
+          "j'ai, tu as, il a, nous avons, vous avez, ils ont"
+        ],
+        [
+          "aller",
+          "je vais, tu vas, il va, nous allons, vous allez, ils vont"
+        ],
+        [
+          "faire",
+          "je fais, tu fais, il fait, nous faisons, vous faites, ils font"
+        ],
+        [
+          "pouvoir",
+          "je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent"
+        ],
+        [
+          "prendre",
+          "je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je commence mon stage lundi.",
+          "uk": "Я починаю стажування в понеділок."
+        },
+        {
+          "fr": "Nous avons une place pour votre fils.",
+          "uk": "У нас є місце для вашого сина."
+        },
+        {
+          "fr": "Vous pouvez répéter, s'il vous plaît ?",
+          "uk": "Можете повторити, будь ласка?"
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Je ___ stagiaire à la boulangerie. (être)",
+          "options": [
+            "suis",
+            "es",
+            "est"
+          ],
+          "answer": 0,
+          "explain": "je suis"
+        },
+        {
+          "q": "Nous ___ le bus 12. (prendre)",
+          "options": [
+            "prenons",
+            "prennent",
+            "prenez"
+          ],
+          "answer": 0,
+          "explain": "nous prenons"
+        },
+        {
+          "q": "Vous ___ de la fièvre ? (avoir)",
+          "options": [
+            "avez",
+            "êtes",
+            "avons"
+          ],
+          "answer": 0,
+          "explain": "vous avez — «у вас є». Температура в французькій: avoir de la fièvre."
+        },
+        {
+          "q": "Ils ___ à Lyon demain. (aller)",
+          "options": [
+            "allent",
+            "vont",
+            "vais"
+          ],
+          "answer": 1,
+          "explain": "ils vont — неправильне дієслово"
+        },
+        {
+          "q": "Tu ___ le samedi ? (travailler) — напишіть форму",
+          "accept": [
+            "travailles"
+          ],
+          "explain": "tu travailles — закінчення -es"
+        },
+        {
+          "q": "Elle ne ___ pas venir mercredi. (pouvoir) — напишіть форму",
+          "accept": [
+            "peut"
+          ],
+          "explain": "elle peut"
+        },
+        {
+          "q": "Qu'est-ce que vous ___ dans la vie ? (faire)",
+          "options": [
+            "faisez",
+            "faites",
+            "fais"
+          ],
+          "answer": 1,
+          "explain": "vous faites — виняток (не «faisez»)"
+        }
+      ]
+    },
+    {
+      "id": "passe-compose",
+      "level": "A2",
+      "title": "Le passé composé",
+      "titleUk": "Минулий час passé composé",
+      "rule": [
+        "Passé composé — завершена дія в минулому: J'ai acheté un aspirateur le 2 mai.",
+        "Форма: avoir або être у теперішньому часі + participe passé. Більшість дієслів — з avoir.",
+        "З être: дієслова руху і стану (aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, retourner) і всі зворотні (se lever). Тоді participe узгоджується: elle est arrivée, ils sont partis.",
+        "Participe passé: -er → -é (parlé), -ir → -i (fini). Неправильні: avoir → eu, être → été, faire → fait, prendre → pris, voir → vu, pouvoir → pu, venir → venu."
+      ],
+      "table": [
+        [
+          "acheter (avoir)",
+          "j'ai acheté, tu as acheté, il a acheté, nous avons acheté, vous avez acheté, ils ont acheté"
+        ],
+        [
+          "arriver (être)",
+          "je suis arrivé(e), tu es arrivé(e), il est arrivé, elle est arrivée, nous sommes arrivé(e)s, ils sont arrivés"
+        ],
+        [
+          "заперечення",
+          "je n'ai pas compris, elle n'est pas venue"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je vous ai envoyé un e-mail hier.",
+          "uk": "Я надіслала вам e-mail учора."
+        },
+        {
+          "fr": "Nous sommes arrivés à Nantes en septembre.",
+          "uk": "Ми приїхали до Нанта у вересні."
+        },
+        {
+          "fr": "Je n'ai pas reçu de réponse.",
+          "uk": "Я не отримав відповіді."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Hier, j'___ un e-mail à la directrice.",
+          "options": [
+            "ai écrit",
+            "suis écrit",
+            "ai écrire"
+          ],
+          "answer": 0,
+          "explain": "écrire → écrit, з avoir"
+        },
+        {
+          "q": "Elle ___ à Lyon le 1er septembre.",
+          "options": [
+            "a arrivé",
+            "est arrivée",
+            "est arrivé"
+          ],
+          "answer": 1,
+          "explain": "arriver — з être, узгодження з elle: arrivée"
+        },
+        {
+          "q": "Nous ___ le train de 7 h.",
+          "options": [
+            "avons pris",
+            "sommes pris",
+            "avons prendu"
+          ],
+          "answer": 0,
+          "explain": "prendre → pris, з avoir"
+        },
+        {
+          "q": "Ils ___ en retard à cause des travaux.",
+          "options": [
+            "ont venu",
+            "sont venus",
+            "sont venu"
+          ],
+          "answer": 1,
+          "explain": "venir — з être, множина: venus"
+        },
+        {
+          "q": "Je ___ votre message. (comprendre, passé composé із запереченням — напишіть 4 слова: n'ai pas …)",
+          "accept": [
+            "n'ai pas compris",
+            "nai pas compris"
+          ],
+          "explain": "ne … pas стоїть навколо avoir: je n'ai pas compris"
+        },
+        {
+          "q": "Vous ___ votre ticket de caisse ? (garder, passé composé — напишіть 2 слова)",
+          "accept": [
+            "avez gardé",
+            "avez garde"
+          ],
+          "explain": "garder → gardé, з avoir"
+        },
+        {
+          "q": "Maria ___ chez le médecin ce matin. (aller)",
+          "options": [
+            "a allé",
+            "est allée",
+            "est allé"
+          ],
+          "answer": 1,
+          "explain": "aller — з être, узгодження з жіночим родом"
+        }
+      ]
+    },
+    {
+      "id": "imparfait",
+      "level": "A2",
+      "title": "L'imparfait et le passé composé",
+      "titleUk": "Imparfait чи passé composé",
+      "rule": [
+        "Imparfait — тло, опис, звички в минулому: Avant, je travaillais dans une boulangerie. Il faisait froid.",
+        "Утворення: основа форми nous у présent (nous travaill-ons) + -ais, -ais, -ait, -ions, -iez, -aient. Виняток: être → j'étais.",
+        "Passé composé — конкретна завершена подія на цьому тлі: Je travaillais quand le client a appelé.",
+        "Підказки: avant, d'habitude, tous les jours, souvent → imparfait; hier, un jour, soudain, le 2 mai → passé composé."
+      ],
+      "table": [
+        [
+          "travailler",
+          "je travaillais, tu travaillais, il travaillait, nous travaillions, vous travailliez, ils travaillaient"
+        ],
+        [
+          "être",
+          "j'étais, tu étais, il était, nous étions, vous étiez, ils étaient"
+        ],
+        [
+          "avoir",
+          "j'avais, tu avais, il avait, nous avions, vous aviez, ils avaient"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Avant, j'accueillais les clients et je prenais les commandes.",
+          "uk": "Раніше я зустрічала клієнтів і приймала замовлення."
+        },
+        {
+          "fr": "L'aspirateur marchait bien, puis il est tombé en panne.",
+          "uk": "Пилосос працював добре, а потім зламався."
+        },
+        {
+          "fr": "Il pleuvait quand je suis arrivé.",
+          "uk": "Ішов дощ, коли я приїхав."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Avant, je ___ dans un hôtel. (travailler)",
+          "options": [
+            "travaillais",
+            "ai travaillé",
+            "travaille"
+          ],
+          "answer": 0,
+          "explain": "avant → звичка/тло → imparfait"
+        },
+        {
+          "q": "Hier, le client ___ à 15 h. (appeler)",
+          "options": [
+            "appelait",
+            "a appelé",
+            "appelle"
+          ],
+          "answer": 1,
+          "explain": "hier, конкретна подія → passé composé"
+        },
+        {
+          "q": "Quand j'étais étudiante, j'___ souvent le bus. (prendre)",
+          "options": [
+            "ai pris",
+            "prenais",
+            "prends"
+          ],
+          "answer": 1,
+          "explain": "souvent → звичка → imparfait"
+        },
+        {
+          "q": "Il ___ très froid ce matin-là. (faire)",
+          "options": [
+            "faisait",
+            "a fait",
+            "fait"
+          ],
+          "answer": 0,
+          "explain": "опис погоди → imparfait"
+        },
+        {
+          "q": "Je dormais quand le téléphone ___ . (sonner)",
+          "options": [
+            "sonnait",
+            "a sonné",
+            "sonne"
+          ],
+          "answer": 1,
+          "explain": "подія, що перервала тло → passé composé"
+        },
+        {
+          "q": "Напишіть «être» в imparfait для «nous»: nous ___",
+          "accept": [
+            "étions",
+            "etions"
+          ],
+          "explain": "nous étions"
+        },
+        {
+          "q": "La chambre ___ petite, mais elle ___ un balcon.",
+          "options": [
+            "était / avait",
+            "a été / a eu",
+            "est / a"
+          ],
+          "answer": 0,
+          "explain": "опис у минулому → imparfait"
+        }
+      ]
+    },
+    {
+      "id": "futur",
+      "level": "A2",
+      "title": "Le futur proche et le futur simple",
+      "titleUk": "Майбутній час",
+      "rule": [
+        "Futur proche — найближчі плани, розмовна мова: aller (у présent) + інфінітив. Je vais réserver la table.",
+        "Futur simple — плани, обіцянки, офіційні листи (B1): інфінітив + -ai, -as, -a, -ons, -ez, -ont. Je réserverai, nous confirmerons. Дієслова на -re втрачають -e: prendre → je prendrai.",
+        "Неправильні основи: être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, venir → viendr-, voir → verr-, envoyer → enverr-."
+      ],
+      "table": [
+        [
+          "futur proche",
+          "je vais appeler, tu vas appeler, il va appeler, nous allons appeler, vous allez appeler, ils vont appeler"
+        ],
+        [
+          "futur simple: confirmer",
+          "je confirmerai, tu confirmeras, il confirmera, nous confirmerons, vous confirmerez, ils confirmeront"
+        ],
+        [
+          "неправильні",
+          "je serai, j'aurai, j'irai, je ferai, je pourrai, je viendrai, j'enverrai"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je vais vous envoyer une confirmation.",
+          "uk": "Я зараз надішлю вам підтвердження."
+        },
+        {
+          "fr": "Le stage commencera le 1er février.",
+          "uk": "Стажування почнеться 1 лютого."
+        },
+        {
+          "fr": "Nous vous enverrons les billets dès réception de l'accord.",
+          "uk": "Ми надішлемо вам квитки, щойно отримаємо згоду."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Ne t'inquiète pas, je ___ appeler le client. (futur proche)",
+          "options": [
+            "vais",
+            "va",
+            "allez"
+          ],
+          "answer": 0,
+          "explain": "je vais + інфінітив"
+        },
+        {
+          "q": "Nous ___ le nombre de personnes mardi. (confirmer, futur simple)",
+          "options": [
+            "confirmerons",
+            "confirmons",
+            "allons confirmé"
+          ],
+          "answer": 0,
+          "explain": "інфінітив + -ons"
+        },
+        {
+          "q": "Le livreur ___ chez vous samedi. (passer, futur simple)",
+          "options": [
+            "passera",
+            "passerai",
+            "passe"
+          ],
+          "answer": 0,
+          "explain": "il/elle → -a"
+        },
+        {
+          "q": "Je vous ___ un e-mail demain. (envoyer, futur simple)",
+          "options": [
+            "envoierai",
+            "enverrai",
+            "envoyerai"
+          ],
+          "answer": 1,
+          "explain": "envoyer → enverr- (неправильна основа)"
+        },
+        {
+          "q": "Vous ___ visiter samedi. (pouvoir, futur simple)",
+          "options": [
+            "pouvez",
+            "pourrez",
+            "pouverez"
+          ],
+          "answer": 1,
+          "explain": "pouvoir → pourr-"
+        },
+        {
+          "q": "Напишіть «être» у futur simple для «je»: je ___",
+          "accept": [
+            "serai"
+          ],
+          "explain": "être → ser- : je serai"
+        },
+        {
+          "q": "Ils ___ partir à 7 h. (futur proche — напишіть дієслово aller)",
+          "accept": [
+            "vont"
+          ],
+          "explain": "ils vont partir"
+        }
+      ]
+    },
+    {
+      "id": "conditionnel",
+      "level": "B1",
+      "title": "Le conditionnel de politesse",
+      "titleUk": "Умовний спосіб для ввічливих прохань",
+      "rule": [
+        "Conditionnel робить прохання м'якшим і ввічливішим — це головний інструмент у дзвінках і листах на DCL: Je voudrais…, Pourriez-vous… ?, J'aimerais…",
+        "Утворення: основа futur simple + закінчення imparfait: -ais, -ais, -ait, -ions, -iez, -aient. vouloir → je voudrais, pouvoir → vous pourriez, aimer → j'aimerais, être → ce serait.",
+        "Типові формули: Je voudrais un rendez-vous. Pourriez-vous m'envoyer… ? Serait-il possible de… ? J'aimerais savoir si… Ce serait parfait.",
+        "Також для пропозицій і порад: Vous pourriez venir samedi. Il faudrait confirmer avant le 15 mai."
+      ],
+      "table": [
+        [
+          "vouloir",
+          "je voudrais, tu voudrais, il voudrait, nous voudrions, vous voudriez, ils voudraient"
+        ],
+        [
+          "pouvoir",
+          "je pourrais, tu pourrais, il pourrait, nous pourrions, vous pourriez, ils pourraient"
+        ],
+        [
+          "aimer",
+          "j'aimerais, tu aimerais, il aimerait, nous aimerions, vous aimeriez, ils aimeraient"
+        ],
+        [
+          "être / falloir",
+          "ce serait, il faudrait"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Pourriez-vous me rappeler après 18 heures ?",
+          "uk": "Чи не могли б ви передзвонити мені після 18:00?"
+        },
+        {
+          "fr": "Serait-il possible de visiter samedi ?",
+          "uk": "Чи можна було б оглянути в суботу?"
+        },
+        {
+          "fr": "Nous aimerions réserver une table pour douze personnes.",
+          "uk": "Ми хотіли б забронювати стіл на дванадцять осіб."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Je ___ prendre rendez-vous, s'il vous plaît. (vouloir)",
+          "options": [
+            "veux",
+            "voudrais",
+            "voudrai"
+          ],
+          "answer": 1,
+          "explain": "voudrais — ввічливо; veux звучить різко"
+        },
+        {
+          "q": "___-vous répéter, s'il vous plaît ? (pouvoir)",
+          "options": [
+            "Pourriez",
+            "Pouvriez",
+            "Pourrez"
+          ],
+          "answer": 0,
+          "explain": "pouvoir → pourr- + -iez"
+        },
+        {
+          "q": "Nous ___ visiter l'appartement samedi. (aimer)",
+          "options": [
+            "aimons",
+            "aimerions",
+            "aimerons"
+          ],
+          "answer": 1,
+          "explain": "conditionnel: aimer + -ions"
+        },
+        {
+          "q": "___ -il possible de garder le même loyer ? (être)",
+          "options": [
+            "Sera",
+            "Serait",
+            "Est"
+          ],
+          "answer": 1,
+          "explain": "Serait-il possible… ? — дуже ввічлива формула"
+        },
+        {
+          "q": "Il ___ confirmer avant le 15 mai. (falloir)",
+          "options": [
+            "faudrait",
+            "fallait",
+            "faut"
+          ],
+          "answer": 0,
+          "explain": "il faudrait — м'яка порада"
+        },
+        {
+          "q": "Напишіть «pouvoir» у conditionnel для «vous»: vous ___",
+          "accept": [
+            "pourriez"
+          ],
+          "explain": "vous pourriez"
+        },
+        {
+          "q": "Яке речення найввічливіше для листа?",
+          "options": [
+            "Envoyez-moi le contrat.",
+            "Je veux le contrat.",
+            "Pourriez-vous m'envoyer le contrat ?"
+          ],
+          "answer": 2,
+          "explain": "Pourriez-vous… ? — ввічливе прохання"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "a2-administration-ecole",
+  "level": "A2",
+  "topic": "administration",
+  "title": "Inscrire son enfant à l'école",
+  "titleUk": "Записати дитину до школи",
+  "role": "Vous êtes Oksana Bondarenko. Vous venez d'arriver à Nantes avec votre fils Maxym, 8 ans. Vous habitez chez votre sœur.",
+  "interlocutor": "Un agent de la mairie annexe Nantes Sud",
+  "mission": "Vous voulez inscrire Maxym à l'école et à la cantine. Lisez les informations de la mairie, écoutez le message de la directrice de l'école, puis téléphonez à la mairie annexe pour prendre rendez-vous. Enfin, écrivez un e-mail à la directrice.",
+  "missionUk": "Дізнайтеся, які документи потрібні для запису сина до школи та їдальні, домовтеся про зустріч у мерії і напишіть директорці школи.",
+  "vocab": [
+    { "fr": "inscrire", "uk": "записати, зареєструвати" },
+    { "fr": "la mairie annexe", "uk": "районна мерія (філія)" },
+    { "fr": "un justificatif de domicile", "uk": "документ, що підтверджує адресу" },
+    { "fr": "un acte de naissance", "uk": "свідоцтво про народження" },
+    { "fr": "le carnet de vaccinations", "uk": "картка щеплень" },
+    { "fr": "la cantine", "uk": "шкільна їдальня" },
+    { "fr": "une attestation d'hébergement", "uk": "довідка про проживання в когось" },
+    { "fr": "le quotient familial", "uk": "сімейний коефіцієнт (рівень доходу родини)" }
+  ],
+  "documents": [
+    {
+      "type": "fiche",
+      "title": "Ville de Nantes – Inscription à l'école",
+      "text": "Pour inscrire votre enfant à l'école élémentaire, prenez rendez-vous à la mairie annexe de votre quartier.\n\nDocuments à apporter :\n– l'acte de naissance de l'enfant (traduit en français si nécessaire)\n– un justificatif de domicile de moins de 3 mois (facture d'électricité, quittance de loyer…)\n– le carnet de vaccinations\n\nAprès l'inscription, la mairie vous donne un certificat d'inscription. Ensuite, contactez la directrice ou le directeur de l'école pour l'admission."
+    },
+    {
+      "type": "horaires",
+      "title": "Mairie annexe Nantes Sud",
+      "text": "MAIRIE ANNEXE NANTES SUD\n3, place du Marché\n\nDu lundi au vendredi : 8 h 30 – 12 h 30 et 13 h 30 – 17 h\nLe jeudi : ouverture à 10 h\nSamedi : 9 h – 12 h (état civil uniquement)\nTél. : 02 40 41 90 00"
+    },
+    {
+      "type": "fiche",
+      "title": "Cantine scolaire – tarifs",
+      "text": "Prix d'un repas selon le quotient familial (QF) :\n– QF moins de 600 : 1 €\n– QF de 600 à 1 000 : 3,20 €\n– QF plus de 1 000 : 4,80 €\n\nSans attestation de quotient familial, le tarif maximum est appliqué.\nInscription à la cantine : sur le site de la ville ou à la mairie annexe."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de la directrice de l'école",
+      "voice": "f",
+      "text": "Bonjour madame, ici madame Rivière, directrice de l'école Jules-Verne. La mairie m'a parlé de votre fils, Maxym. Nous avons une place pour lui en CE2. Pour l'admission, venez à l'école avec le certificat d'inscription de la mairie. Je suis disponible le mardi et le vendredi, après seize heures trente, quand les élèves sont partis. Pour la cantine, pensez à demander votre attestation de quotient familial à la CAF, sinon vous payez le tarif maximum. À bientôt !"
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Quels documents faut-il apporter à la mairie ?", "options": ["Passeport, photo et diplôme", "Acte de naissance, justificatif de domicile et carnet de vaccinations", "Contrat de travail et fiche de paie"], "answer": 1 },
+    { "part": "lecture", "q": "Le jeudi, à quelle heure ouvre la mairie annexe ?", "options": ["À 8 h 30", "À 10 h", "À 13 h 30"], "answer": 1 },
+    { "part": "lecture", "q": "Sans attestation de quotient familial, combien coûte un repas à la cantine ?", "options": ["1 €", "3,20 €", "4,80 €"], "answer": 2 },
+    { "part": "lecture", "q": "Qu'est-ce que la mairie donne après l'inscription ?", "options": ["Un certificat d'inscription", "Une carte de cantine", "Un livret scolaire"], "answer": 0 },
+    { "part": "ecoute", "q": "Dans quelle classe va Maxym ?", "options": ["CP", "CE2", "CM2"], "answer": 1 },
+    { "part": "ecoute", "q": "Quand Oksana peut voir la directrice ?", "options": ["Le lundi matin", "Le mardi et le vendredi après 16 h 30", "Le samedi"], "answer": 1 },
+    { "part": "ecoute", "q": "Où faut-il demander l'attestation de quotient familial ? (sigle)", "accept": ["caf", "la caf", "à la caf", "a la caf"] }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте в мерію, щоб домовитися про зустріч. Розкажіть про ситуацію, уточніть документи. Співробітник скаже, що потрібен ще один документ, — з'ясуйте, який саме, і оберіть зручний час.",
+    "turns": [
+      {
+        "examiner": "Mairie annexe Nantes Sud, bonjour.",
+        "task": "Привітайтеся, назвіться, скажіть мету: записати сина до школи.",
+        "model": "Bonjour monsieur. Je m'appelle Oksana Bondarenko. Je voudrais prendre rendez-vous pour inscrire mon fils à l'école.",
+        "check": ["Привітання та ім'я", "Мета дзвінка (inscrire mon fils)"]
+      },
+      {
+        "examiner": "Oui. Quel âge a votre enfant ?",
+        "task": "Вік, клас і те, що ви щойно приїхали до Нанта.",
+        "model": "Il a 8 ans. Nous venons d'arriver à Nantes. L'école Jules-Verne a une place pour lui en CE2.",
+        "check": ["Вік", "Нещодавно приїхали", "Клас / школа"]
+      },
+      {
+        "examiner": "D'accord. Vous avez tous les documents ?",
+        "task": "Перелічіть документи і запитайте, чи треба перекладати свідоцтво про народження з української.",
+        "model": "J'ai l'acte de naissance, le carnet de vaccinations et un justificatif de domicile. L'acte de naissance est en ukrainien : est-ce qu'il faut une traduction ?",
+        "check": ["Перелічили документи", "Запитання про переклад"]
+      },
+      {
+        "examiner": "Oui, il faut une traduction. Et le justificatif de domicile, il est à votre nom ?",
+        "task": "Поясніть: ви живете в сестри, рахунки на її ім'я.",
+        "model": "Non, j'habite chez ma sœur, et les factures sont à son nom. Qu'est-ce que je dois faire ?",
+        "check": ["Пояснили ситуацію", "Запитали, що робити"]
+      },
+      {
+        "examiner": "Alors il faut aussi une attestation d'hébergement signée par votre sœur, avec sa pièce d'identité. Je vous propose un rendez-vous jeudi à dix heures trente, ou vendredi à quatorze heures.",
+        "task": "Оберіть п'ятницю 14:00 і поясніть: того ж дня після 16:30 можна піти до директорки.",
+        "model": "D'accord, je demande l'attestation à ma sœur. Je préfère vendredi à 14 heures, parce que le vendredi après 16 h 30, je peux aller à l'école voir la directrice avec le certificat.",
+        "check": ["Повторили, який документ потрібен", "Обрали час", "Пояснили вибір (parce que…)"]
+      },
+      {
+        "examiner": "C'est noté. Autre chose ?",
+        "task": "Запитайте про запис до їдальні (тут чи на сайті), подякуйте, попрощайтеся.",
+        "model": "Oui, une dernière question : je peux inscrire Maxym à la cantine pendant le rendez-vous ? … Très bien, merci beaucoup. Au revoir, monsieur.",
+        "check": ["Запитання про їдальню", "Подяка і прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail à Mme Rivière, la directrice. Présentez-vous, parlez de votre rendez-vous à la mairie, proposez de venir à l'école et posez une question sur la cantine.",
+    "taskUk": "Напишіть директорці: хто ви, коли зустріч у мерії, коли можете прийти до школи, і запитайте про їдальню.",
+    "minWords": 60,
+    "maxWords": 100,
+    "model": "Madame la Directrice,\n\nJe suis la maman de Maxym Bondarenko, 8 ans. Merci pour votre message. J'ai rendez-vous à la mairie annexe vendredi à 14 heures pour l'inscription. Je vous propose de venir à l'école le même jour, vers 16 h 45, avec le certificat d'inscription.\n\nEst-ce que Maxym peut manger à la cantine dès la première semaine ? Je vais demander l'attestation de quotient familial à la CAF.\n\nCordialement,\nOksana Bondarenko",
+    "checklist": ["Офіційне звертання (Madame la Directrice,)", "Хто ви і хто ваш син", "Дата зустрічі в мерії", "Пропозиція дня і часу візиту до школи", "Запитання про їдальню", "Cordialement + ім'я"]
+  },
+  "relatedVideos": ["1vd2AxWxzuU", "NkCc4U3QhIA"]
+}

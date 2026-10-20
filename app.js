@@ -30,10 +30,12 @@ const TOPICS = {
   sport:      { label: 'Спорт',               icon: '⚽' },
   food:       { label: 'Їжа і Франція зсередини', icon: '🥖' },
   travel:     { label: 'Подорожі',            icon: '🧳' },
+  daily:      { label: 'Повсякденне життя',   icon: '🏠' },
+  work:       { label: 'Робота і кар’єра',   icon: '👔' },
   other:      { label: 'Інше',                icon: '📺' },
 };
 
-const LEVELS = ['B1', 'B2', 'C1'];
+const LEVELS = ['A2', 'B1', 'B2', 'C1'];
 const STORE_KEY = 'ecoute-v1';
 // Через скільки днів показати картку знову (індекс = «коробка» 1…5, система Лейтнера)
 const SRS_DAYS = [0, 1, 2, 4, 8, 16];
@@ -199,13 +201,16 @@ function parseYouTubeId(input) {
 }
 
 /* ---------- 5. Навігація між екранами ---------- */
-// Адреси: #/  #/v/ID  #/words  #/review  #/progress  #/add
+// Адреси: #/  #/v/ID  #/words  #/review  #/progress  #/add  #/dcl/… (розділ DCL — у файлі dcl.js)
 
 function render() {
+  if (typeof dclBeforeLeave === 'function' && !dclBeforeLeave()) return; // не губимо пробний іспит
   cleanupLesson();
-  const [, page, arg] = location.hash.replace(/^#/, '').split('/');
+  if (typeof dclCleanup === 'function') dclCleanup();
+  const [, page, arg, arg2, arg3] = location.hash.replace(/^#/, '').split('/');
   let tab = 'library';
   if (page === 'v' && arg) { viewLesson(arg); tab = ''; }
+  else if (page === 'dcl') { viewDcl(arg, arg2, arg3); tab = 'dcl'; }
   else if (page === 'words') { viewWords(); tab = 'words'; }
   else if (page === 'review') { session = null; viewReview(); tab = 'words'; }
   else if (page === 'progress') { viewProgress(); tab = 'progress'; }
@@ -220,7 +225,10 @@ window.addEventListener('hashchange', render);
 const actions = {};
 app.addEventListener('click', (e) => {
   const el = e.target.closest('[data-act]');
-  if (el && actions[el.dataset.act]) { e.preventDefault(); actions[el.dataset.act](el, e); }
+  if (el && actions[el.dataset.act]) {
+    if (el.tagName !== 'INPUT') e.preventDefault(); // галочки (checkbox) мають перемикатися
+    actions[el.dataset.act](el, e);
+  }
 });
 const inputs = {};
 app.addEventListener('input', (e) => {
@@ -274,6 +282,7 @@ function metaTags(v) {
   return `
     <span class="tag">${t.icon} ${esc(t.label)}</span>
     ${v.level ? `<span class="tag lvl">${esc(v.level)}</span>` : ''}
+    ${v.dcl && typeof DCL_TOPICS !== 'undefined' ? `<span class="tag dcl" title="Рівень і тема для підготовки до DCL">DCL ${esc(v.dcl)} · ${esc((DCL_TOPICS[v.dclTopic] || DCL_TOPICS.societe).label)}</span>` : ''}
     ${L && L.done && L.understood != null ? `<span class="tag good">зрозумів ${L.understood}%</span>` : ''}`;
 }
 
@@ -313,6 +322,7 @@ function viewLibrary() {
   LEVELS.filter((l) => vids.some((v) => v.level === l)).forEach((l) => { levels[l] = l; });
 
   app.innerHTML = `
+    ${typeof dclHomeCard === 'function' ? dclHomeCard() : ''}
     ${daily ? `
     <section class="card hero">
       <div class="small muted">🎲 Відео на сьогодні</div>
@@ -942,7 +952,7 @@ actions.grade = (el) => {
 
 /* ---------- 9. Екран «Прогрес» ---------- */
 
-const isActiveDay = (d) => { const x = state.days[d]; return !!(x && (x.sec >= 60 || x.done > 0 || x.cards > 0)); };
+const isActiveDay = (d) => { const x = state.days[d]; return !!(x && (x.sec >= 60 || x.done > 0 || x.cards > 0 || x.dcl > 0)); };
 
 // Серія днів поспіль (якщо сьогодні ще не займався — рахуємо до вчора)
 function streak() {
@@ -997,6 +1007,8 @@ function viewProgress() {
         }).join('')}
       </div>
     </section>
+
+    ${typeof dclProgressCard === 'function' ? dclProgressCard() : ''}
 
     ${recent.length ? `
     <section class="card section">

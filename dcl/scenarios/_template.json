@@ -1,0 +1,53 @@
+{
+  "_help": "ШАБЛОН СЦЕНАРІЮ DCL. Скопіюйте файл, заповніть поля і додайте назву файлу в dcl/index.json. Поля з _help можна видалити.",
+  "id": "a2-exemple",
+  "level": "A2",
+  "_help_level": "A1 (DCL FP), A2 або B1",
+  "topic": "travail",
+  "_help_topic": "travail, logement, commerce, transport, sante, administration, evenement",
+  "title": "Titre du scénario en français",
+  "titleUk": "Назва українською",
+  "role": "Vous êtes … (хто ви в сценарії)",
+  "interlocutor": "Ім'я і посада людини, якій ви телефонуєте",
+  "mission": "Що треба зробити — французькою, як на іспиті.",
+  "missionUk": "Те саме коротко українською (показується лише в режимі тренування).",
+  "vocab": [
+    { "fr": "un mot", "uk": "слово" }
+  ],
+  "documents": [
+    { "type": "email", "title": "Назва документа", "text": "Текст документа.\nНовий рядок — через \\n." }
+  ],
+  "_help_documents": "type: email, annonce, affiche, horaires, menu, sms, note, fiche — впливає лише на оформлення",
+  "audio": [
+    { "title": "Message sur le répondeur", "voice": "f", "text": "Текст, який застосунок прочитає французьким голосом." }
+  ],
+  "_help_audio": "voice: f (жіночий) або m (чоловічий) голос",
+  "questions": [
+    { "part": "lecture", "q": "Питання до документів?", "options": ["варіант 1", "варіант 2", "варіант 3"], "answer": 0 },
+    { "part": "ecoute", "q": "Питання до аудіо?", "options": ["варіант 1", "варіант 2"], "answer": 1 },
+    { "part": "lecture", "q": "Питання з відповіддю словами?", "accept": ["правильна відповідь", "інший правильний варіант"] }
+  ],
+  "_help_questions": "part: lecture (читання) або ecoute (слухання). answer — номер правильного варіанта з 0. Замість options можна дати accept — тоді буде поле для введення.",
+  "oral": {
+    "intro": "Пояснення українською: кому телефонуєте і що маєте сказати.",
+    "turns": [
+      {
+        "examiner": "Репліка екзаменатора французькою (застосунок її озвучить).",
+        "task": "Підказка українською: що відповісти.",
+        "model": "Приклад хорошої відповіді французькою.",
+        "check": ["Пункт самоперевірки 1", "Пункт 2"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "_help_format": "email, lettre, sms, note, article",
+    "task": "Завдання для письма французькою.",
+    "taskUk": "Завдання українською.",
+    "minWords": 40,
+    "maxWords": 70,
+    "model": "Зразкова відповідь.",
+    "checklist": ["Що має бути в тексті 1", "Що має бути 2"]
+  },
+  "relatedVideos": ["vMIed3rlZtg"]
+}

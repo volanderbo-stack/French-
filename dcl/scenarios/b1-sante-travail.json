@@ -1,0 +1,110 @@
+{
+  "id": "b1-sante-travail",
+  "level": "B1",
+  "topic": "sante",
+  "title": "Une action santé au travail",
+  "titleUk": "Програма здоров'я на роботі",
+  "role": "Vous êtes Yuliia Marchenko, membre du comité social de « LogiTrans », une entreprise de logistique de 80 salariés à Rouen.",
+  "interlocutor": "M. Antoine Caron, directeur des ressources humaines (DRH)",
+  "mission": "Le comité a 3 000 € pour une action sur la santé au travail. Lisez les résultats du sondage et les trois propositions, écoutez le message du kinésithérapeute, puis téléphonez au DRH pour présenter et défendre votre choix. Enfin, écrivez un article pour la lettre d'information des salariés.",
+  "missionUk": "Оберіть з трьох пропозицій програму здоров'я для працівників на 3 000 € за результатами опитування, переконайте директора з персоналу і напишіть статтю для внутрішньої розсилки.",
+  "vocab": [
+    { "fr": "un sondage", "uk": "опитування" },
+    { "fr": "avoir mal au dos", "uk": "боліти спина" },
+    { "fr": "un entrepôt", "uk": "склад" },
+    { "fr": "porter des charges", "uk": "носити вантажі" },
+    { "fr": "un kinésithérapeute", "uk": "фізіотерапевт, кінезитерапевт" },
+    { "fr": "les gestes et postures", "uk": "правильні рухи й постава" },
+    { "fr": "un atelier", "uk": "практичне заняття, воркшоп" },
+    { "fr": "la lettre d'information", "uk": "внутрішня розсилка, бюлетень" }
+  ],
+  "documents": [
+    {
+      "type": "fiche",
+      "title": "Résultats du sondage (62 réponses)",
+      "text": "– 58 % des salariés ont mal au dos\n– 45 % se disent stressés\n– 30 % mangent mal à midi (sandwich devant l'ordinateur)\n– 20 % font du sport régulièrement\n\nÀ savoir : 40 % des salariés travaillent dans l'entrepôt (port de charges) et 60 % dans les bureaux."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 1 – Ateliers « Gestes et postures »",
+      "text": "Avec un kinésithérapeute, dans l'entreprise.\n10 séances d'une heure, groupes de 10 personnes, pour l'entrepôt et les bureaux.\nPrix : 2 400 €."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 2 – Salle de sport",
+      "text": "Abonnement à une salle de sport à 3 km : 30 € par mois et par salarié, l'entreprise paie la moitié.\nPour 20 salariés intéressés, pendant un an : 3 600 €."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 3 – Bien manger au travail",
+      "text": "Une corbeille de fruits frais chaque semaine + une conférence d'1 h 30 avec une diététicienne.\nPrix pour un an : 1 800 €."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message du kinésithérapeute",
+      "voice": "m",
+      "text": "Bonjour, ici Vincent Leroy, kinésithérapeute, pour les ateliers gestes et postures. Je vous confirme le prix de deux mille quatre cents euros. Je peux commencer en mars, le jeudi, entre treize et quinze heures. Petite information : pour l'entrepôt, je conseille de faire les séances directement sur le poste de travail, et pas dans une salle de réunion. Et si vous voulez, je peux ajouter une séance sur le stress et la respiration, pour trois cents euros. Rappelez-moi."
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "q": "Quel est le problème de santé le plus fréquent ?", "options": ["Le stress", "Le mal de dos", "La mauvaise alimentation"], "answer": 1 },
+    { "part": "lecture", "q": "Pourquoi la proposition 2 pose problème ?", "options": ["Elle est trop chère pour le budget", "La salle est trop loin", "Elle n'intéresse personne"], "answer": 0 },
+    { "part": "lecture", "q": "Quelle part des salariés travaille dans l'entrepôt ?", "options": ["20 %", "40 %", "60 %"], "answer": 1 },
+    { "part": "ecoute", "q": "Quand le kinésithérapeute peut commencer ?", "options": ["En janvier, le lundi matin", "En mars, le jeudi de 13 h à 15 h", "En avril, le vendredi soir"], "answer": 1 },
+    { "part": "ecoute", "q": "Où il conseille de faire les séances pour l'entrepôt ?", "options": ["Dans une salle de réunion", "Sur le poste de travail", "À la salle de sport"], "answer": 1 },
+    { "part": "ecoute", "q": "Combien coûte la séance supplémentaire sur le stress ? (en euros)", "accept": ["300", "300 €", "300€", "300 euros"] },
+    { "part": "ecoute", "q": "Ateliers + séance sur le stress : quel est le total ?", "options": ["2 400 €", "2 700 €", "3 300 €"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте директору з персоналу. Запропонуйте заняття з фізіотерапевтом + сесію про стрес (2 700 €), спираючись на опитування. Він заперечуватиме і повідомить про проблему з розкладом — знайдіть рішення.",
+    "turns": [
+      {
+        "examiner": "Bonjour Yuliia, Antoine Caron. Alors, le comité a fait son choix ?",
+        "task": "Привітайтеся, підтвердьте, що комітет обрав, і скажіть, що поясните.",
+        "model": "Bonjour monsieur Caron. Oui, le comité a fait son choix et je voudrais vous le présenter.",
+        "check": ["Привітання", "Вступ до теми"]
+      },
+      {
+        "examiner": "Je vous écoute.",
+        "task": "Представте вибір: заняття «Gestes et postures» + сесія про стрес; аргументи з опитування; ціна 2 700 €.",
+        "model": "Nous proposons les ateliers « gestes et postures » avec un kinésithérapeute. Selon le sondage, 58 % des salariés ont mal au dos : c'est le premier problème. Les ateliers concernent l'entrepôt et les bureaux. Nous ajoutons une séance sur le stress, parce que 45 % des salariés se disent stressés. Le total est de 2 700 euros, donc dans notre budget de 3 000 euros.",
+        "check": ["Назвали вибір", "Цифри з опитування", "Ціна і бюджет"]
+      },
+      {
+        "examiner": "Pourquoi pas la salle de sport ? Les jeunes de l'entrepôt la demandent beaucoup.",
+        "task": "Поясніть: 3 600 € — понад бюджет, і лише для 20 осіб; запропонуйте на наступний рік.",
+        "model": "Je comprends, c'est une bonne idée. Mais la salle de sport coûte 3 600 euros, plus que notre budget, et seulement vingt salariés en profitent. Les ateliers sont pour tout le monde. On peut proposer la salle de sport l'année prochaine.",
+        "check": ["Визнали ідею", "Аргумент бюджету", "Аргумент «для всіх»", "Компроміс на майбутнє"]
+      },
+      {
+        "examiner": "Autre problème : le jeudi de 13 à 15 heures, c'est le moment des livraisons à l'entrepôt. Les équipes ne peuvent pas s'arrêter.",
+        "task": "Запропонуйте інший час (вранці, інший день) і скажіть, що обговорите з фізіотерапевтом; розділіть групи.",
+        "model": "D'accord, c'est important. Je propose de demander au kinésithérapeute un autre créneau pour l'entrepôt, par exemple le matin avant les livraisons, ou un autre jour. Pour les bureaux, le jeudi reste possible. Je l'appelle cet après-midi.",
+        "check": ["Реакція на проблему", "Альтернативний час", "Що ви зробите"]
+      },
+      {
+        "examiner": "Et les fruits ? C'est moins cher…",
+        "task": "Фрукти — приємно, але не вирішують головну проблему; можливо пізніше з залишку бюджету.",
+        "model": "Oui, c'est sympathique, mais ça ne répond pas au problème principal, le mal de dos. Il nous reste 300 euros : on peut peut-être organiser une petite action sur l'alimentation plus tard.",
+        "check": ["Визнали плюс", "Аргумент пріоритету", "Ідея з рештою бюджету"]
+      },
+      {
+        "examiner": "Bon, je suis d'accord. Vous préparez une information pour les salariés ?",
+        "task": "Підтвердіть: напишете статтю в розсилку; подякуйте, попрощайтеся.",
+        "model": "Oui, j'écris un article pour la lettre d'information cette semaine. Merci pour votre accord, bonne journée !",
+        "check": ["Наступний крок", "Подяка і прощання"]
+      }
+    ]
+  },
+  "writing": {
+    "format": "article",
+    "task": "Écrivez un article pour la lettre d'information des salariés : annoncez les ateliers, expliquez pourquoi (résultats du sondage), donnez le programme et dites comment s'inscrire.",
+    "taskUk": "Напишіть статтю для внутрішньої розсилки: анонс занять, чому саме вони (опитування), програма і як записатися.",
+    "minWords": 120,
+    "maxWords": 180,
+    "model": "Prenez soin de votre dos !\n\nVous avez été nombreux à répondre à notre sondage sur la santé au travail, merci ! Les résultats sont clairs : 58 % d'entre vous ont mal au dos et 45 % se disent stressés.\n\nC'est pourquoi le comité social organise, à partir de mars, des ateliers « gestes et postures » avec Vincent Leroy, kinésithérapeute. Il y aura dix séances d'une heure, en groupes de dix personnes. Pour l'entrepôt, les séances auront lieu directement sur les postes de travail, à un horaire adapté aux livraisons. Pour les bureaux, elles auront lieu le jeudi de 13 h à 15 h.\n\nUne séance spéciale sur le stress et la respiration complétera le programme.\n\nLes ateliers sont gratuits. Pour vous inscrire, envoyez un e-mail au comité social avant le 20 février en indiquant votre service.\n\nLe comité social",
+    "checklist": ["Заголовок", "Звернення до читачів / вступ", "Результати опитування з цифрами", "Опис занять (хто, коли, де)", "Окремо: склад і офіси", "Сесія про стрес", "Як записатися і до коли", "Абзаци і зв'язки (c'est pourquoi, pour, en)"]
+  },
+  "relatedVideos": ["071rT-6irr8", "JGsUQdGX_qM"]
+}
