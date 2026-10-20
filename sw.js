@@ -2,7 +2,7 @@
    - Зберігає файли застосунку, щоб він відкривався навіть без інтернету.
    - videos.json завжди спершу береться з мережі (щоб нові відео з'являлися одразу).
    Якщо змінили app.js / styles.css і зміни не видно — збільшіть номер версії нижче. */
-const CACHE = 'ecoute-v2';
+const CACHE = 'ecoute-v3';
 const SHELL = [
   './',
   './index.html',
@@ -33,6 +33,8 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   // YouTube, картинки-прев'ю тощо — не чіпаємо, хай іде напряму в мережу
   if (req.method !== 'GET' || url.origin !== location.origin) return;
+  // Тренажер для столяра (папка menuisier) — окремий застосунок, його не кешуємо
+  if (url.pathname.includes('/menuisier/')) return;
 
   // videos.json: спершу мережа, якщо офлайн — збережена копія
   if (url.pathname.endsWith('/videos.json')) {
