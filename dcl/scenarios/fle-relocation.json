@@ -1,0 +1,220 @@
+{
+  "id": "fle-relocation",
+  "exam": "FLE",
+  "topic": "logement",
+  "title": "Accueillir un nouveau collaborateur étranger",
+  "titleUk": "Переїзд нового співробітника: житло і документи",
+  "role": "Vous êtes Olena Moroz, chargée de mobilité internationale au service RH d'« AéroTech », sous-traitant aéronautique de 400 salariés à Toulouse.",
+  "interlocutor": "M. Rafael Ortega, nouvel ingénieur (il arrive du Brésil)",
+  "mission": "M. Ortega commence le 1er mars. Il arrive avec sa femme et leur fille de 6 ans. Étudiez la politique de mobilité, ses souhaits, les trois offres de logement et les informations administratives, puis téléphonez-lui pour lui proposer un plan d'installation et en discuter. Enfin, envoyez-lui un e-mail récapitulatif.",
+  "missionUk": "Новий інженер із Бразилії приїжджає з родиною. Складіть план: тимчасове і постійне житло в межах політики компанії, адміністративні кроки (віза, страхування, школа). Узгодьте план з ним по телефону (він має свої побажання і повідомить нову інформацію) і надішліть підсумковий лист.",
+  "vocab": [
+    { "fr": "un logement temporaire", "uk": "тимчасове житло" },
+    { "fr": "le plafond", "uk": "максимальна сума, ліміт" },
+    { "fr": "un garant", "uk": "поручитель" },
+    { "fr": "la garantie Visale", "uk": "державна гарантія оплати оренди (замість поручителя)" },
+    { "fr": "un bulletin de salaire", "uk": "розрахунковий лист" },
+    { "fr": "le titre de séjour", "uk": "дозвіл на проживання" },
+    { "fr": "une attestation de résidence", "uk": "довідка про проживання" },
+    { "fr": "les démarches administratives", "uk": "адміністративні процедури" }
+  ],
+  "documents": [
+    {
+      "type": "fiche",
+      "title": "Politique de mobilité d'AéroTech",
+      "text": "– Logement temporaire pris en charge pendant 3 mois maximum, dans la limite de 1 800 € par mois.\n– Aide à la recherche d'un logement durable par le service RH.\n– Remboursement de 50 % des frais d'agence.\n– Accompagnement pour la garantie Visale (Action Logement), qui remplace le garant pour les nouveaux salariés."
+    },
+    {
+      "type": "email",
+      "title": "E-mail de M. Ortega",
+      "text": "Objet : Mon installation à Toulouse\n\nBonjour Madame Moroz,\n\nNous arrivons le 27 février. Nous aimerions un logement d'au moins trois pièces, près d'une école pour notre fille, Lucía, qui a six ans. Pour un logement durable, notre budget est de 1 300 € par mois maximum. Nous aimerions habiter dans le centre-ville, et nous n'aurons pas de voiture les premiers mois.\n\nMerci pour votre aide,\nRafael Ortega"
+    },
+    {
+      "type": "annonce",
+      "title": "Offre A – Appartement meublé, place du Capitole (centre)",
+      "text": "2 pièces, 48 m², entièrement meublé, en plein centre.\n1 950 € par mois, charges comprises. Disponible le 1er mars, location de 1 à 6 mois.\nMétro jusqu'à AéroTech : 40 minutes avec un changement. École la plus proche : 900 m."
+    },
+    {
+      "type": "annonce",
+      "title": "Offre B – Résidence services, Blagnac",
+      "text": "3 pièces, 65 m², meublé, ménage hebdomadaire.\n1 600 € par mois, charges comprises. Disponible le 1er mars, location de 3 à 6 mois.\nÀ 10 minutes à pied du site AéroTech. École élémentaire à 300 m. Une attestation de résidence est fournie à l'arrivée."
+    },
+    {
+      "type": "annonce",
+      "title": "Offre C – Location longue durée, Saint-Cyprien (centre)",
+      "text": "4 pièces, 82 m², non meublé, quartier vivant, école à 200 m, tram direct pour Blagnac (25 min).\nLoyer : 1 250 € + 100 € de charges. Libre le 15 avril.\nDossier : contrat de travail, trois derniers bulletins de salaire en France et un garant. Frais d'agence : 900 €."
+    },
+    {
+      "type": "fiche",
+      "title": "Démarches à l'arrivée (fiche RH)",
+      "text": "1. Visa « passeport talent » : le visa long séjour valant titre de séjour (VLS-TS) doit être validé en ligne dans les trois mois suivant l'arrivée.\n2. Sécurité sociale : inscription auprès de la CPAM dès l'arrivée ; un numéro provisoire est attribué.\n3. École : inscription à la mairie de la commune de résidence, avec un justificatif de domicile ; une attestation de résidence de moins de trois mois est acceptée.\n4. Ouverture d'un compte bancaire en France, nécessaire au versement du salaire."
+    },
+    {
+      "type": "fiche",
+      "title": "Article – « Se loger à Toulouse : un parcours d'obstacles »",
+      "text": "Avec l'essor de l'aéronautique, le marché locatif toulousain est sous tension : il faut en moyenne deux mois pour trouver un logement familial. Les propriétaires exigent généralement des bulletins de salaire et un garant, ce qui pénalise les nouveaux arrivants. La garantie Visale, gratuite, est toutefois acceptée par environ 70 % des agences. Les spécialistes de la mobilité conseillent de commencer par un logement temporaire, puis de chercher un logement durable une fois sur place."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de l'agence (offre C)",
+      "voice": "f",
+      "text": "Bonjour madame Moroz, ici Claire Dubreuil, de l'agence Garonne Immobilier, pour l'appartement de Saint-Cyprien. Bonne nouvelle : le propriétaire accepte la garantie Visale à la place d'un garant. Il peut même avancer l'entrée au premier avril. En revanche, il veut une réponse avant le dix février, car il a d'autres candidats. Pour les bulletins de salaire, il accepterait le contrat de travail et une attestation de l'employeur. Rappelez-moi vite !"
+    },
+    {
+      "title": "Point entre la DRH et le service paie",
+      "dialog": [
+        { "voice": "f", "who": "DRH", "text": "Pour le logement temporaire, le plafond de mille huit cents euros est strict : on ne fera pas d'exception pour un appartement plus cher, même de peu." },
+        { "voice": "m", "who": "Service paie", "text": "Compris. Par contre, si le logement durable n'est pas prêt à temps, on peut prolonger la prise en charge à quatre mois, à titre exceptionnel." },
+        { "voice": "f", "who": "DRH", "text": "Oui, ça, je peux l'accepter. Et pour sa paie ?" },
+        { "voice": "m", "who": "Service paie", "text": "Son premier bulletin de salaire ne sera édité que fin mars. Il lui faut donc un compte bancaire français avant le vingt-cinq mars." }
+      ]
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "lvl": "A2", "q": "Pendant combien de temps l'entreprise paie-t-elle le logement temporaire ?", "options": ["1 mois", "3 mois", "1 an"], "answer": 1 },
+    { "part": "lecture", "lvl": "A2", "q": "Combien de pièces au minimum la famille souhaite-t-elle ? (chiffre)", "accept": ["3", "trois"] },
+    { "part": "lecture", "lvl": "B1", "q": "Quelle offre dépasse le plafond de l'entreprise ?", "options": ["L'offre A", "L'offre B", "L'offre C"], "answer": 0 },
+    { "part": "lecture", "lvl": "B1", "q": "Pourquoi l'offre C ne convient-elle pas dès le 1er mars ?", "options": ["Elle est trop chère", "Elle n'est libre que le 15 avril", "Elle est trop petite"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Quel dispositif peut remplacer le garant demandé pour l'offre C ?", "options": ["La garantie Visale", "Le passeport talent", "La CPAM"], "answer": 0 },
+    { "part": "lecture", "lvl": "B2", "q": "Que faut-il faire avec le visa dans les trois mois après l'arrivée ?", "options": ["Le renouveler à l'ambassade", "Le valider en ligne", "Rien"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Selon l'article, quelle stratégie est la plus réaliste pour un nouvel arrivant ?", "options": ["Signer un bail de longue durée avant l'arrivée", "Commencer par un logement temporaire, puis chercher un logement durable sur place", "Acheter un appartement"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Quel document permettra d'inscrire Lucía à l'école avant d'avoir un bail ?", "options": ["Le contrat de travail", "L'attestation de résidence fournie par la résidence services", "Le passeport"], "answer": 1 },
+    { "part": "ecoute", "lvl": "A2", "q": "Avant quelle date le propriétaire de l'offre C veut-il une réponse ?", "options": ["Le 1er février", "Le 10 février", "Le 15 avril"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "À quelle date l'entrée dans l'appartement C peut-elle être avancée ?", "options": ["Au 1er mars", "Au 1er avril", "Au 15 mars"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Que propose le propriétaire à la place des bulletins de salaire ?", "options": ["Rien, il les exige", "Le contrat de travail et une attestation de l'employeur", "Six mois de loyer d'avance"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Que dit la DRH sur le plafond de 1 800 € ?", "options": ["Il peut être dépassé un peu", "Il est strict, sans exception", "Il ne concerne que les cadres"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Avant quelle date M. Ortega doit-il avoir un compte bancaire français ?", "options": ["Le 1er mars", "Le 25 mars", "Le 15 avril"], "answer": 1 },
+    { "part": "ecoute", "lvl": "C1", "q": "Quel plan est cohérent avec toutes les contraintes ?", "options": ["Offre A en mars, puis offre C", "Offre B du 1er au 31 mars, puis offre C dès le 1er avril, avec la garantie Visale et une réponse avant le 10 février", "Offre C dès le 1er mars"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Фаза 3: ви телефонуєте пану Ортезі і пропонуєте план (резиденція B у березні, потім квартира C з 1 квітня з гарантією Visale + адміністративні кроки). Фаза 4: у нього інші побажання, і він повідомить нову інформацію — шукайте рішення разом.",
+    "turns": [
+      {
+        "phase": 3,
+        "examiner": "Allô, Rafael Ortega.",
+        "voice": "m",
+        "task": "Привітайтеся, представтеся, поясніть мету дзвінка.",
+        "models": {
+          "B1": "Bonjour monsieur Ortega, je suis Olena Moroz, du service RH d'AéroTech. Je vous appelle pour votre logement.",
+          "B2": "Bonjour monsieur Ortega, Olena Moroz, chargée de mobilité au service RH d'AéroTech. Je vous appelle pour vous proposer un plan pour votre installation à Toulouse : le logement et les démarches administratives.",
+          "C1": "Bonjour monsieur Ortega, Olena Moroz, chargée de mobilité internationale chez AéroTech. Merci pour votre e-mail ; j'ai étudié vos souhaits au regard de notre politique de mobilité et des offres disponibles, et je vous appelle pour vous soumettre un plan d'installation complet, logement et démarches comprises."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Привітання і хто ви" },
+          { "lvl": "B1", "t": "Мета дзвінка" },
+          { "lvl": "C1", "t": "Показали, що врахували його лист і політику компанії" }
+        ]
+      },
+      {
+        "phase": 3,
+        "examiner": "Très bien, je vous écoute.",
+        "voice": "m",
+        "task": "Представте план у два етапи (B → C), умови (Visale, відповідь до 10 лютого) і головні адміністративні кроки.",
+        "models": {
+          "B1": "Pour mars, je vous propose une résidence à Blagnac, avec trois pièces, près du travail et d'une école. Après, à partir du 1er avril, un appartement de quatre pièces à Saint-Cyprien, dans le centre.",
+          "B2": "Je vous propose un plan en deux étapes. En mars, la résidence services de Blagnac : trois pièces, à dix minutes à pied du site et à 300 mètres d'une école, à 1 600 euros, payés par l'entreprise. Puis, dès le 1er avril, un quatre-pièces à Saint-Cyprien, en centre-ville, à 1 350 euros charges comprises. Le propriétaire accepte la garantie Visale, mais il veut une réponse avant le 10 février. Côté démarches, il faudra valider votre visa en ligne, vous inscrire à la CPAM et ouvrir un compte bancaire avant le 25 mars.",
+          "C1": "Je vous propose une installation en deux temps. Pour le mois de mars, la résidence services de Blagnac, entièrement prise en charge : trois pièces meublées, à dix minutes à pied du site et à 300 mètres d'une école, avec une attestation de résidence qui permettra d'inscrire Lucía immédiatement. Dès le 1er avril, vous pourriez emménager dans un quatre-pièces à Saint-Cyprien, en plein centre comme vous le souhaitiez, pour 1 350 euros charges comprises ; le propriétaire accepte la garantie Visale et se contenterait de votre contrat et d'une attestation de l'employeur. La seule contrainte est de lui répondre avant le 10 février. Parallèlement, je vous accompagnerai pour valider votre visa, vous inscrire à la CPAM et ouvrir un compte bancaire avant le 25 mars, date de votre première paie."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Назвали житло і дати" },
+          { "lvl": "B1", "t": "Два етапи: тимчасове → постійне" },
+          { "lvl": "B2", "t": "Умови (Visale, відповідь до 10 лютого) і ціни" },
+          { "lvl": "B2", "t": "Адміністративні кроки" },
+          { "lvl": "C1", "t": "Пов'язали деталі між собою (довідка для школи, рахунок до першої зарплати)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Je préférerais l'appartement du Capitole, en plein centre. La différence n'est que de cent cinquante euros, je peux la payer moi-même.",
+        "voice": "m",
+        "task": "Поясніть правило (ліміт суворий), але головне — чому квартира A не підходить родині (2 кімнати, школа, 40 хв до роботи без машини).",
+        "models": {
+          "B1": "Je comprends, mais l'entreprise ne paie pas plus de 1 800 euros. Et l'appartement a seulement deux pièces.",
+          "B2": "Je comprends que le centre vous attire. Mais notre plafond est strict, et la direction ne fait pas d'exception, même si vous payez la différence. Surtout, l'appartement du Capitole n'a que deux pièces pour trois personnes, l'école est à 900 mètres, et sans voiture, vous auriez 40 minutes de métro pour venir travailler.",
+          "C1": "Votre proposition est tout à fait compréhensible. Je dois cependant vous signaler que la direction a été très claire : le plafond ne souffre aucune exception, même avec une participation de votre part. Mais au-delà de la règle, je crains que cet appartement ne réponde pas à vos besoins : deux pièces pour une famille de trois, une école à près d'un kilomètre et quarante minutes de transport chaque jour, sans voiture. Le centre-ville, vous l'aurez dès avril à Saint-Cyprien, dans de bien meilleures conditions."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Нагадали про ліміт" },
+          { "lvl": "B2", "t": "Практичні аргументи (кімнати, школа, дорога)" },
+          { "lvl": "C1", "t": "Поступка + перехід до вигоди (центр з квітня)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Ah, il faut que je vous dise : ma femme vient de trouver un poste à Blagnac, près de l'aéroport. Ça change quelque chose ?",
+        "voice": "m",
+        "task": "Нова інформація! Покажіть, що вона посилює варіант B, і обговоріть, чи залишити C (трамвай 25 хв) або шукати житло в Бланьяку; запропонуйте продовжити тимчасове житло до 4 місяців.",
+        "models": {
+          "B1": "C'est très bien ! La résidence est à Blagnac. Pour Saint-Cyprien, il y a un tram direct pour Blagnac.",
+          "B2": "C'est une très bonne nouvelle, et ça renforce le choix de la résidence de Blagnac pour commencer. Pour la suite, deux possibilités : garder Saint-Cyprien, avec le tram direct pour Blagnac en 25 minutes, ou chercher plutôt un logement à Blagnac. Si vous préférez chercher, l'entreprise peut exceptionnellement prolonger le logement temporaire à quatre mois.",
+          "C1": "Félicitations à votre épouse ! Cela conforte évidemment la résidence de Blagnac pour les premières semaines. Pour le logement durable, la question mérite d'être posée : Saint-Cyprien vous offre le centre-ville et un tram direct de 25 minutes pour Blagnac, mais vous feriez tous les deux le trajet chaque jour. Si vous souhaitez explorer des logements à Blagnac, je peux obtenir une prolongation exceptionnelle du logement temporaire à quatre mois. Il faudrait toutefois trancher avant le 10 février, faute de quoi nous perdrions Saint-Cyprien."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Відреагували на новину" },
+          { "lvl": "B2", "t": "Два варіанти на вибір (залишити C / шукати в Бланьяку)" },
+          { "lvl": "B2", "t": "Продовження тимчасового житла до 4 місяців" },
+          { "lvl": "C1", "t": "Переваги й недоліки кожного варіанта + нагадування про дедлайн" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Et pour l'école de Lucía ? Sans bail, on ne pourra pas l'inscrire, non ?",
+        "voice": "m",
+        "task": "Поясніть: довідка про проживання від резиденції підходить для мерії; школа за 300 м.",
+        "models": {
+          "B1": "Si, c'est possible. La résidence donne une attestation. Vous allez à la mairie de Blagnac.",
+          "B2": "Si, c'est possible : la résidence vous donne une attestation de résidence à votre arrivée, et la mairie l'accepte comme justificatif de domicile. Vous pourrez donc inscrire Lucía à l'école à 300 mètres dès les premiers jours.",
+          "C1": "Rassurez-vous, ce ne sera pas un obstacle : la résidence remet une attestation de résidence dès l'arrivée, et la mairie accepte ce document, à condition qu'il date de moins de trois mois. Lucía pourra donc être inscrite à l'école voisine dès la première semaine. En cas de déménagement à Saint-Cyprien en avril, il faudra simplement prévoir un changement d'école, ce que je peux anticiper avec vous."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Сказали, що це можливо" },
+          { "lvl": "B2", "t": "Пояснили документ і процедуру" },
+          { "lvl": "C1", "t": "Умова (менше 3 місяців) + передбачили зміну школи" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Merci beaucoup, c'est beaucoup plus clair. On fait comment, maintenant ?",
+        "voice": "m",
+        "task": "Підсумуйте наступні кроки з термінами, пообіцяйте лист, попрощайтеся.",
+        "models": {
+          "B1": "Je réserve la résidence et je vous envoie un e-mail. Au revoir, monsieur.",
+          "B2": "Je réserve aujourd'hui la résidence de Blagnac. Vous me dites avant le 8 février si vous voulez Saint-Cyprien, pour que je réponde à l'agence. Je vous envoie un e-mail avec toutes les démarches. Bonne journée !",
+          "C1": "Voici la suite : je réserve dès aujourd'hui la résidence de Blagnac à partir du 1er mars ; de votre côté, vous en parlez avec votre épouse et vous me donnez votre décision pour Saint-Cyprien d'ici le 8 février, ce qui me laisse le temps de répondre à l'agence. Je vous adresse cet après-midi un récapitulatif avec le calendrier des démarches. Au plaisir de vous accueillir à Toulouse !"
+        },
+        "check": [
+          { "lvl": "A2", "t": "Попрощалися" },
+          { "lvl": "B1", "t": "Що ви зробите" },
+          { "lvl": "B2", "t": "Що має зробити він і до коли" },
+          { "lvl": "C1", "t": "Розподіл задач із запасом часу до дедлайну" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Envoyez à M. Ortega un e-mail récapitulatif : le plan de logement en deux étapes et ses conditions, les alternatives discutées, les démarches administratives avec leurs dates, et ce que chacun doit faire.",
+    "taskUk": "Підсумковий лист пану Ортезі: план житла у два етапи з умовами, обговорені альтернативи, адміністративні кроки з датами і хто що робить.",
+    "minWords": 150,
+    "maxWords": 250,
+    "models": {
+      "B1": "Objet : votre installation à Toulouse\n\nBonjour Monsieur Ortega,\n\nMerci pour notre conversation. Voici le plan.\n\nEn mars, vous habitez dans la résidence services de Blagnac. Elle a trois pièces, elle est près d'AéroTech et d'une école. L'entreprise paie.\n\nÀ partir du 1er avril, vous pouvez louer l'appartement de Saint-Cyprien. Il a quatre pièces et coûte 1 350 euros. Il faut répondre avant le 10 février.\n\nVous devez valider votre visa en ligne, aller à la CPAM et ouvrir un compte en banque avant le 25 mars. Pour l'école de Lucía, la mairie accepte l'attestation de la résidence.\n\nCordialement,\nOlena Moroz",
+      "B2": "Objet : Votre installation à Toulouse – plan et démarches\n\nBonjour Monsieur Ortega,\n\nComme convenu, voici le récapitulatif de notre échange.\n\nLogement temporaire : la résidence services de Blagnac (3 pièces, 1 600 €), prise en charge par AéroTech à partir du 1er mars. Elle se trouve à dix minutes à pied du site et à 300 m d'une école.\n\nLogement durable : un 4 pièces à Saint-Cyprien, disponible dès le 1er avril, pour 1 350 € charges comprises. Le propriétaire accepte la garantie Visale ainsi que votre contrat de travail. Comme votre épouse travaillera à Blagnac, vous pouvez aussi chercher un logement là-bas : dans ce cas, le logement temporaire pourra être prolongé à quatre mois. Merci de me donner votre décision avant le 8 février.\n\nDémarches : valider votre visa en ligne dans les trois mois, vous inscrire à la CPAM dès votre arrivée et ouvrir un compte bancaire avant le 25 mars. Lucía pourra être inscrite à l'école grâce à l'attestation de résidence.\n\nJe reste à votre disposition.\n\nCordialement,\nOlena Moroz\nService RH – AéroTech",
+      "C1": "Objet : Votre installation à Toulouse – plan d'action\n\nBonjour Monsieur Ortega,\n\nJe vous remercie pour notre échange et vous adresse, comme promis, le récapitulatif de votre installation.\n\n1. Logement\nDès le 1er mars, vous serez accueillis à la résidence services de Blagnac, intégralement prise en charge par AéroTech : trois pièces meublées, à dix minutes à pied du site et à 300 mètres d'une école, ce qui, compte tenu du nouveau poste de votre épouse à Blagnac, constitue un point de départ idéal.\nPour la suite, deux options s'offrent à vous. Soit le 4 pièces de Saint-Cyprien, disponible dès le 1er avril (1 350 € charges comprises), pour lequel le propriétaire accepte la garantie Visale ; soit une recherche à Blagnac, auquel cas la prise en charge du logement temporaire serait exceptionnellement prolongée à quatre mois. L'agence attendant une réponse avant le 10 février, je vous saurais gré de me communiquer votre choix d'ici le 8.\n\n2. Démarches\n– validation en ligne du VLS-TS dans les trois mois suivant votre arrivée ;\n– inscription à la CPAM dès les premiers jours ;\n– ouverture d'un compte bancaire avant le 25 mars, date de votre première paie ;\n– inscription de Lucía à la mairie, grâce à l'attestation de résidence remise par la résidence.\n\nJe vous accompagnerai dans chacune de ces étapes. N'hésitez pas à me solliciter.\n\nBien cordialement,\nOlena Moroz\nChargée de mobilité internationale – AéroTech"
+    },
+    "checklist": [
+      { "lvl": "A2", "t": "Тема, звертання, підпис" },
+      { "lvl": "A2", "t": "Тимчасове житло і дата" },
+      { "lvl": "B1", "t": "Постійне житло: ціна і дата" },
+      { "lvl": "B1", "t": "Адміністративні кроки" },
+      { "lvl": "B2", "t": "Умови (Visale, дедлайн 10 / 8 лютого)" },
+      { "lvl": "B2", "t": "Альтернатива (Бланьяк) і продовження до 4 місяців" },
+      { "lvl": "B2", "t": "Дати для кожного кроку" },
+      { "lvl": "C1", "t": "Структура з розділами і переліком" },
+      { "lvl": "C1", "t": "Пов'язано нову інформацію (робота дружини) з рекомендацією" },
+      { "lvl": "C1", "t": "Офіційні формули (je vous saurais gré, auquel cas, compte tenu de…)" }
+    ]
+  },
+  "relatedVideos": ["xavLnNnZsLc", "GykhzRqG3YQ"]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "fle-seminaire",
+  "exam": "FLE",
+  "topic": "evenement",
+  "title": "Organiser le séminaire annuel",
+  "titleUk": "Організувати щорічний виїзний семінар",
+  "role": "Vous êtes Taras Kravets, assistant de direction chez « Atlantic Conseil », une société de conseil de 25 salariés à Nantes.",
+  "interlocutor": "Mme Catherine Fabre, directrice générale",
+  "mission": "La directrice vous confie l'organisation du séminaire annuel (deux jours, 25 personnes). Étudiez les documents et les enregistrements, choisissez le lieu le plus adapté, puis téléphonez à Mme Fabre pour présenter et défendre votre proposition. Enfin, adressez-lui un récapitulatif écrit.",
+  "missionUk": "Оберіть місце для дводенного семінару з трьох пропозицій з урахуванням бюджету, прихованих витрат, побажань працівників і фінансового директора. Захистіть вибір у розмові з директоркою і надішліть підсумковий лист.",
+  "vocab": [
+    { "fr": "un forfait", "uk": "пакетна ціна" },
+    { "fr": "une réduction de 10 %", "uk": "знижка 10 %" },
+    { "fr": "un coût caché", "uk": "прихована витрата" },
+    { "fr": "dépasser le budget", "uk": "перевищити бюджет" },
+    { "fr": "une navette", "uk": "трансфер" },
+    { "fr": "une activité d'équipe", "uk": "командна активність" },
+    { "fr": "accessible aux personnes à mobilité réduite", "uk": "доступний для людей з обмеженою мобільністю" },
+    { "fr": "un récapitulatif", "uk": "підсумок" }
+  ],
+  "documents": [
+    {
+      "type": "note",
+      "title": "Note de la directrice",
+      "text": "Séminaire annuel – jeudi 12 et vendredi 13 juin – 25 personnes\n\nCritères :\n– sortir de Nantes, pour changer d'air\n– budget : 4 000 € au total (hébergement, repas et salle)\n– une activité d'équipe, si possible incluse dans le budget\n– accès en train\n– une salle de réunion pour 25 personnes"
+    },
+    {
+      "type": "annonce",
+      "title": "Domaine des Pins – Pornic (bord de mer)",
+      "text": "Forfait séminaire : 150 € par personne (une nuit, trois repas, salle de réunion)\nSalle de 30 places, wifi\nGare de Pornic à 2 km : navette gratuite\nActivité en option : initiation à la voile, 20 € par personne"
+    },
+    {
+      "type": "annonce",
+      "title": "Château de la Loire – Ancenis",
+      "text": "Forfait séminaire : 180 € par personne (une nuit, trois repas, boissons, salle, activités)\nActivités incluses : rallye dans le parc, atelier cuisine\nSalle de 40 places, vidéoprojecteur\nGare d'Ancenis à 500 m"
+    },
+    {
+      "type": "annonce",
+      "title": "Hôtel Centre Congrès – Nantes centre",
+      "text": "Forfait séminaire : 120 € par personne (une nuit, trois repas, salle moderne)\nTram devant l'hôtel\nActivité en option : escape game, 15 € par personne"
+    },
+    {
+      "type": "fiche",
+      "title": "Questionnaire aux salariés (22 réponses)",
+      "text": "Ce que vous attendez du séminaire :\n– une vraie activité d'équipe : 64 %\n– des ateliers de travail sur la stratégie : 55 %\n– du temps libre : 27 %\n\nCommentaires :\n« L'an dernier, on n'a pas bougé de la salle de réunion. » (anonyme)\n« Pensez à l'accessibilité : je me déplace en fauteuil roulant. » (Paul, service comptable)\n« Merci d'éviter les activités sportives intenses : je serai enceinte de six mois. » (Sarah, consultante)"
+    },
+    {
+      "type": "fiche",
+      "title": "Avis en ligne sur le Domaine des Pins",
+      "text": "★★★★★ « Cadre magnifique face à la mer, personnel aux petits soins. » – Hélène, mars\n\n★★★☆☆ « Très bien, mais attention : les boissons pendant les repas ne sont PAS comprises dans le forfait (comptez environ 8 € par personne et par repas). » – Bruno, avril\n\n★★☆☆☆ « Impossible de dormir le samedi soir : il y avait un mariage dans la salle voisine jusqu'à 3 h du matin. » – Lucie, mai\n\n★★★★☆ « Pas d'ascenseur dans le bâtiment principal, mais deux chambres adaptées au rez-de-chaussée. Les réserver à l'avance ! » – Marc, mai"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message du Domaine des Pins",
+      "voice": "f",
+      "text": "Bonjour, ici Julie Marchand, du Domaine des Pins. Suite à votre demande, j'ai une bonne nouvelle : pour les groupes de plus de vingt personnes en juin, nous faisons une réduction de dix pour cent sur le forfait. Le forfait passe donc à cent trente-cinq euros par personne. Petite information : notre vidéoprojecteur est en réparation, mais nous aurons un grand écran mobile. Et pour l'initiation à la voile, il faut confirmer avant le quinze mai. N'hésitez pas à me rappeler !"
+    },
+    {
+      "title": "Extrait du comité de direction",
+      "dialog": [
+        { "voice": "f", "who": "Mme Fabre", "text": "Je tiens vraiment à ce qu'on sorte de Nantes cette année. L'an dernier, à l'hôtel en ville, tout le monde s'est ennuyé, et les gens rentraient chez eux le soir." },
+        { "voice": "m", "who": "M. Benoît, directeur financier", "text": "D'accord, mais je vous rappelle que le budget de quatre mille euros n'est pas indicatif. On peut le dépasser légèrement si c'est justifié, mais pas de plus de cinq pour cent." },
+        { "voice": "f", "who": "Mme Fabre", "text": "Cinq pour cent, entendu. Et l'activité, j'y tiens : c'est ce que les équipes demandent." },
+        { "voice": "m", "who": "M. Benoît", "text": "Alors méfions-nous des options payantes. L'an dernier, les boissons n'étaient pas comprises, et la facture finale a été bien plus élevée que prévu." }
+      ]
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "lvl": "A2", "q": "Combien coûte le Château de la Loire pour 25 personnes ?", "options": ["3 750 €", "4 500 €", "3 000 €"], "answer": 1 },
+    { "part": "lecture", "lvl": "A2", "q": "Combien de places a la salle du Domaine des Pins ? (chiffre)", "accept": ["30", "trente"] },
+    { "part": "lecture", "lvl": "B1", "q": "Quel est le problème de l'Hôtel Centre Congrès ?", "options": ["Il est trop cher", "Il n'a pas de salle", "Il est à Nantes : on ne sort pas de la ville"], "answer": 2 },
+    { "part": "lecture", "lvl": "B1", "q": "Comment aller de la gare de Pornic au Domaine des Pins ?", "options": ["À pied, 500 m", "Avec une navette gratuite", "En taxi"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Que demandent en priorité les salariés ?", "options": ["Du temps libre", "Une vraie activité d'équipe", "Un hôtel de luxe"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Pour Paul, que faut-il prévoir au Domaine des Pins ?", "options": ["Rien, il y a un ascenseur", "Réserver à l'avance une des deux chambres adaptées au rez-de-chaussée", "Choisir un autre lieu, c'est impossible"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Quel avis en ligne n'est pas pertinent pour notre séminaire ?", "options": ["Celui sur les boissons", "Celui sur le mariage du samedi soir, car le séminaire a lieu jeudi et vendredi", "Celui sur les chambres adaptées"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Quel coût caché révèlent les avis en ligne ?", "options": ["La navette est payante", "Les boissons des repas ne sont pas comprises (≈ 8 € par personne et par repas)", "La salle est facturée en plus"], "answer": 1 },
+    { "part": "ecoute", "lvl": "A2", "q": "Quelle réduction propose le Domaine des Pins ?", "options": ["5 %", "10 %", "20 %"], "answer": 1 },
+    { "part": "ecoute", "lvl": "A2", "q": "Quel est le nouveau prix du forfait par personne ? (en euros)", "accept": ["135", "135 €", "135€", "135 euros"] },
+    { "part": "ecoute", "lvl": "B1", "q": "Avant quelle date faut-il confirmer la voile ?", "options": ["Le 1er mai", "Le 15 mai", "Le 12 juin"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Quel problème technique signale le Domaine ?", "options": ["Pas de wifi", "Le vidéoprojecteur est en réparation, un écran mobile est prévu", "La salle est fermée"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Pourquoi la directrice veut-elle sortir de Nantes ?", "options": ["L'an dernier, à l'hôtel en ville, tout le monde s'est ennuyé", "C'est moins cher", "Les clients le demandent"], "answer": 0 },
+    { "part": "ecoute", "lvl": "B2", "q": "Quel dépassement du budget le directeur financier accepte-t-il ?", "options": ["Aucun", "Au maximum 5 %, s'il est justifié", "Jusqu'à 20 %"], "answer": 1 },
+    { "part": "ecoute", "lvl": "C1", "q": "Avec la réduction, la voile et les boissons (25 × 3 repas × 8 €), combien coûterait le Domaine des Pins ?", "options": ["3 875 € — dans le budget", "4 475 € — au-delà des 5 % tolérés", "4 200 € — exactement la limite"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Фаза 3: ви телефонуєте директорці і пропонуєте місце з розрахунком бюджету (не забудьте приховану витрату — напої). Фаза 4: вона заперечуватиме, повідомить нові обмеження і можливість переговорів — реагуйте гнучко.",
+    "turns": [
+      {
+        "phase": 3,
+        "examiner": "Allô, Catherine Fabre.",
+        "voice": "f",
+        "task": "Привітайтеся і назвіть тему дзвінка.",
+        "models": {
+          "B1": "Bonjour madame Fabre, c'est Taras. Je vous appelle pour le séminaire de juin.",
+          "B2": "Bonjour madame Fabre, Taras Kravets. Je vous appelle au sujet du séminaire des 12 et 13 juin : j'ai comparé les trois lieux et j'ai une proposition à vous faire.",
+          "C1": "Bonjour madame Fabre, Taras Kravets à l'appareil. Je vous appelle au sujet du séminaire des 12 et 13 juin. J'ai étudié les trois offres en tenant compte de vos critères, du questionnaire et des remarques de M. Benoît ; je souhaiterais vous soumettre une proposition."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Привітання та хто ви" },
+          { "lvl": "B1", "t": "Тема дзвінка" },
+          { "lvl": "C1", "t": "Назвали джерела, на які спирається пропозиція" }
+        ]
+      },
+      {
+        "phase": 3,
+        "examiner": "Je vous écoute. Quel lieu proposez-vous ?",
+        "voice": "f",
+        "task": "Запропонуйте Domaine des Pins, поясніть відповідність критеріям і бюджет з урахуванням напоїв; запропонуйте рішення, як не перевищити бюджет.",
+        "models": {
+          "B1": "Je propose le Domaine des Pins, à Pornic. C'est au bord de la mer, on y va en train et il y a une réduction de 10 %. Le prix est de 135 euros par personne.",
+          "B2": "Je vous propose le Domaine des Pins, à Pornic : on sort de Nantes, on y va en train avec une navette gratuite, et grâce à la réduction de 10 %, le forfait est à 135 euros par personne, soit 3 375 euros. Attention toutefois : les boissons ne sont pas comprises, environ 600 euros. Avec la voile, on dépasserait le budget ; je propose donc de remplacer la voile par une randonnée sur le sentier côtier, ce qui nous fait environ 3 975 euros.",
+          "C1": "Je vous recommande le Domaine des Pins, à Pornic, qui répond à l'ensemble de vos critères : on quitte Nantes, l'accès en train est simple grâce à une navette gratuite, et la réduction de 10 % ramène le forfait à 135 euros par personne. Il y a néanmoins un coût caché, signalé par plusieurs avis : les boissons ne sont pas incluses, ce qui représente environ 600 euros. Voile comprise, on arriverait à 4 475 euros, au-delà des 5 % tolérés par M. Benoît. Je propose donc soit de négocier l'inclusion des boissons, soit de remplacer la voile par une randonnée guidée sur le sentier côtier, ce qui nous maintiendrait sous les 4 000 euros."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Назвали місце" },
+          { "lvl": "B1", "t": "2+ критерії, яким воно відповідає" },
+          { "lvl": "B2", "t": "Розрахунок бюджету з цифрами" },
+          { "lvl": "B2", "t": "Згадали приховану витрату (напої)" },
+          { "lvl": "C1", "t": "Запропонували два шляхи вирішення (переговори / заміна активності)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Le château d'Ancenis me plaisait beaucoup, pourtant. C'est plus prestigieux, et les activités sont incluses.",
+        "voice": "f",
+        "task": "Визнайте переваги замку, але покажіть, що він виходить за дозволену межу бюджету.",
+        "models": {
+          "B1": "Oui, le château est très beau. Mais il coûte 4 500 euros. C'est trop cher pour notre budget.",
+          "B2": "Je comprends, le château est très beau et tout est inclus. Mais il coûte 4 500 euros, soit 500 euros de plus que le budget, alors que M. Benoît n'accepte pas plus de 5 % de dépassement, c'est-à-dire 4 200 euros. Le Domaine des Pins offre aussi un cadre qui marquera les esprits, au bord de la mer.",
+          "C1": "Je partage votre avis : le château a du prestige et sa formule tout compris est rassurante. Toutefois, avec 4 500 euros, il excède de 12,5 % le budget, alors que M. Benoît a fixé la tolérance à 5 %. Il me semble difficile de défendre un tel écart. Le Domaine des Pins, face à la mer, répond tout autant à votre souhait de changer d'air, pour un coût maîtrisé."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Визнали перевагу співрозмовника" },
+          { "lvl": "B2", "t": "Аргумент бюджету з межею 5 % (4 200 €)" },
+          { "lvl": "C1", "t": "Точний розрахунок перевищення і нюансована відповідь" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Autre chose : j'ai appris ce matin que trois collègues ne savent pas nager. Et Sarah ne pourra pas faire d'activité sportive. La voile, ce n'est vraiment pas idéal…",
+        "voice": "f",
+        "task": "Нова інформація! Покажіть, що вона підтверджує вашу пропозицію (прогулянка замість вітрил), запропонуйте варіант для всіх.",
+        "models": {
+          "B1": "Alors on peut faire une promenade au bord de la mer. C'est pour tout le monde.",
+          "B2": "C'est une remarque importante, et elle va dans le sens de ma proposition : une randonnée guidée sur le sentier côtier convient à tout le monde, à condition de choisir un parcours facile et accessible pour Paul. Je peux demander au Domaine s'il propose aussi un atelier, par exemple de cuisine, pour Sarah.",
+          "C1": "Voilà qui conforte la solution que je vous proposais : renoncer à la voile au profit d'une activité inclusive. Une balade guidée sur un tronçon accessible du sentier côtier permettrait d'associer tout le monde, Paul et Sarah compris. Je demanderais en parallèle au Domaine s'il dispose d'une activité plus calme, de façon à ce que personne ne se sente mis à l'écart."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Запропонували іншу активність" },
+          { "lvl": "B2", "t": "Врахували Поля (доступність) і Сару" },
+          { "lvl": "C1", "t": "Пов'язали нову інформацію з власною пропозицією, інклюзивність" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Justement, Julie Marchand m'a rappelée : si nous confirmons cette semaine, elle peut inclure les boissons. Qu'en pensez-vous ?",
+        "voice": "f",
+        "task": "Оцініть пропозицію: перерахуйте бюджет і запропонуйте, як скористатися нагодою (письмове підтвердження, терміни).",
+        "models": {
+          "B1": "C'est très bien ! Alors on confirme cette semaine. Le prix est de 3 375 euros.",
+          "B2": "C'est une excellente nouvelle : avec les boissons incluses, le Domaine revient à 3 375 euros, plus la randonnée guidée. Je propose de confirmer cette semaine, mais de demander une confirmation écrite de l'inclusion des boissons et de la réservation des chambres adaptées.",
+          "C1": "C'est une opportunité à saisir : boissons incluses, nous serions à 3 375 euros, auxquels s'ajouterait le coût modeste d'un guide pour la randonnée. Je suggère de confirmer d'ici vendredi, à condition d'obtenir par écrit l'inclusion des boissons et la réservation des deux chambres adaptées. L'économie réalisée pourrait d'ailleurs financer le transport en train."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Позитивна реакція і рішення" },
+          { "lvl": "B2", "t": "Перерахували бюджет" },
+          { "lvl": "B2", "t": "Попросили письмове підтвердження" },
+          { "lvl": "C1", "t": "Умови + як використати зекономлене" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Très bien, vous m'avez convaincue. Envoyez-moi un récapitulatif par écrit.",
+        "voice": "f",
+        "task": "Підтвердьте наступні кроки і дедлайни, подякуйте, попрощайтеся.",
+        "models": {
+          "B1": "D'accord, je vous envoie un e-mail aujourd'hui. Merci, au revoir.",
+          "B2": "Avec plaisir. Je vous envoie le récapitulatif aujourd'hui et j'appelle Julie Marchand pour confirmer avant vendredi. Merci, madame, bonne journée.",
+          "C1": "Je m'en occupe : vous recevrez le récapitulatif dans l'après-midi. Je contacte Julie Marchand pour verrouiller la réservation avant vendredi et je tiens M. Benoît informé du budget. Merci pour votre confiance, bonne fin de journée."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Подякували і попрощалися" },
+          { "lvl": "B1", "t": "Пообіцяли лист" },
+          { "lvl": "B2", "t": "Конкретний дедлайн (до п'ятниці)" },
+          { "lvl": "C1", "t": "Згадали всіх зацікавлених (Julie Marchand, M. Benoît)" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Adressez à Mme Fabre un récapitulatif de votre proposition : lieu retenu et raisons, budget détaillé, activité prévue et prise en compte des contraintes des salariés, points à vérifier et calendrier.",
+    "taskUk": "Підсумковий лист директорці: обране місце і чому, детальний бюджет, активність і врахування обмежень працівників, що перевірити, терміни.",
+    "minWords": 150,
+    "maxWords": 250,
+    "models": {
+      "B1": "Objet : séminaire de juin\n\nMadame,\n\nJe propose le Domaine des Pins à Pornic pour le séminaire des 12 et 13 juin. C'est au bord de la mer, on peut y aller en train et il y a une navette gratuite.\n\nLe prix est de 135 euros par personne avec la réduction. Pour 25 personnes, ça fait 3 375 euros. Les boissons sont incluses si on confirme cette semaine.\n\nPour l'activité, nous faisons une randonnée au bord de la mer, parce que trois collègues ne savent pas nager. Il y a aussi deux chambres pour les personnes en fauteuil roulant.\n\nJe confirme la réservation avant vendredi.\n\nCordialement,\nTaras Kravets",
+      "B2": "Objet : Séminaire des 12 et 13 juin – récapitulatif\n\nMadame,\n\nComme convenu, voici le récapitulatif de ma proposition.\n\nLieu : je propose le Domaine des Pins, à Pornic. Il répond à vos critères : nous sortons de Nantes, l'accès en train est simple et une navette gratuite relie la gare au Domaine.\n\nBudget : grâce à une réduction de 10 %, le forfait est de 135 € par personne, soit 3 375 € pour 25 personnes. Si nous confirmons cette semaine, les boissons, normalement facturées environ 8 € par repas, seront incluses. Le budget de 4 000 € est donc respecté.\n\nActivité : la voile n'étant pas adaptée à tous, je propose une randonnée guidée sur le sentier côtier, accessible à l'ensemble de l'équipe.\n\nPoints à vérifier : obtenir par écrit l'inclusion des boissons, réserver les deux chambres adaptées pour Paul et prévoir l'écran mobile, car le vidéoprojecteur est en réparation.\n\nJe confirme la réservation avant vendredi.\n\nCordialement,\nTaras Kravets",
+      "C1": "Objet : Séminaire des 12 et 13 juin – proposition définitive\n\nMadame,\n\nFaisant suite à notre entretien téléphonique, je vous adresse le récapitulatif de la solution retenue.\n\nAprès comparaison des trois offres, le Domaine des Pins, à Pornic, s'impose : il permet de quitter Nantes, comme vous le souhaitiez, tout en restant facilement accessible en train grâce à une navette gratuite. Le Château de la Loire, certes prestigieux, aurait excédé de 12,5 % le budget, bien au-delà de la tolérance de 5 % fixée par M. Benoît.\n\nSur le plan financier, la réduction de 10 % ramène le forfait à 135 € par personne, soit 3 375 €. Les avis en ligne signalaient un coût caché — les boissons, de l'ordre de 600 € — que Julie Marchand accepte d'inclure à condition que nous confirmions cette semaine.\n\nQuant à l'activité, la présence de collègues ne sachant pas nager et la situation de Sarah m'ont conduit à écarter la voile au profit d'une randonnée guidée sur une portion accessible du sentier côtier, afin que chacun, Paul compris, puisse y participer.\n\nIl conviendra de faire confirmer par écrit l'inclusion des boissons, de réserver les deux chambres adaptées et de prévoir l'écran mobile en remplacement du vidéoprojecteur.\n\nJe me charge de finaliser la réservation d'ici vendredi et reste à votre disposition.\n\nBien cordialement,\nTaras Kravets"
+    },
+    "checklist": [
+      { "lvl": "A2", "t": "Тема, звертання, підпис" },
+      { "lvl": "A2", "t": "Названо місце і дати" },
+      { "lvl": "B1", "t": "Ціна і загальна сума" },
+      { "lvl": "B1", "t": "Активність і чому саме вона" },
+      { "lvl": "B2", "t": "Абзаци з підзаголовками або чіткою структурою" },
+      { "lvl": "B2", "t": "Враховано обмеження працівників (Поль, Сара, неплавці)" },
+      { "lvl": "B2", "t": "Перелік того, що перевірити, і термін" },
+      { "lvl": "C1", "t": "Порівняння з альтернативами і обґрунтування відмови від них" },
+      { "lvl": "C1", "t": "Згадано приховану витрату і результат переговорів" },
+      { "lvl": "C1", "t": "Варіативні конектори та офіційний регістр (faisant suite à, quant à, il conviendra de…)" }
+    ]
+  },
+  "relatedVideos": ["Eh7l4Gvx054", "6yi9N-5MDgs"]
+}

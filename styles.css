@@ -390,18 +390,62 @@ textarea.write { min-height: 220px; font-size: 1rem; }
 
 /* Смужки вмінь */
 .bars { display: grid; gap: 10px; margin-top: 10px; }
-.barrow { display: grid; grid-template-columns: 120px 1fr 48px; gap: 10px; align-items: center; font-size: .92rem; }
+.barrow { display: grid; grid-template-columns: 120px 1fr 76px; gap: 10px; align-items: center; font-size: .92rem; }
 .barrow .bar { height: 10px; }
 .barrow b { text-align: right; }
 .barrow.weak span, .barrow.weak b { color: var(--bad); }
 .barrow.weak .bar > i { background: var(--bad); }
 .small-flash { min-height: 170px; }
 
-@media (min-width: 640px) { .tiles { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 640px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 380px) {
-  .barrow { grid-template-columns: 96px 1fr 42px; }
+  .barrow { grid-template-columns: 92px 1fr 70px; }
   .cmp { grid-template-columns: 1fr 1fr; }
   .cmp > :first-child { display: none; }
   .cmp > span:nth-child(3n+1) { grid-column: 1 / -1; margin-top: 6px; }
 }
 .tabbar a { font-size: .7rem; }
+
+/* DCL: два блоки іспитів */
+.exam-block { border-top: 4px solid var(--accent); }
+.exam-block h2 { font-size: 1.35rem; }
+.exam-block .vlist { margin-top: 12px; }
+.phasebar { display: flex; gap: 3px; margin-top: 10px; border-radius: 10px; overflow: hidden; font-size: .75rem; font-weight: 600; }
+.phasebar span { padding: 6px 8px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.phasebar span:nth-child(2) { background: var(--good-soft); color: var(--good); }
+.phasebar span:nth-child(3) { background: var(--warn-soft); color: var(--text); }
+.two-col { display: grid; gap: 12px; }
+@media (min-width: 760px) { .two-col { grid-template-columns: 1fr 1fr; } .two-col > .section { margin-top: 16px; } }
+.lvl-desc { display: grid; gap: 8px; margin-top: 10px; font-size: .93rem; }
+
+/* Зразки B1 / B2 / C1 */
+.models { display: grid; gap: 8px; margin-top: 12px; }
+details.model { margin-top: 0; }
+details.model summary { cursor: pointer; }
+details.model .btn { margin-top: 8px; }
+.sm-tag { font-size: .7rem; padding: 1px 6px; vertical-align: middle; }
+
+/* Сітка критеріїв */
+.grid-crit { display: grid; gap: 10px; margin-top: 10px; }
+.grid-group { font-size: .95rem; margin-top: 8px; color: var(--muted); }
+fieldset.crit { border: 1px solid var(--border); border-radius: 12px; padding: 8px 10px 10px; margin: 0; min-width: 0; }
+fieldset.crit legend { font-weight: 700; padding: 0 6px; font-size: .95rem; }
+label.descr { display: flex; gap: 8px; align-items: flex-start; padding: 7px 8px; border-radius: 10px; cursor: pointer; font-size: .88rem; line-height: 1.4; }
+label.descr + label.descr { margin-top: 2px; }
+label.descr input { width: 18px; height: 18px; flex: none; margin-top: 1px; accent-color: var(--accent); }
+label.descr b { flex: none; min-width: 3.4em; }
+label.descr span { color: var(--muted); }
+label.descr.on { background: var(--accent-soft); }
+label.descr.on span { color: var(--text); }
+.result-mini { background: var(--surface-2); box-shadow: none; }
+.notes textarea { width: 100%; }
+
+/* Графік рівнів */
+svg.lvlchart { width: 100%; height: auto; margin-top: 10px; overflow: visible; }
+svg.lvlchart .gridline { stroke: var(--border); stroke-width: 1; }
+svg.lvlchart .axis { fill: var(--muted); font-size: 12px; }
+svg.lvlchart .goalline { stroke: var(--good); stroke-width: 2; stroke-dasharray: 7 6; }
+svg.lvlchart .goaltext { fill: var(--good); font-size: 12px; font-weight: 700; }
+svg.lvlchart .lvlline { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; }
+svg.lvlchart .dot { fill: var(--surface); stroke: var(--accent); stroke-width: 3; }
+svg.lvlchart .dot.ok { fill: var(--good); stroke: var(--good); }

@@ -1,0 +1,209 @@
+{
+  "id": "fle-crise-livraisons",
+  "exam": "FLE",
+  "topic": "commerce",
+  "title": "Retard de production : sauver un client clé",
+  "titleUk": "Зрив виробництва: врятувати ключового клієнта",
+  "role": "Vous êtes Anastasiia Boyko, chargée de la relation client chez « MeubloBois », fabricant de mobilier de bureau à Angers (120 salariés).",
+  "interlocutor": "M. Julien Ferrand, directeur des achats de « Cowork&Co » (client)",
+  "mission": "Une panne et une pénurie de matière première retardent une commande importante. Étudiez les documents et les enregistrements, choisissez la meilleure solution, puis téléphonez au client, M. Ferrand, pour lui présenter cette solution et négocier. Enfin, confirmez-lui par écrit ce qui a été convenu.",
+  "missionUk": "Через поломку і дефіцит сировини замовлення ключового клієнта запізнюється. Оберіть найкраще рішення (можна поєднати варіанти), зателефонуйте клієнту і домовтеся, не виходячи за межі дозволеної компенсації, а потім підтвердьте домовленості листом.",
+  "vocab": [
+    { "fr": "une panne", "uk": "поломка" },
+    { "fr": "une pénurie", "uk": "дефіцит" },
+    { "fr": "des pénalités de retard", "uk": "штрафи за запізнення" },
+    { "fr": "le cahier des charges", "uk": "технічне завдання, вимоги" },
+    { "fr": "la sous-traitance", "uk": "субпідряд" },
+    { "fr": "le CSE (comité social et économique)", "uk": "рада працівників" },
+    { "fr": "un geste commercial", "uk": "знижка / компенсація клієнту" },
+    { "fr": "s'engager sur un délai", "uk": "зобов'язатися дотримати термін" }
+  ],
+  "documents": [
+    {
+      "type": "email",
+      "title": "E-mail du client (début août)",
+      "text": "De : j.ferrand@coworkandco.fr\nObjet : Commande n° 4471 – site de Lyon\n\nMadame,\n\nJe vous rappelle les termes de notre commande : 200 bureaux réglables en hauteur, modèle « Flex », pour un montant de 60 000 € HT, livraison prévue le 15 septembre.\nNotre nouvel espace de Lyon ouvre le 1er octobre. Notre équipe doit avoir installé l'ensemble du mobilier au plus tard le 26 septembre.\nPour information, si ce premier site se passe bien, nous prévoyons d'équiper cinq autres sites d'ici deux ans, pour un montant estimé à 300 000 €.\n\nCordialement,\nJulien Ferrand\nDirecteur des achats – Cowork&Co"
+    },
+    {
+      "type": "fiche",
+      "title": "Extrait du contrat",
+      "text": "Article 7 – Retards\nEn cas de retard de livraison, des pénalités de 2 % du montant de la commande par semaine de retard seront appliquées.\nLes retards de fournisseurs du vendeur ne constituent pas un cas de force majeure.\n\nArticle 9 – Conformité\nLe mobilier livré doit être conforme au cahier des charges (réf. Flex : bureaux réglables en hauteur, coloris chêne clair)."
+    },
+    {
+      "type": "note",
+      "title": "Note du directeur de production",
+      "text": "Situation : panne de la ligne de découpe (réparée) + retard de notre fournisseur de panneaux de bois. Sans action, livraison le 6 octobre (3 semaines de retard).\n\nOption A – Heures supplémentaires : production le samedi. Avec 3 samedis travaillés, livraison complète le 22 septembre. Coût : 4 000 € par samedi.\n\nOption B – Sous-traitance partielle : l'Atelier Rivière fabrique 100 bureaux, livrés le 15 septembre. Les 100 autres sont fabriqués chez nous et livrés le 29 septembre. Surcoût : 9 000 €.\n\nOption C – Modèle de remplacement : le bureau « Stand », en stock, livrable le 15 septembre. Pas de surcoût, mais il n'est pas réglable en hauteur. Prévoir une remise.\n\nGeste commercial autorisé : jusqu'à 3 % du montant de la commande ; jusqu'à 5 % avec l'accord de la direction."
+    },
+    {
+      "type": "email",
+      "title": "Message du CSE",
+      "text": "Objet : Heures supplémentaires de septembre\n\nLes salariés de l'atelier ont déjà effectué de nombreuses heures supplémentaires cet été. Le CSE accepte le travail du samedi uniquement sur la base du volontariat, avec une majoration de 50 %, et dans la limite de deux samedis en septembre.\n\nLe secrétaire du CSE"
+    },
+    {
+      "type": "fiche",
+      "title": "Article – « Le Journal de l'ameublement »",
+      "text": "Panneaux de bois : les fabricants sous tension\n\nLes délais de livraison de panneaux de bois atteignent désormais six à huit semaines, contre deux habituellement. En cause : la fermeture temporaire de deux grandes usines en Europe de l'Est et une demande soutenue dans la construction. Selon les professionnels du secteur, la situation ne devrait pas se normaliser avant novembre. Les fabricants qui disposent de partenaires capables de s'approvisionner auprès d'autres fournisseurs s'en sortent mieux. Les autres doivent arbitrer entre retards, surcoûts et risque de perdre des clients."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de M. Ferrand",
+      "voice": "m",
+      "text": "Bonjour madame Boyko, Julien Ferrand, de Cowork and Co. On m'a dit qu'il y aurait un problème de délai sur notre commande. Je vous rappelle que notre équipe d'installation est réservée du vingt-quatre au vingt-six septembre. Si vous livrez en deux fois, ça peut aller, à condition qu'au moins cent vingt bureaux soient là le vingt-quatre au matin. Je vous préviens aussi : un concurrent m'a proposé de livrer en dix jours. Je n'ai pas envie de changer de fournisseur, mais j'attends une solution concrète, et vite."
+    },
+    {
+      "title": "Réunion interne de crise",
+      "dialog": [
+        { "voice": "m", "who": "Directeur de production", "text": "Pour l'option A, soyons clairs : il faudrait trois samedis pour livrer le vingt-deux. Or le CSE n'en accepte que deux. Avec deux samedis, on livrerait tout le vingt-six." },
+        { "voice": "f", "who": "Responsable qualité", "text": "Et l'Atelier Rivière ? On a travaillé avec eux l'an dernier. La qualité était bonne, ils utilisent la même finition chêne clair, mais on avait eu environ cinq pour cent de défauts, qu'ils ont remplacés en une semaine." },
+        { "voice": "m", "who": "Directeur de production", "text": "Autre chose : si l'Atelier Rivière prend cent bureaux, notre atelier n'en a plus que cent à faire. Dans ce cas, deux samedis nous feraient gagner environ cinq jours sur notre propre production." },
+        { "voice": "f", "who": "Responsable qualité", "text": "Et eux, ils ont leur propre fournisseur de panneaux, en Espagne. Ils ne dépendent pas de la pénurie." }
+      ]
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "lvl": "A2", "q": "Combien de bureaux Cowork&Co a-t-il commandés ? (chiffre)", "accept": ["200", "deux cents"] },
+    { "part": "lecture", "lvl": "A2", "q": "Quand ouvre le nouvel espace de Lyon ?", "options": ["Le 15 septembre", "Le 26 septembre", "Le 1er octobre"], "answer": 2 },
+    { "part": "lecture", "lvl": "B1", "q": "Pourquoi la commande est-elle en retard ?", "options": ["Une grève des livreurs", "Une panne et le retard du fournisseur de panneaux", "Une erreur du client"], "answer": 1 },
+    { "part": "lecture", "lvl": "B1", "q": "Combien coûtent les pénalités par semaine de retard ?", "options": ["600 €", "1 200 €", "6 000 €"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Pourquoi l'option C pose-t-elle problème ?", "options": ["Elle coûte trop cher", "Le bureau « Stand » n'est pas réglable en hauteur, contrairement au cahier des charges", "Elle n'est pas disponible avant octobre"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Quelles sont les conditions du CSE pour le travail du samedi ?", "options": ["Aucune condition", "Volontariat, majoration de 50 %, deux samedis maximum", "Seulement pour les cadres"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "D'après l'article, pourquoi faut-il éviter une solution qui dépend de notre fournisseur habituel ?", "options": ["Il a augmenté ses prix", "La pénurie ne devrait pas se normaliser avant novembre", "Il a fait faillite"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Pourquoi l'enjeu dépasse-t-il largement les 60 000 € de la commande ?", "options": ["Le client prévoit d'équiper cinq autres sites (≈ 300 000 €)", "Les pénalités sont illimitées", "Le client est aussi actionnaire"], "answer": 0 },
+    { "part": "ecoute", "lvl": "A2", "q": "Quand l'équipe d'installation du client est-elle réservée ?", "options": ["Du 15 au 17 septembre", "Du 24 au 26 septembre", "Le 1er octobre"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Combien de bureaux faut-il au minimum le 24 septembre au matin ? (chiffre)", "accept": ["120", "cent vingt"] },
+    { "part": "ecoute", "lvl": "B1", "q": "Qu'a proposé un concurrent au client ?", "options": ["Un prix plus bas", "Une livraison en dix jours", "Une installation gratuite"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Que dit la responsable qualité sur l'Atelier Rivière ?", "options": ["Qualité mauvaise, à éviter", "Bonne qualité et même finition, mais environ 5 % de défauts, remplacés en une semaine", "Ils ne connaissent pas le modèle Flex"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Avec seulement deux samedis, quand l'option A permettrait-elle de tout livrer ?", "options": ["Le 22 septembre", "Le 24 septembre", "Le 26 septembre"], "answer": 2 },
+    { "part": "ecoute", "lvl": "C1", "q": "Quelle combinaison permet de respecter la contrainte du client ?", "options": ["Option C seule", "Option B + deux samedis : 100 bureaux le 15 septembre, 100 vers le 24 septembre", "Option A avec trois samedis"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Фаза 3: ви телефонуєте клієнту, визнаєте проблему і пропонуєте рішення (найкраще — комбінація варіанта B і двох субот). Фаза 4: клієнт тиснутиме, вимагатиме компенсацію і гарантій — ведіть переговори, не перевищуючи 3 % без згоди керівництва.",
+    "turns": [
+      {
+        "phase": 3,
+        "examiner": "Julien Ferrand, bonjour.",
+        "voice": "m",
+        "task": "Привітайтеся, представтеся, визнайте проблему і вибачтеся.",
+        "models": {
+          "B1": "Bonjour monsieur Ferrand, Anastasiia Boyko, de MeubloBois. Je vous appelle pour votre commande. Nous avons un problème de retard, je suis désolée.",
+          "B2": "Bonjour monsieur Ferrand, Anastasiia Boyko, chargée de la relation client chez MeubloBois. Je vous appelle au sujet de votre commande pour le site de Lyon. Je vous confirme que nous avons un retard de production, et je tiens d'abord à m'en excuser.",
+          "C1": "Bonjour monsieur Ferrand, Anastasiia Boyko, chargée de la relation client chez MeubloBois. Merci pour votre message ; je vous appelle pour faire le point en toute transparence sur votre commande. Nous avons effectivement subi une panne et un retard d'approvisionnement, et je mesure parfaitement l'enjeu que représente pour vous l'ouverture du 1er octobre. Je tiens à vous présenter nos excuses, mais surtout une solution."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Привітання і хто ви" },
+          { "lvl": "B1", "t": "Визнали проблему і вибачилися" },
+          { "lvl": "C1", "t": "Показали розуміння ставок клієнта, перейшли до рішення" }
+        ]
+      },
+      {
+        "phase": 3,
+        "examiner": "Je vous écoute. Qu'est-ce que vous me proposez ?",
+        "voice": "m",
+        "task": "Представте рішення: 100 столів 15 вересня (партнерська майстерня) + 100 близько 24 вересня (дві суботи); поясніть, чому це надійно.",
+        "models": {
+          "B1": "Nous livrons 100 bureaux le 15 septembre et 100 bureaux le 24 septembre. Un atelier partenaire nous aide.",
+          "B2": "Nous vous proposons une livraison en deux fois. Un atelier partenaire fabrique 100 bureaux, livrés comme prévu le 15 septembre. Les 100 autres sont fabriqués chez nous, en travaillant deux samedis, et seront livrés le 24 septembre. Vous aurez donc les 200 bureaux pour votre installation.",
+          "C1": "Voici ce que nous proposons : une livraison en deux temps. L'Atelier Rivière, partenaire de longue date qui utilise la même finition chêne clair et ne dépend pas de la pénurie, fabrique 100 bureaux livrés dès le 15 septembre. Parallèlement, notre atelier se concentre sur les 100 restants ; grâce à deux samedis travaillés, ils seront livrés le 24 septembre au matin. Vous disposerez ainsi de la totalité du mobilier dès le début de votre installation, et non des seuls 120 bureaux que vous demandiez."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Назвали дати доставки" },
+          { "lvl": "B1", "t": "Пояснили принцип (дві поставки)" },
+          { "lvl": "B2", "t": "Показали, що рішення відповідає обмеженню клієнта (≥120 до 24-го)" },
+          { "lvl": "C1", "t": "Аргументи надійності (та сама обробка, незалежність від дефіциту)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Un concurrent me propose de tout livrer en dix jours. Pourquoi est-ce que je resterais chez vous ?",
+        "voice": "m",
+        "task": "Відповідайте на тиск: переваги співпраці, ризики зміни постачальника в умовах дефіциту; не критикуйте конкурента прямо.",
+        "models": {
+          "B1": "Nous travaillons ensemble depuis longtemps. Notre solution est sûre et vous avez les bons bureaux.",
+          "B2": "Je comprends que vous compariez. Mais nos bureaux sont exactement ceux de votre cahier des charges, et notre solution vous garantit une livraison complète avant l'installation. Avec la pénurie actuelle de panneaux, un délai de dix jours chez un nouveau fournisseur me semble risqué. Avez-vous des garanties écrites de sa part ?",
+          "C1": "C'est tout à fait légitime de comparer. Permettez-moi simplement deux observations. D'une part, notre solution vous garantit le modèle exact de votre cahier des charges, livré avant votre installation. D'autre part, dans le contexte actuel — la presse professionnelle annonce des tensions sur les panneaux jusqu'en novembre —, un délai de dix jours annoncé par un nouveau fournisseur mériterait d'être sérieusement vérifié. Changer de partenaire à trois semaines d'une ouverture, c'est prendre un risque que notre proposition vous évite."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Аргумент на користь співпраці" },
+          { "lvl": "B2", "t": "Згадали дефіцит і ризик для нового постачальника" },
+          { "lvl": "B2", "t": "Поставили запитання (гарантії конкурента)" },
+          { "lvl": "C1", "t": "Структура d'une part / d'autre part, без прямої критики конкурента" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Admettons. Mais ce retard me cause du travail en plus. J'attends un geste : dix pour cent sur la commande.",
+        "voice": "m",
+        "task": "Переговори! 10 % — забагато (ліміт 3 %, до 5 % лише зі згоди керівництва). Запропонуйте компроміс або альтернативну компенсацію.",
+        "models": {
+          "B1": "Dix pour cent, ce n'est pas possible. Je peux vous proposer trois pour cent.",
+          "B2": "Je comprends votre demande, mais dix pour cent, je ne peux pas l'accepter. Je peux vous proposer un geste de 3 %, soit 1 800 euros. Et si cela ne suffit pas, je peux demander à ma direction d'aller jusqu'à 5 %.",
+          "C1": "Votre demande est compréhensible ; néanmoins, 10 % dépasse très largement ce que je suis en mesure d'accorder. Je vous propose d'emblée 3 %, soit 1 800 euros, auxquels nous pourrions ajouter la prise en charge de la livraison en deux fois. Si vous estimez que ce n'est pas suffisant, je solliciterai l'accord de ma direction pour porter le geste à 5 %, mais je ne peux pas m'y engager sans elle."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Відмовили від 10 %" },
+          { "lvl": "B2", "t": "Контрпропозиція з цифрами (3 % = 1 800 €)" },
+          { "lvl": "B2", "t": "Дотрималися лімітів (5 % лише зі згоди керівництва)" },
+          { "lvl": "C1", "t": "Додали нефінансову компенсацію, не взяли зобов'язань без керівництва" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Et la qualité de cet atelier partenaire ? Je ne veux pas deux couleurs différentes dans mon espace.",
+        "voice": "m",
+        "task": "Заспокойте щодо якості: та сама обробка, контроль якості, швидка заміна дефектів; запропонуйте конкретну гарантію.",
+        "models": {
+          "B1": "Ils utilisent la même couleur, chêne clair. Nous contrôlons les bureaux.",
+          "B2": "L'Atelier Rivière utilise exactement la même finition chêne clair. Nous avons déjà travaillé avec eux, et notre responsable qualité contrôlera chaque bureau avant la livraison. En cas de défaut, nous remplaçons le bureau en une semaine.",
+          "C1": "Votre exigence est légitime. L'Atelier Rivière travaille avec la même finition chêne clair, et notre responsable qualité contrôlera l'ensemble des bureaux avant expédition. Pour être tout à fait transparente : lors d'une précédente collaboration, environ 5 % des pièces avaient dû être remplacées, ce qui a été fait en une semaine. Je m'engage donc par écrit à remplacer tout bureau non conforme sous huit jours, et même à prévoir quelques bureaux de réserve lors de la livraison du 24."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Та сама обробка" },
+          { "lvl": "B2", "t": "Контроль якості і заміна дефектів" },
+          { "lvl": "C1", "t": "Прозорість щодо 5 % дефектів + конкретна письмова гарантія" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Bon. Si tout cela est confirmé par écrit, nous restons avec vous.",
+        "voice": "m",
+        "task": "Підсумуйте домовленості, пообіцяйте лист сьогодні, подякуйте за довіру.",
+        "models": {
+          "B1": "Merci beaucoup. Je vous envoie un e-mail aujourd'hui. Au revoir.",
+          "B2": "Merci pour votre confiance. Je récapitule : 100 bureaux le 15 septembre, 100 le 24 au matin, un geste de 3 % et le remplacement de tout bureau défectueux sous huit jours. Je vous envoie la confirmation écrite aujourd'hui. Bonne journée.",
+          "C1": "Je vous remercie de votre confiance. Pour récapituler : 100 bureaux livrés le 15 septembre, les 100 restants le 24 au matin, un geste commercial de 3 % et l'engagement de remplacer sous huit jours tout bureau non conforme. Vous recevrez une confirmation écrite d'ici ce soir, et je reviendrai vers vous dès que j'aurai la réponse de ma direction au sujet des 5 %. Excellente journée."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Подякували і попрощалися" },
+          { "lvl": "B1", "t": "Пообіцяли письмове підтвердження" },
+          { "lvl": "B2", "t": "Підсумували всі домовленості" },
+          { "lvl": "C1", "t": "Відкрите питання (5 %) і коли дасте відповідь" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez à M. Ferrand pour confirmer ce qui a été convenu : excuses et explication du retard, calendrier de livraison, garanties de qualité, geste commercial et suite donnée à sa demande.",
+    "taskUk": "Напишіть клієнту лист-підтвердження домовленостей: вибачення і причина затримки, графік поставок, гарантії якості, компенсація і що буде з його запитом.",
+    "minWords": 150,
+    "maxWords": 250,
+    "models": {
+      "B1": "Objet : votre commande n° 4471\n\nMonsieur,\n\nNous vous prions de nous excuser pour le retard de votre commande. Nous avons eu une panne et un problème avec notre fournisseur.\n\nNous allons livrer 100 bureaux le 15 septembre et 100 bureaux le 24 septembre. Un atelier partenaire fabrique une partie des bureaux. Ils ont la même couleur, chêne clair. Si un bureau a un problème, nous le changeons en une semaine.\n\nNous vous proposons une remise de 3 %.\n\nMerci pour votre confiance.\n\nCordialement,\nAnastasiia Boyko\nMeubloBois",
+      "B2": "Objet : Commande n° 4471 – confirmation de notre accord\n\nMonsieur,\n\nSuite à notre conversation téléphonique, je vous confirme les termes de notre accord et vous renouvelle nos excuses pour le retard, dû à une panne et à une pénurie de panneaux de bois.\n\nCalendrier : 100 bureaux Flex seront livrés le 15 septembre et les 100 restants le 24 septembre au matin, avant le début de votre installation.\n\nQualité : une partie des bureaux est fabriquée par l'Atelier Rivière, notre partenaire, avec la même finition chêne clair. Chaque bureau sera contrôlé avant la livraison, et tout bureau non conforme sera remplacé sous huit jours.\n\nGeste commercial : nous vous accordons une remise de 3 %, soit 1 800 € HT, et la livraison en deux fois est à notre charge. J'ai transmis à ma direction votre demande d'un geste plus important et je vous communiquerai sa réponse au plus vite.\n\nNous vous remercions de votre confiance et restons à votre disposition.\n\nCordialement,\nAnastasiia Boyko\nChargée de la relation client – MeubloBois",
+      "C1": "Objet : Commande n° 4471 – site de Lyon : confirmation des engagements\n\nMonsieur,\n\nJe vous remercie pour notre échange de ce jour et vous confirme, comme convenu, les engagements pris par MeubloBois.\n\nPermettez-moi tout d'abord de vous renouveler nos excuses. Une panne de notre ligne de découpe, conjuguée à une pénurie de panneaux de bois qui touche l'ensemble du secteur, a compromis le calendrier initial ; nous en assumons pleinement la responsabilité.\n\nAfin de préserver l'ouverture de votre espace le 1er octobre, la livraison s'effectuera en deux temps : 100 bureaux Flex le 15 septembre, puis les 100 restants le 24 septembre au matin, soit la totalité du mobilier dès le premier jour de votre installation.\n\nLa première série étant fabriquée par l'Atelier Rivière, partenaire de longue date utilisant la même finition chêne clair, notre responsable qualité contrôlera chaque pièce avant expédition. Nous nous engageons en outre à remplacer sous huit jours tout bureau non conforme et prévoirons quelques bureaux de réserve lors de la seconde livraison.\n\nEn guise de geste commercial, nous vous accordons une remise de 3 %, soit 1 800 € HT, la livraison fractionnée restant à notre charge. Votre demande d'un geste complémentaire a été soumise à notre direction ; je ne manquerai pas de vous tenir informé de sa décision d'ici vendredi.\n\nNous tenons à la qualité de notre collaboration, aujourd'hui comme pour vos prochains projets.\n\nVeuillez agréer, Monsieur, l'expression de mes salutations distinguées.\n\nAnastasiia Boyko\nChargée de la relation client – MeubloBois"
+    },
+    "checklist": [
+      { "lvl": "A2", "t": "Тема, офіційне звертання, підпис з посадою" },
+      { "lvl": "A2", "t": "Вибачення" },
+      { "lvl": "B1", "t": "Дати двох поставок" },
+      { "lvl": "B1", "t": "Сума компенсації" },
+      { "lvl": "B2", "t": "Пояснено причину затримки, без перекладання вини" },
+      { "lvl": "B2", "t": "Гарантії якості (контроль, заміна за 8 днів)" },
+      { "lvl": "B2", "t": "Що відбувається з запитом клієнта про більшу знижку" },
+      { "lvl": "C1", "t": "Стратегічна перспектива (майбутні проєкти клієнта)" },
+      { "lvl": "C1", "t": "Офіційна завершальна формула і багатий регістр (conjuguée à, en guise de…)" }
+    ]
+  },
+  "relatedVideos": ["g9gzOcpeWY4", "JGsUQdGX_qM"]
+}

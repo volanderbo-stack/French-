@@ -557,6 +557,561 @@
           "explain": "Pourriez-vous… ? — ввічливе прохання"
         }
       ]
+    },
+    {
+      "id": "subjonctif",
+      "level": "B2",
+      "title": "Le subjonctif présent",
+      "titleUk": "Суб'єнктив (умовно-бажальний спосіб)",
+      "rule": [
+        "Subjonctif виражає необхідність, бажання, сумнів, емоцію або мету — дуже частий у переговорах і рекомендаціях: Il faut que nous trouvions une solution.",
+        "Після: il faut que, il est important / nécessaire que, je souhaite / je veux que, je préfère que, je doute que, bien que, pour que, avant que, à condition que, à moins que.",
+        "Утворення: основа форми ils у présent (ils finiss-ent) + -e, -es, -e, -ions, -iez, -ent. Неправильні: être → que je sois, avoir → que j'aie, faire → que je fasse, aller → que j'aille, pouvoir → que je puisse, savoir → que je sache, vouloir → que je veuille.",
+        "Після je pense que, je crois que, il est certain que — індикатив (не subjonctif). Але в запереченні чи питанні (je ne pense pas que) — subjonctif."
+      ],
+      "table": [
+        [
+          "finir",
+          "que je finisse, que tu finisses, qu'il finisse, que nous finissions, que vous finissiez, qu'ils finissent"
+        ],
+        [
+          "être",
+          "que je sois, que tu sois, qu'il soit, que nous soyons, que vous soyez, qu'ils soient"
+        ],
+        [
+          "avoir",
+          "que j'aie, que tu aies, qu'il ait, que nous ayons, que vous ayez, qu'ils aient"
+        ],
+        [
+          "faire / pouvoir",
+          "que je fasse… / que je puisse…"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Il faut que le stagiaire puisse venir au salon de Lyon.",
+          "uk": "Потрібно, щоб стажист зміг приїхати на виставку в Ліон."
+        },
+        {
+          "fr": "Je propose cette solution à condition que le budget soit respecté.",
+          "uk": "Пропоную це рішення за умови, що бюджет буде дотримано."
+        },
+        {
+          "fr": "Bien que cette option soit plus chère, elle est plus fiable.",
+          "uk": "Хоча цей варіант дорожчий, він надійніший."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Il faut que nous ___ une décision avant vendredi. (prendre)",
+          "options": [
+            "prenons",
+            "prenions",
+            "prendrons"
+          ],
+          "answer": 1,
+          "explain": "il faut que + subjonctif: que nous prenions"
+        },
+        {
+          "q": "Je souhaite que vous ___ présent à la réunion. (être)",
+          "options": [
+            "êtes",
+            "serez",
+            "soyez"
+          ],
+          "answer": 2,
+          "explain": "souhaiter que + subjonctif: que vous soyez"
+        },
+        {
+          "q": "Bien que le prix ___ élevé, je recommande ce fournisseur. (être)",
+          "options": [
+            "est",
+            "soit",
+            "sera"
+          ],
+          "answer": 1,
+          "explain": "bien que + subjonctif"
+        },
+        {
+          "q": "Je pense que cette solution ___ la meilleure. (être)",
+          "options": [
+            "est",
+            "soit",
+            "sois"
+          ],
+          "answer": 0,
+          "explain": "je pense que + індикатив (впевненість)"
+        },
+        {
+          "q": "Je ne pense pas que ce ___ possible. (être)",
+          "options": [
+            "est",
+            "soit",
+            "serait"
+          ],
+          "answer": 1,
+          "explain": "заперечення je ne pense pas que → subjonctif"
+        },
+        {
+          "q": "Напишіть subjonctif: Il est nécessaire que vous ___ (faire) une réservation.",
+          "accept": [
+            "fassiez"
+          ],
+          "explain": "faire → que vous fassiez"
+        },
+        {
+          "q": "Je vous envoie le dossier pour que vous ___ le lire avant la réunion. (pouvoir)",
+          "options": [
+            "pouvez",
+            "puissiez",
+            "pourrez"
+          ],
+          "answer": 1,
+          "explain": "pour que + subjonctif: que vous puissiez"
+        }
+      ]
+    },
+    {
+      "id": "plus-que-parfait",
+      "level": "B2",
+      "title": "Le plus-que-parfait",
+      "titleUk": "Давноминулий час",
+      "rule": [
+        "Plus-que-parfait — дія, що сталася ДО іншої дії в минулому: Quand je suis arrivé, la réunion avait déjà commencé.",
+        "Форма: avoir або être в imparfait + participe passé. Ті самі правила, що й для passé composé: j'avais envoyé, elle était partie.",
+        "Дуже потрібен у звітах і непрямій мові: Le client a dit qu'il avait reçu la commande (= «J'ai reçu la commande»).",
+        "Також після si для жалю: Si j'avais su… (Якби я знав…)."
+      ],
+      "table": [
+        [
+          "envoyer (avoir)",
+          "j'avais envoyé, tu avais envoyé, il avait envoyé, nous avions envoyé, vous aviez envoyé, ils avaient envoyé"
+        ],
+        [
+          "partir (être)",
+          "j'étais parti(e), tu étais parti(e), il était parti, elle était partie, nous étions parti(e)s, ils étaient partis"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Le fournisseur nous a dit qu'il avait déjà expédié les pièces.",
+          "uk": "Постачальник сказав нам, що вже відправив деталі."
+        },
+        {
+          "fr": "Nous avions réservé la salle, mais le séminaire a été annulé.",
+          "uk": "Ми забронювали залу (заздалегідь), але семінар скасували."
+        },
+        {
+          "fr": "Si nous avions prévu plus de stock, nous n'aurions pas eu de retard.",
+          "uk": "Якби ми передбачили більший запас, у нас не було б затримки."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Quand je suis arrivé, le train ___ . (partir)",
+          "options": [
+            "est parti",
+            "était parti",
+            "partait"
+          ],
+          "answer": 1,
+          "explain": "дія до іншої дії в минулому → plus-que-parfait"
+        },
+        {
+          "q": "La cliente a expliqué qu'elle ___ l'aspirateur en mai. (acheter)",
+          "options": [
+            "avait acheté",
+            "a acheté",
+            "achetait"
+          ],
+          "answer": 0,
+          "explain": "непряма мова в минулому: passé composé → plus-que-parfait"
+        },
+        {
+          "q": "Nous ___ déjà ___ le contrat quand le prix a changé. (signer)",
+          "options": [
+            "avons … signé",
+            "avions … signé",
+            "étions … signés"
+          ],
+          "answer": 1,
+          "explain": "signer — з avoir: nous avions signé"
+        },
+        {
+          "q": "Напишіть plus-que-parfait: Elle ___ (venir) la veille pour préparer la salle.",
+          "accept": [
+            "était venue"
+          ],
+          "explain": "venir — з être + узгодження: elle était venue"
+        },
+        {
+          "q": "Si j'___ ce problème, j'aurais réagi plus tôt. (savoir)",
+          "options": [
+            "avais su",
+            "ai su",
+            "saurais"
+          ],
+          "answer": 0,
+          "explain": "si + plus-que-parfait → conditionnel passé"
+        },
+        {
+          "q": "Le directeur a dit : « J'ai lu votre rapport. » → Le directeur a dit qu'il ___ notre rapport.",
+          "options": [
+            "a lu",
+            "avait lu",
+            "lirait"
+          ],
+          "answer": 1,
+          "explain": "у непрямій мові passé composé стає plus-que-parfait"
+        },
+        {
+          "q": "Напишіть plus-que-parfait: Ils ___ (oublier) de confirmer la réservation.",
+          "accept": [
+            "avaient oublié",
+            "avaient oublie"
+          ],
+          "explain": "ils avaient oublié"
+        }
+      ]
+    },
+    {
+      "id": "conditionnel-passe",
+      "level": "B2",
+      "title": "Le conditionnel passé et les hypothèses",
+      "titleUk": "Умовний спосіб минулого часу і гіпотези",
+      "rule": [
+        "Conditionnel passé — нереалізована можливість у минулому, жаль або докір: Nous aurions dû prévoir un plan B.",
+        "Форма: avoir / être в conditionnel présent + participe passé: j'aurais préféré, elle serait venue.",
+        "Три типи гіпотез: Si + présent → futur (реальна умова); Si + imparfait → conditionnel présent (уявна зараз); Si + plus-que-parfait → conditionnel passé (нереалізована в минулому).",
+        "У журналістиці й звітах — непідтверджена інформація: Selon la presse, l'entreprise aurait perdu deux clients (нібито втратила)."
+      ],
+      "table": [
+        [
+          "devoir (avoir)",
+          "j'aurais dû, tu aurais dû, il aurait dû, nous aurions dû, vous auriez dû, ils auraient dû"
+        ],
+        [
+          "venir (être)",
+          "je serais venu(e), il serait venu, elle serait venue, nous serions venu(e)s, ils seraient venus"
+        ],
+        [
+          "гіпотези",
+          "Si tu viens, on signera. / Si tu venais, on signerait. / Si tu étais venu, on aurait signé."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Si nous avions changé de fournisseur, nous aurions évité ce retard.",
+          "uk": "Якби ми змінили постачальника, ми б уникнули цієї затримки."
+        },
+        {
+          "fr": "J'aurais préféré être informé plus tôt.",
+          "uk": "Я б волів, щоб мене поінформували раніше."
+        },
+        {
+          "fr": "D'après le rapport, l'erreur serait due à un problème informatique.",
+          "uk": "За звітом, помилка нібито спричинена технічною проблемою."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "Si nous avions réservé plus tôt, nous ___ une meilleure salle. (avoir)",
+          "options": [
+            "aurions eu",
+            "aurons",
+            "avions eu"
+          ],
+          "answer": 0,
+          "explain": "si + plus-que-parfait → conditionnel passé"
+        },
+        {
+          "q": "Si le budget est validé, nous ___ la voile. (réserver)",
+          "options": [
+            "réserverions",
+            "réserverons",
+            "aurions réservé"
+          ],
+          "answer": 1,
+          "explain": "si + présent → futur (реальна умова)"
+        },
+        {
+          "q": "Si nous avions plus de temps, nous ___ d'autres offres. (comparer)",
+          "options": [
+            "comparerions",
+            "comparerons",
+            "avons comparé"
+          ],
+          "answer": 0,
+          "explain": "si + imparfait → conditionnel présent"
+        },
+        {
+          "q": "Vous ___ me prévenir avant de commander ! (devoir)",
+          "options": [
+            "devriez",
+            "auriez dû",
+            "avez dû"
+          ],
+          "answer": 1,
+          "explain": "докір за минуле: vous auriez dû"
+        },
+        {
+          "q": "Напишіть conditionnel passé: Elle ___ (venir) si elle avait su.",
+          "accept": [
+            "serait venue"
+          ],
+          "explain": "venir з être: elle serait venue"
+        },
+        {
+          "q": "Selon la presse, le PDG ___ sa démission. (présenter — непідтверджена інформація в минулому)",
+          "options": [
+            "a présenté",
+            "aurait présenté",
+            "présentera"
+          ],
+          "answer": 1,
+          "explain": "журналістський conditionnel: il aurait présenté"
+        },
+        {
+          "q": "Напишіть conditionnel passé: Nous ___ (préférer) une autre date.",
+          "accept": [
+            "aurions préféré",
+            "aurions prefere"
+          ],
+          "explain": "nous aurions préféré"
+        }
+      ]
+    },
+    {
+      "id": "connecteurs",
+      "level": "B2",
+      "title": "Les connecteurs de l'argumentation",
+      "titleUk": "Конектори для аргументації (B2–C1)",
+      "rule": [
+        "На рівнях B2–C1 журі DCL оцінює «argumentation nuancée et soutenue»: зв'язність, ієрархію ідей і нюанси. Конектори — головний інструмент.",
+        "Додати: de plus, en outre, par ailleurs. Протиставити: cependant, toutefois, en revanche, néanmoins. Поступитися: certes… mais, bien que + subj., même si.",
+        "Причина: car, étant donné que, dans la mesure où, en raison de + іменник. Наслідок: donc, par conséquent, c'est pourquoi, si bien que. Мета: afin de / afin que + subj.",
+        "Підсумок: en définitive, en somme, tout bien considéré. Структура: d'une part… d'autre part ; non seulement… mais aussi."
+      ],
+      "table": [
+        [
+          "додавання",
+          "de plus, en outre, par ailleurs, non seulement… mais aussi"
+        ],
+        [
+          "протиставлення",
+          "cependant, toutefois, en revanche, néanmoins, alors que"
+        ],
+        [
+          "поступка",
+          "certes… mais, bien que (+ subj.), même si, malgré (+ іменник)"
+        ],
+        [
+          "причина / наслідок",
+          "étant donné que, dans la mesure où / par conséquent, c'est pourquoi"
+        ],
+        [
+          "висновок",
+          "en définitive, en somme, tout bien considéré"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Certes, le château est prestigieux ; néanmoins, il dépasse notre budget de 500 euros.",
+          "uk": "Звісно, замок престижний; проте він перевищує наш бюджет на 500 євро."
+        },
+        {
+          "fr": "Étant donné que le permis n'est plus nécessaire, ce critère ne compte plus.",
+          "uk": "Оскільки права більше не потрібні, цей критерій уже не важить."
+        },
+        {
+          "fr": "Non seulement cette solution est moins chère, mais elle répond aussi à tous nos critères.",
+          "uk": "Це рішення не лише дешевше, а й відповідає всім нашим критеріям."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "La salle est petite ; ___, elle est très bien située.",
+          "options": [
+            "en revanche",
+            "de plus",
+            "donc"
+          ],
+          "answer": 0,
+          "explain": "протиставлення: en revanche"
+        },
+        {
+          "q": "___ le prix soit élevé, cette offre reste la plus intéressante.",
+          "options": [
+            "Même si",
+            "Bien que",
+            "Car"
+          ],
+          "answer": 1,
+          "explain": "bien que + subjonctif (soit)"
+        },
+        {
+          "q": "Le fournisseur a eu deux semaines de retard ; ___, nous avons perdu un client.",
+          "options": [
+            "par conséquent",
+            "cependant",
+            "certes"
+          ],
+          "answer": 0,
+          "explain": "наслідок: par conséquent"
+        },
+        {
+          "q": "___ la grève, le train a été annulé.",
+          "options": [
+            "Étant donné que",
+            "En raison de",
+            "Afin de"
+          ],
+          "answer": 1,
+          "explain": "en raison de + іменник (причина)"
+        },
+        {
+          "q": "Nous proposons cette option ___ réduire les coûts.",
+          "options": [
+            "afin de",
+            "afin que",
+            "parce que"
+          ],
+          "answer": 0,
+          "explain": "afin de + інфінітив (мета)"
+        },
+        {
+          "q": "___, le télétravail est efficace ; il présente toutefois des risques.",
+          "options": [
+            "Certes",
+            "Donc",
+            "En somme"
+          ],
+          "answer": 0,
+          "explain": "поступка: certes… toutefois"
+        },
+        {
+          "q": "Напишіть конектор (2 слова): « ___ considéré, je recommande l'option A. » (= зваживши все)",
+          "accept": [
+            "tout bien",
+            "tout bien considéré"
+          ],
+          "explain": "tout bien considéré"
+        }
+      ]
+    },
+    {
+      "id": "passif",
+      "level": "B2",
+      "title": "La voix passive et les formes impersonnelles",
+      "titleUk": "Пасивний стан і безособові звороти",
+      "rule": [
+        "Пасив ставить у центр дію або об'єкт, а не того, хто діє, — типово для звітів: La décision a été prise par la direction.",
+        "Форма: être у потрібному часі + participe passé, що узгоджується з підметом: la commande sera livrée, les prix ont été augmentés.",
+        "Хто діє — після par (рідше de для почуттів: il est apprécié de tous).",
+        "Безособові звороти рівня B2–C1: il est certain que (+ індикатив), il est possible que / il est souhaitable que (+ subjonctif), il convient de + інфінітив, il s'agit de…"
+      ],
+      "table": [
+        [
+          "présent",
+          "le contrat est signé"
+        ],
+        [
+          "passé composé",
+          "la salle a été réservée"
+        ],
+        [
+          "futur",
+          "les candidats seront contactés"
+        ],
+        [
+          "безособові",
+          "il est certain que…, il est souhaitable que…, il convient de…, il s'agit de…"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Les ateliers seront organisés par un kinésithérapeute.",
+          "uk": "Заняття організовуватиме фізіотерапевт."
+        },
+        {
+          "fr": "Trois solutions ont été étudiées par le comité.",
+          "uk": "Комітет розглянув три рішення."
+        },
+        {
+          "fr": "Il convient de confirmer la réservation avant le 15 mai.",
+          "uk": "Слід підтвердити бронювання до 15 травня."
+        }
+      ],
+      "exercises": [
+        {
+          "q": "La réunion ___ par la directrice hier. (annuler, passif)",
+          "options": [
+            "a annulé",
+            "a été annulée",
+            "est annulé"
+          ],
+          "answer": 1,
+          "explain": "passé composé пасиву: a été + participe, узгодження з la réunion"
+        },
+        {
+          "q": "Les billets ___ demain. (envoyer, passif futur)",
+          "options": [
+            "seront envoyés",
+            "enverront",
+            "sont envoyé"
+          ],
+          "answer": 0,
+          "explain": "futur пасиву: seront envoyés (множина)"
+        },
+        {
+          "q": "Перетворіть у пасив: « Le comité a choisi Amina. » → Amina ___ par le comité.",
+          "options": [
+            "a choisi",
+            "a été choisie",
+            "est choisi"
+          ],
+          "answer": 1,
+          "explain": "a été choisie (жін. рід)"
+        },
+        {
+          "q": "Il est souhaitable que chaque équipe ___ les mêmes jours de télétravail. (avoir)",
+          "options": [
+            "a",
+            "ait",
+            "aura"
+          ],
+          "answer": 1,
+          "explain": "il est souhaitable que + subjonctif"
+        },
+        {
+          "q": "Il est certain que cette solution ___ moins chère. (être)",
+          "options": [
+            "est",
+            "soit",
+            "sois"
+          ],
+          "answer": 0,
+          "explain": "il est certain que + індикатив"
+        },
+        {
+          "q": "Напишіть пасив (présent): Ces pièces ___ (fabriquer) en Chine.",
+          "accept": [
+            "sont fabriquées",
+            "sont fabriquees"
+          ],
+          "explain": "sont fabriquées — узгодження з ces pièces"
+        },
+        {
+          "q": "___ de vérifier les conditions du contrat avant de signer. (= слід)",
+          "options": [
+            "Il convient",
+            "Il s'agit",
+            "Il faut que"
+          ],
+          "answer": 0,
+          "explain": "il convient de + інфінітив"
+        }
+      ]
     }
   ]
 }

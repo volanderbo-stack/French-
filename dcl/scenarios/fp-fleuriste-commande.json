@@ -1,0 +1,300 @@
+{
+  "id": "fp-fleuriste-commande",
+  "exam": "FP",
+  "topic": "commerce",
+  "title": "Une commande chez le fleuriste",
+  "titleUk": "Замовлення в квітковому магазині",
+  "role": "Vous êtes Anna. Vous êtes vendeuse au magasin « Fleurs du jour ».",
+  "interlocutor": "M. Paul Bernard, un client",
+  "mission": "Un client a laissé un message : il veut commander un bouquet. Lisez les prix et les conditions de livraison, écoutez le message, puis téléphonez au client pour prendre sa commande. Enfin, écrivez une note pour votre collègue Lucas, le livreur.",
+  "missionUk": "Клієнт залишив голосове повідомлення про замовлення букета. Вивчіть ціни й умови доставки, передзвоніть клієнту, оформіть замовлення і напишіть записку колезі-кур'єру.",
+  "vocab": [
+    {
+      "fr": "un bouquet",
+      "uk": "букет"
+    },
+    {
+      "fr": "commander",
+      "uk": "замовляти"
+    },
+    {
+      "fr": "la livraison",
+      "uk": "доставка"
+    },
+    {
+      "fr": "gratuit",
+      "uk": "безкоштовний"
+    },
+    {
+      "fr": "à partir de",
+      "uk": "від, починаючи з"
+    },
+    {
+      "fr": "un livreur",
+      "uk": "кур'єр"
+    },
+    {
+      "fr": "la veille",
+      "uk": "напередодні"
+    }
+  ],
+  "documents": [
+    {
+      "type": "affiche",
+      "title": "Nos prix",
+      "text": "FLEURS DU JOUR – Nos bouquets\n\nBouquet « Printemps » (tulipes) ........ 25 €\nBouquet « Roses rouges » (12 roses) ... 40 €\nBouquet « Petit plaisir » ............ 15 €\nPlante verte .......................... 20 €\n\nLivraison à domicile : 8 €\nLivraison gratuite à partir de 50 €"
+    },
+    {
+      "type": "note",
+      "title": "Livraisons – informations",
+      "text": "Livraisons du mardi au samedi, de 10 h à 18 h.\nPas de livraison le dimanche et le lundi.\nCommandez la veille avant 17 h."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message du client",
+      "voice": "m",
+      "text": "Bonjour, ici Paul Bernard. Je voudrais commander un bouquet pour l'anniversaire de ma femme, samedi. Elle adore les roses rouges. Je voudrais une livraison à la maison, au huit, rue Victor-Hugo, vers onze heures. Rappelez-moi au zéro six, trente-trois, vingt et un, dix, quarante-cinq. Merci !"
+    }
+  ],
+  "questions": [
+    {
+      "part": "lecture",
+      "q": "Combien coûte le bouquet « Roses rouges » ?",
+      "options": [
+        "25 €",
+        "40 €",
+        "15 €"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "La livraison est gratuite à partir de…",
+      "options": [
+        "40 €",
+        "8 €",
+        "50 €"
+      ],
+      "answer": 2,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "Le magasin livre le dimanche ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Pourquoi M. Bernard commande un bouquet ?",
+      "options": [
+        "Pour l'anniversaire de sa femme",
+        "Pour un mariage",
+        "Pour sa mère"
+      ],
+      "answer": 0,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "À quelle heure veut-il la livraison ?",
+      "options": [
+        "Vers 10 h",
+        "Vers 11 h",
+        "Vers 18 h"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Quelle est son adresse ? (numéro et rue)",
+      "accept": [
+        "8 rue victor-hugo",
+        "8 rue victor hugo",
+        "8, rue victor-hugo",
+        "8, rue victor hugo",
+        "huit rue victor hugo"
+      ],
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Avec la livraison, combien il paie pour les roses rouges ?",
+      "options": [
+        "40 €",
+        "48 €",
+        "50 €"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "lvl": "A2",
+      "q": "Un client téléphone samedi matin pour une livraison le samedi même. C'est possible ?",
+      "options": [
+        "Oui, avant 17 h",
+        "Non, il faut commander la veille avant 17 h",
+        "Oui, mais c'est plus cher"
+      ],
+      "answer": 1
+    },
+    {
+      "part": "ecoute",
+      "lvl": "A2",
+      "q": "Pour avoir la livraison gratuite, combien M. Bernard doit-il dépenser en plus des roses, au minimum ?",
+      "options": [
+        "2 €",
+        "8 €",
+        "10 €"
+      ],
+      "answer": 2
+    }
+  ],
+  "oral": {
+    "intro": "Ви передзвонюєте клієнту, пану Бернару. Представтеся, підтвердьте замовлення, назвіть ціну і запропонуйте, як отримати безкоштовну доставку.",
+    "turns": [
+      {
+        "examiner": "Allô ?",
+        "task": "Привітайтеся, назвіть магазин і мету дзвінка.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Привітання"
+          },
+          {
+            "lvl": "A1",
+            "t": "Назва магазину"
+          },
+          {
+            "lvl": "A1",
+            "t": "Мета дзвінка"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A1": "Bonjour monsieur Bernard, ici Anna, du magasin Fleurs du jour. Je vous appelle pour votre commande."
+        }
+      },
+      {
+        "examiner": "Ah oui, merci ! Alors, c'est possible pour samedi à onze heures ?",
+        "task": "Підтвердьте: у суботу доставка можлива (з 10 до 18).",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Так, субота підходить"
+          },
+          {
+            "lvl": "A2",
+            "t": "Час 11:00"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A1": "Oui, c'est possible. Nous livrons le samedi de 10 heures à 18 heures. Nous livrons chez vous à 11 heures."
+        }
+      },
+      {
+        "examiner": "Très bien. Et ça coûte combien ?",
+        "task": "Назвіть ціну: букет 40 € + доставка 8 € = 48 €.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "40 € за букет"
+          },
+          {
+            "lvl": "A2",
+            "t": "8 € доставка"
+          },
+          {
+            "lvl": "A2",
+            "t": "Разом 48 €"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "Le bouquet de roses rouges coûte 40 euros, et la livraison 8 euros. Ça fait 48 euros."
+        }
+      },
+      {
+        "examiner": "Hmm… Et la livraison gratuite, c'est possible ?",
+        "task": "Поясніть: доставка безкоштовна від 50 €. Запропонуйте ще маленький букет за 15 €.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Безкоштовно від 50 €"
+          },
+          {
+            "lvl": "A2",
+            "t": "Пропозиція (ще букет / рослина)"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "La livraison est gratuite à partir de 50 euros. Vous pouvez prendre aussi le bouquet Petit plaisir, à 15 euros. Ça fait 55 euros, et la livraison est gratuite."
+        }
+      },
+      {
+        "examiner": "Bonne idée, d'accord ! Merci beaucoup.",
+        "task": "Повторіть адресу і час, подякуйте, попрощайтеся.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Повторили адресу і час"
+          },
+          {
+            "lvl": "A1",
+            "t": "Прощання"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "Merci à vous. Je note : 8, rue Victor-Hugo, samedi à 11 heures. Au revoir, bonne journée !"
+        }
+      }
+    ]
+  },
+  "writing": {
+    "format": "note",
+    "task": "Écrivez une note pour Lucas, le livreur : le nom du client, l'adresse, le jour, l'heure, les fleurs, le prix et le téléphone du client.",
+    "taskUk": "Напишіть записку кур'єру Люкá: ім'я клієнта, адреса, день і час, що доставити, ціна, телефон клієнта.",
+    "minWords": 25,
+    "maxWords": 50,
+    "checklist": [
+      {
+        "lvl": "A1",
+        "t": "Ім'я клієнта і адреса"
+      },
+      {
+        "lvl": "A2",
+        "t": "День і час доставки"
+      },
+      {
+        "lvl": "A2",
+        "t": "Що доставити"
+      },
+      {
+        "lvl": "A2",
+        "t": "Ціна (і що доставка безкоштовна)"
+      },
+      {
+        "lvl": "A1",
+        "t": "Телефон клієнта"
+      }
+    ],
+    "models": {
+      "A1": "Lucas,\n\nSamedi à 11 h, livraison chez M. Paul Bernard, 8 rue Victor-Hugo. Un bouquet de roses rouges et un bouquet « Petit plaisir ». C'est pour l'anniversaire de sa femme. Total : 55 €, livraison gratuite. Téléphone du client : 06 33 21 10 45.\n\nMerci !\nAnna"
+    }
+  },
+  "relatedVideos": [
+    "nDCVXdenDII",
+    "vMIed3rlZtg"
+  ]
+}

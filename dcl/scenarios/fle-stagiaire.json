@@ -1,0 +1,214 @@
+{
+  "id": "fle-stagiaire",
+  "exam": "FLE",
+  "topic": "travail",
+  "title": "Recruter un ou une stagiaire",
+  "titleUk": "Обрати стажиста для відділу маркетингу",
+  "role": "Vous êtes Kateryna Hrytsenko, assistante RH (ressources humaines) chez « GreenBox », une entreprise d'emballages écologiques à Bordeaux.",
+  "interlocutor": "M. Marc Laurent, responsable marketing",
+  "mission": "Le service marketing recrute un ou une stagiaire pour six mois. M. Laurent vous demande d'étudier les trois candidatures et de lui recommander la meilleure. Prenez connaissance des documents et des enregistrements, puis téléphonez à M. Laurent pour présenter et défendre votre recommandation. Enfin, rédigez-lui un compte rendu écrit (copie à la directrice, Mme Roussel).",
+  "missionUk": "Порівняйте трьох кандидатів на стажування за вакансією, звітом наради та записами співбесід. Зателефонуйте керівнику, захистіть свій вибір (він заперечуватиме і повідомить нову інформацію) і напишіть звіт.",
+  "vocab": [
+    { "fr": "une candidature", "uk": "кандидатура, заявка" },
+    { "fr": "bac+3", "uk": "3 роки вищої освіти (≈ бакалавр)" },
+    { "fr": "un salon professionnel", "uk": "галузева виставка" },
+    { "fr": "la gratification", "uk": "стипендія стажиста" },
+    { "fr": "prendre en charge les frais", "uk": "взяти на себе витрати" },
+    { "fr": "se désister", "uk": "відмовитися (після згоди)" },
+    { "fr": "une solution de repli", "uk": "запасний варіант" },
+    { "fr": "un compte rendu", "uk": "звіт" }
+  ],
+  "documents": [
+    {
+      "type": "annonce",
+      "title": "Offre de stage",
+      "text": "GREENBOX recrute un(e) stagiaire en marketing digital\nDurée : 6 mois, à partir du 1er février\n\nMissions : gérer nos réseaux sociaux, rédiger des articles pour notre site, participer à l'organisation de salons professionnels.\n\nProfil : formation en marketing ou en communication (bac+3 minimum) ; très bonne maîtrise de l'anglais (nos clients sont européens) ; autonomie ; intérêt pour l'environnement. Permis B souhaité (déplacements sur les salons).\n\nGratification : 650 € par mois + tickets restaurant."
+    },
+    {
+      "type": "fiche",
+      "title": "Candidat 1 – Lucas Moreau",
+      "text": "Lucas Moreau, 22 ans\nLicence de communication (bac+3)\nStage de 2 mois dans une agence de publicité : création de posts Instagram\nAnglais : niveau B1\nBénévole dans une association de recyclage\nPermis B – Disponible le 1er février"
+    },
+    {
+      "type": "fiche",
+      "title": "Candidate 2 – Amina Diallo",
+      "text": "Amina Diallo, 24 ans\nMaster 1 marketing (bac+4)\nStage de 4 mois chez un fabricant de cosmétiques bio : rédaction de newsletters, gestion de la page LinkedIn\nAnglais courant (un semestre Erasmus à Dublin)\nPas de permis – Disponible le 15 février"
+    },
+    {
+      "type": "fiche",
+      "title": "Candidat 3 – Hugo Petit",
+      "text": "Hugo Petit, 25 ans\nBTS commerce (bac+2)\n3 ans d'expérience comme vendeur en magasin\nTrès actif sur les réseaux sociaux : blog de voyage personnel (10 000 abonnés)\nAnglais : niveau B2\nPermis B – Disponible tout de suite"
+    },
+    {
+      "type": "note",
+      "title": "Compte rendu – réunion du service marketing (12 janvier)",
+      "text": "Présents : M. Laurent (responsable marketing), Mme Roussel (directrice), Inès Garcia (chargée de communication)\n\n1. Bilan du dernier stage. Le stagiaire précédent, titulaire d'un master, a quitté l'entreprise au bout de trois mois pour un CDI. Mme Roussel souhaite « éviter de reproduire cette situation » et demande que la motivation du candidat pour l'ensemble du stage soit vérifiée.\n\n2. Articles du site. Jusqu'ici, les versions anglaises étaient confiées à une agence de traduction (1 200 € par trimestre). Si le ou la stagiaire peut rédiger directement en anglais, ce budget sera réaffecté à la participation aux salons.\n\n3. Réseaux sociaux. Inès rappelle que l'audience de GreenBox est avant tout professionnelle et se trouve sur LinkedIn ; Instagram reste secondaire.\n\n4. Divers. La gratification ne pourra pas dépasser le montant annoncé dans l'offre."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de M. Laurent",
+      "voice": "m",
+      "text": "Bonjour Kateryna, c'est Marc Laurent. Deux petites précisions pour le stage. D'abord, le premier salon professionnel a lieu à Lyon le cinq février, et nous aimerions que le stagiaire vienne avec nous. Ensuite, pour les déplacements, nous prenons toujours le train : le permis de conduire n'est donc plus nécessaire. Et la directrice insiste sur un point : les articles du site sont publiés en français et en anglais. Appelez-moi cet après-midi pour me dire qui vous choisissez. Merci !"
+    },
+    {
+      "title": "Extraits des entretiens de présélection",
+      "dialog": [
+        { "voice": "f", "who": "Inès", "text": "Lucas, votre anglais est de niveau B1. Comment comptez-vous rédiger des articles en anglais ?" },
+        { "voice": "m", "who": "Lucas", "text": "Je suis des cours intensifs en ce moment, et je passe le TOEIC en mars. Et puis je suis disponible pour tous les salons, même le week-end." },
+        { "voice": "f", "who": "Inès", "text": "Vous utilisez LinkedIn ?" },
+        { "voice": "m", "who": "Lucas", "text": "Surtout à titre personnel. Dans mon stage, j'ai surtout travaillé sur Instagram." },
+        { "voice": "m", "who": "M. Laurent", "text": "Amina, vous n'êtes disponible qu'à partir du quinze février. Pourquoi ?" },
+        { "voice": "f", "who": "Amina", "text": "Je termine mon semestre à l'université le treize. Mais pour le salon du cinq, je peux me libérer deux jours, à condition que mes frais de déplacement soient pris en charge." },
+        { "voice": "m", "who": "M. Laurent", "text": "Vous avez d'autres propositions ?" },
+        { "voice": "f", "who": "Amina", "text": "Oui, une start-up parisienne m'a proposé un stage, et je dois leur répondre avant vendredi. Mais votre projet m'intéresse davantage, à cause de votre engagement écologique." }
+      ]
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "lvl": "A2", "q": "Combien de temps dure le stage ?", "options": ["2 mois", "4 mois", "6 mois"], "answer": 2 },
+    { "part": "lecture", "lvl": "A2", "q": "Quel est le montant de la gratification mensuelle ? (en euros)", "accept": ["650", "650 €", "650€", "650 euros"] },
+    { "part": "lecture", "lvl": "B1", "q": "Quel candidat n'a pas le niveau d'études demandé ?", "options": ["Lucas", "Amina", "Hugo"], "answer": 2 },
+    { "part": "lecture", "lvl": "B1", "q": "Qui a le meilleur niveau d'anglais ?", "options": ["Lucas", "Amina", "Hugo"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Pourquoi la directrice veut-elle vérifier la motivation pour toute la durée du stage ?", "options": ["Le stagiaire précédent est parti au bout de trois mois pour un CDI", "Les stagiaires arrivent souvent en retard", "Le stage est mal payé"], "answer": 0 },
+    { "part": "lecture", "lvl": "B2", "q": "Quel réseau social est prioritaire pour GreenBox ?", "options": ["Instagram", "LinkedIn", "Un blog"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "En quoi le recrutement d'un candidat très bon en anglais aurait-il un intérêt financier ?", "options": ["La gratification pourrait être plus élevée", "Les 1 200 € trimestriels de traduction pourraient financer les salons", "L'entreprise recevrait une aide de l'État"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Quel élément du compte rendu affaiblit l'argument « Hugo a 10 000 abonnés » ?", "options": ["La gratification est limitée", "L'audience de GreenBox est professionnelle et sur LinkedIn, Instagram est secondaire", "Hugo n'a pas de permis"], "answer": 1 },
+    { "part": "ecoute", "lvl": "A2", "q": "Où et quand a lieu le premier salon ?", "options": ["À Lyon, le 5 février", "À Bordeaux, le 1er février", "À Paris, le 15 février"], "answer": 0 },
+    { "part": "ecoute", "lvl": "A2", "q": "Comment l'équipe se déplace-t-elle pour les salons ?", "options": ["En voiture", "En train", "En avion"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Sur quel point insiste la directrice ?", "options": ["Les articles sont publiés en français et en anglais", "Le stagiaire doit avoir un master", "Le stage commence le 1er février"], "answer": 0 },
+    { "part": "ecoute", "lvl": "B1", "q": "Pourquoi Amina n'est-elle disponible qu'à partir du 15 février ?", "options": ["Elle part en vacances", "Elle termine son semestre à l'université le 13", "Elle déménage"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "À quelle condition Amina peut-elle venir au salon du 5 février ?", "options": ["Si elle est payée double", "Si ses frais de déplacement sont pris en charge", "Si le salon est à Bordeaux"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "Comment Lucas compte-t-il améliorer son anglais ?", "options": ["Avec des cours intensifs et le TOEIC en mars", "Avec un séjour à Dublin", "Il ne compte pas le faire"], "answer": 0 },
+    { "part": "ecoute", "lvl": "C1", "q": "Quel élément rend la décision urgente ?", "options": ["Le salon est annulé", "Amina doit répondre à une autre offre avant vendredi", "Lucas commence demain"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Фаза 3: ви телефонуєте пану Лорану, представляєтеся і викладаєте рекомендацію з аргументами. Фаза 4: він заперечуватиме і повідомить нову інформацію — ставте уточнювальні запитання, наводьте контраргументи, шукайте компроміс.",
+    "turns": [
+      {
+        "phase": 3,
+        "examiner": "Marc Laurent, j'écoute.",
+        "voice": "m",
+        "task": "Привітайтеся, назвіться, поясніть мету дзвінка.",
+        "models": {
+          "B1": "Bonjour monsieur Laurent, c'est Kateryna, du service RH. Je vous appelle pour le stage en marketing.",
+          "B2": "Bonjour monsieur Laurent, Kateryna Hrytsenko, du service RH. Je vous appelle au sujet du stage en marketing digital : j'ai étudié les trois candidatures et j'aimerais vous présenter mon choix.",
+          "C1": "Bonjour monsieur Laurent, Kateryna Hrytsenko, du service RH. Je vous appelle, comme convenu, au sujet du stage en marketing digital. J'ai analysé les trois candidatures à la lumière de l'offre, du compte rendu de la réunion et de vos dernières précisions. Avez-vous quelques minutes pour que je vous soumette ma recommandation ?"
+        },
+        "check": [
+          { "lvl": "A2", "t": "Привітання та хто ви" },
+          { "lvl": "B1", "t": "Мета дзвінка" },
+          { "lvl": "C1", "t": "Посилання на опрацьовані джерела + ввічливе запитання, чи є час" }
+        ]
+      },
+      {
+        "phase": 3,
+        "examiner": "Je vous écoute. Qui me proposez-vous ?",
+        "voice": "m",
+        "task": "Представте вибір і аргументи, впорядкуйте їх за важливістю.",
+        "models": {
+          "B1": "Je propose Amina Diallo. Elle a un master en marketing et elle parle très bien anglais. C'est important pour les articles.",
+          "B2": "Je vous propose Amina Diallo. D'abord, elle a le niveau d'études demandé. Ensuite, son anglais est courant, ce qui est essentiel pour les articles bilingues et nos clients européens. Enfin, elle a déjà rédigé des newsletters et géré une page LinkedIn, notre réseau prioritaire.",
+          "C1": "Ma recommandation va à Amina Diallo, pour trois raisons que je classerais par ordre d'importance. Premièrement, son anglais courant lui permet de rédiger directement les articles bilingues, ce qui nous permettrait en outre de réaffecter les 1 200 euros trimestriels de traduction aux salons. Deuxièmement, son expérience correspond précisément à nos besoins : newsletters et LinkedIn, qui est notre audience prioritaire. Enfin, elle se dit attirée par notre engagement écologique, ce qui répond à la préoccupation de Mme Roussel sur la motivation."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Назвали обраного кандидата" },
+          { "lvl": "B1", "t": "Щонайменше 2 аргументи" },
+          { "lvl": "B2", "t": "Аргументи впорядковані й прив'язані до вимог (статті FR/EN, LinkedIn)" },
+          { "lvl": "C1", "t": "Ієрархія аргументів + неочевидні дані (економія 1 200 €, мотивація)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Mais elle ne commence que le quinze février… Et le salon de Lyon, le cinq ?",
+        "voice": "m",
+        "task": "Визнайте слабке місце і дайте контраргумент, використавши інформацію із запису співбесіди.",
+        "models": {
+          "B1": "Oui, c'est vrai. Mais elle peut venir au salon si on paie son voyage.",
+          "B2": "C'est vrai, mais elle m'a dit qu'elle pouvait se libérer deux jours pour le salon, à condition que nous prenions en charge ses frais de déplacement. Et sur un stage de six mois, deux semaines de décalage, ce n'est pas déterminant.",
+          "C1": "C'est effectivement le point faible de sa candidature. Cela dit, elle s'est engagée à se libérer pour le salon, pour peu que nous prenions en charge son déplacement : un coût modeste comparé au bénéfice attendu. Rapporté à un stage de six mois, ce décalage de deux semaines me paraît secondaire."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Відреагували на заперечення (C'est vrai, mais…)" },
+          { "lvl": "B2", "t": "Використали інформацію з аудіо (умова: оплата дороги)" },
+          { "lvl": "B2", "t": "Показали відносність (2 тижні з 6 місяців)" },
+          { "lvl": "C1", "t": "Зважили витрати й вигоди, нюансована мова (cela dit, pour peu que…)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Il y a autre chose. Hier, Mme Roussel m'a dit qu'elle préférait Lucas, parce qu'il est disponible pour tous les salons, même le week-end.",
+        "voice": "m",
+        "task": "Нова інформація! Поставте уточнювальне запитання, наведіть контраргумент і запропонуйте компроміс.",
+        "models": {
+          "B1": "Je comprends, mais l'anglais de Lucas n'est pas assez bon pour écrire des articles.",
+          "B2": "Je comprends l'argument de la disponibilité. Mais est-ce que Mme Roussel sait que les articles doivent être publiés en anglais ? Lucas a un niveau B1 ; il prépare le TOEIC pour mars, mais rien ne garantit qu'il aura le niveau. Avec Amina, nous n'aurions pas ce risque.",
+          "C1": "C'est un argument recevable : la disponibilité compte. Puis-je vous demander si Mme Roussel a pris connaissance de l'exigence d'articles bilingues ? Car c'est précisément là que le profil de Lucas montre ses limites : un niveau B1, même avec un TOEIC en préparation, ne permet pas une rédaction professionnelle. Je propose donc de maintenir Amina et de garder Lucas en solution de repli, voire de lui proposer plus tard un stage centré sur Instagram."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Ввічливо не погодилися (Je comprends, mais…)" },
+          { "lvl": "B2", "t": "Поставили уточнювальне запитання про нову інформацію" },
+          { "lvl": "B2", "t": "Контраргумент із фактами (рівень B1, TOEIC не гарантує)" },
+          { "lvl": "C1", "t": "Запропонували компроміс / запасний варіант" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Et Hugo ? Dix mille abonnés, ce n'est pas rien pour nos réseaux sociaux…",
+        "voice": "m",
+        "task": "Визнайте перевагу, але поясніть, чому вона не переноситься на потреби GreenBox.",
+        "models": {
+          "B1": "Hugo a seulement un BTS. L'offre demande bac+3.",
+          "B2": "C'est un atout, mais il n'a pas le niveau d'études demandé, et son audience vient d'un blog de voyage, alors que notre priorité, c'est LinkedIn et un public professionnel.",
+          "C1": "Son audience est réelle, mais elle n'est pas transposable : il s'agit d'un public de voyageurs sur un blog personnel, alors que notre cible est professionnelle et se trouve sur LinkedIn, comme l'a rappelé Inès. Sans compter qu'il ne remplit pas le critère du bac+3. Il serait réducteur de juger une candidature sur le seul nombre d'abonnés."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Критерій освіти (bac+2 замість bac+3)" },
+          { "lvl": "B2", "t": "Аргумент про аудиторію (блог vs LinkedIn)" },
+          { "lvl": "C1", "t": "Нюанс «не переноситься» + посилання на звіт наради" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Bon. Vous m'avez à moitié convaincu. Concrètement, qu'est-ce que vous proposez ?",
+        "voice": "m",
+        "task": "Запропонуйте конкретні наступні кроки (з терміновістю і планом Б), подякуйте і попрощайтеся.",
+        "models": {
+          "B1": "Je téléphone à Amina aujourd'hui et je vous envoie un e-mail. Merci, au revoir.",
+          "B2": "Je propose d'appeler Amina dès aujourd'hui pour confirmer sa venue au salon et ses frais de déplacement, puisqu'elle doit répondre à une autre offre avant vendredi. Je vous envoie ensuite un compte rendu écrit. Merci pour votre temps, bonne journée.",
+          "C1": "Je propose d'agir vite, puisqu'Amina doit répondre à une autre entreprise avant vendredi. Je l'appelle aujourd'hui pour confirmer sa présence au salon et le remboursement de son déplacement, j'expose à Mme Roussel les raisons de notre choix, et je vous adresse un compte rendu écrit d'ici ce soir. Si elle se désistait, Lucas serait notre solution de repli. Merci pour cet échange, bonne fin de journée."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Подякували і попрощалися" },
+          { "lvl": "B1", "t": "Конкретні наступні кроки" },
+          { "lvl": "B2", "t": "Терміновість (інша пропозиція до п'ятниці)" },
+          { "lvl": "C1", "t": "План Б і повідомлення директорці" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Rédigez un compte rendu à M. Laurent (copie à Mme Roussel) : votre recommandation, vos arguments, la comparaison avec les deux autres candidatures, la solution proposée pour le salon de Lyon et les prochaines étapes.",
+    "taskUk": "Напишіть звіт пану Лорану (копія директорці): рекомендація, аргументи, порівняння з іншими кандидатами, рішення щодо виставки в Ліоні, наступні кроки.",
+    "minWords": 150,
+    "maxWords": 250,
+    "models": {
+      "B1": "Objet : choix du stagiaire\n\nMonsieur,\n\nJe vous propose Amina Diallo pour le stage en marketing. Elle a un master 1 en marketing et elle parle anglais couramment. C'est important parce que les articles du site sont en français et en anglais. Elle a aussi de l'expérience avec LinkedIn.\n\nLucas parle anglais seulement au niveau B1. Hugo a un BTS, mais l'offre demande bac+3.\n\nAmina commence le 15 février, mais elle peut venir au salon de Lyon le 5 février si nous payons son voyage. Je vais lui téléphoner aujourd'hui.\n\nCordialement,\nKateryna Hrytsenko",
+      "B2": "Objet : Recrutement du stagiaire en marketing digital\n\nMonsieur,\n\nSuite à notre conversation, je vous confirme ma recommandation : je propose de retenir Amina Diallo.\n\nTout d'abord, elle parle anglais couramment, ce qui lui permettra de rédiger directement les articles bilingues du site. Ensuite, son expérience correspond à nos besoins : elle a géré une page LinkedIn, notre réseau prioritaire, et rédigé des newsletters. Enfin, elle est motivée par notre engagement écologique.\n\nLes deux autres candidatures présentent des limites. Lucas Moreau est disponible plus tôt, mais son niveau d'anglais (B1) est insuffisant. Hugo Petit a une audience importante, mais sur un blog de voyage, et il n'a pas le niveau d'études requis.\n\nAmina n'est disponible qu'à partir du 15 février ; cependant, elle peut venir au salon de Lyon le 5 février si nous prenons en charge ses frais de déplacement. Comme elle doit répondre à une autre offre avant vendredi, je la contacte aujourd'hui.\n\nJe vous tiendrai informé.\n\nCordialement,\nKateryna Hrytsenko\nService RH",
+      "C1": "Objet : Stage en marketing digital – recommandation\nCopie : Mme Roussel\n\nMonsieur,\n\nComme convenu lors de notre échange téléphonique, je vous adresse ma recommandation concernant le stage en marketing digital.\n\nAprès analyse des trois candidatures, je préconise de retenir Amina Diallo. Son anglais courant lui permettra de rédiger directement les articles bilingues, ce qui, au-delà de la qualité, permettrait de réaffecter aux salons les 1 200 € trimestriels jusqu'ici consacrés à la traduction. Son expérience (newsletters, gestion de LinkedIn) correspond en outre à notre cible, essentiellement professionnelle. Enfin, sa motivation pour notre engagement écologique répond au souci, exprimé par Mme Roussel, de garder le ou la stagiaire pendant toute la durée du stage.\n\nCertes, Lucas Moreau est disponible plus tôt et pour tous les salons ; néanmoins, un niveau B1 ne permet pas une rédaction professionnelle en anglais. Quant à Hugo Petit, son audience, réelle, n'est pas transposable à nos besoins, et il ne remplit pas le critère du bac+3.\n\nReste la question du salon de Lyon : Amina s'est engagée à s'y rendre le 5 février, sous réserve que ses frais de déplacement soient pris en charge, ce qui me semble justifié. Comme elle doit répondre à une autre offre avant vendredi, je propose de la contacter dès aujourd'hui ; Lucas resterait notre solution de repli.\n\nJe me tiens à votre disposition pour en discuter.\n\nBien cordialement,\nKateryna Hrytsenko\nService RH"
+    },
+    "checklist": [
+      { "lvl": "A2", "t": "Тема листа, звертання і підпис" },
+      { "lvl": "A2", "t": "Названо обраного кандидата" },
+      { "lvl": "B1", "t": "Щонайменше 2 аргументи на користь вибору" },
+      { "lvl": "B1", "t": "Названо недоліки двох інших кандидатів" },
+      { "lvl": "B2", "t": "Чітка структура абзацами: рекомендація → аргументи → порівняння → рішення → кроки" },
+      { "lvl": "B2", "t": "Використано інформацію з усіх джерел (оголошення, звіт, обидва записи)" },
+      { "lvl": "B2", "t": "Рішення щодо виставки і дати (умова — оплата дороги)" },
+      { "lvl": "C1", "t": "Визнано слабкі місця власного вибору і названо запасний план" },
+      { "lvl": "C1", "t": "Офіційний регістр і різноманітні конектори (en outre, néanmoins, quant à…)" }
+    ]
+  },
+  "relatedVideos": ["z9OpWQnohZk", "rUmcZ3zbwpI"]
+}

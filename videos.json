@@ -1,5 +1,5 @@
 {
-  "_instructions": "Як додати відео: скопіюйте будь-який блок { ... } з масиву videos, вставте після останнього (не забудьте кому між блоками) і змініть поля. Обов'язкові: id (11 символів з посилання youtube.com/watch?v=ID), title, topic. Необов'язкові: channel, level (B1/B2), duration (у секундах), subs (manual/auto/burned), about, keywords, questions. Теми (topic): money, business, science, tech, history, psychology, sport, food, travel, other. У questions поле answer — номер правильного варіанту, рахуючи з 0. Поля dcl (A1/A2/B1) і dclTopic (travail, logement, commerce, transport, sante, administration, evenement, societe) — мітки для розділу DCL.",
+  "_instructions": "Як додати відео: скопіюйте будь-який блок { ... } з масиву videos, вставте після останнього (не забудьте кому між блоками) і змініть поля. Обов'язкові: id (11 символів з посилання youtube.com/watch?v=ID), title, topic. Необов'язкові: channel, level (B1/B2), duration (у секундах), subs (manual/auto/burned), about, keywords, questions. Теми (topic): money, business, science, tech, history, psychology, sport, food, travel, other. У questions поле answer — номер правильного варіанту, рахуючи з 0. Поля dcl (A1/A2/B1/B2/C1) і dclTopic (travail, logement, commerce, transport, sante, administration, evenement, societe) — мітки для розділу DCL.",
   "videos": [
     {
       "id": "ycfu4fV0Vvo",
@@ -273,7 +273,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "commerce"
     },
     {
@@ -366,7 +366,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "C1",
       "dclTopic": "administration"
     },
     {
@@ -459,7 +459,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "transport"
     },
     {
@@ -552,7 +552,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "travail"
     },
     {
@@ -641,7 +641,7 @@
           "answer": 0
         }
       ],
-      "dcl": "A2",
+      "dcl": "B1",
       "dclTopic": "commerce"
     },
     {
@@ -734,7 +734,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "C1",
       "dclTopic": "commerce"
     },
     {
@@ -827,7 +827,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "societe"
     },
     {
@@ -920,7 +920,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "sante"
     },
     {
@@ -1013,7 +1013,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "C1",
       "dclTopic": "societe"
     },
     {
@@ -1106,7 +1106,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "travail"
     },
     {
@@ -1186,7 +1186,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "travail"
     },
     {
@@ -1279,7 +1279,7 @@
           "answer": 1
         }
       ],
-      "dcl": "B1",
+      "dcl": "C1",
       "dclTopic": "societe"
     },
     {
@@ -1554,7 +1554,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "societe"
     },
     {
@@ -1647,7 +1647,7 @@
           "answer": 2
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "evenement"
     },
     {
@@ -1727,7 +1727,7 @@
           "answer": 1
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "commerce"
     },
     {
@@ -1807,7 +1807,7 @@
           "answer": 2
         }
       ],
-      "dcl": "A2",
+      "dcl": "B1",
       "dclTopic": "travail"
     },
     {
@@ -1980,7 +1980,7 @@
           "answer": 1
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "evenement"
     },
     {
@@ -2073,7 +2073,7 @@
           "answer": 0
         }
       ],
-      "dcl": "B1",
+      "dcl": "B2",
       "dclTopic": "evenement"
     },
     {
@@ -2166,7 +2166,7 @@
           "answer": 0
         }
       ],
-      "dcl": "A2",
+      "dcl": "B1",
       "dclTopic": "commerce"
     },
     {
@@ -2255,7 +2255,7 @@
           "answer": 1
         }
       ],
-      "dcl": "A2",
+      "dcl": "B1",
       "dclTopic": "commerce"
     },
     {
@@ -2344,7 +2344,7 @@
           "answer": 1
         }
       ],
-      "dcl": "A2",
+      "dcl": "B1",
       "dclTopic": "commerce"
     },
     {
@@ -3129,6 +3129,1069 @@
             "Pas de salaire"
           ],
           "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "z9OpWQnohZk",
+      "title": "Le télétravail est-il efficace ?",
+      "channel": "Le Monde",
+      "topic": "work",
+      "level": "B2",
+      "duration": 503,
+      "subs": "manual",
+      "dcl": "B2",
+      "dclTopic": "travail",
+      "about": "Чи ефективна віддалена робота: експеримент Стенфорда в Шанхаї, продуктивність, екологія — і зворотний бік: нерівність, стрес, вигорання.",
+      "keywords": [
+        {
+          "fr": "le télétravail",
+          "uk": "віддалена робота"
+        },
+        {
+          "fr": "la productivité",
+          "uk": "продуктивність"
+        },
+        {
+          "fr": "en présentiel",
+          "uk": "очно, в офісі"
+        },
+        {
+          "fr": "les trajets domicile-bureau",
+          "uk": "дорога між домом і роботою"
+        },
+        {
+          "fr": "une inégalité",
+          "uk": "нерівність"
+        },
+        {
+          "fr": "l'épuisement professionnel",
+          "uk": "професійне вигорання"
+        },
+        {
+          "fr": "encadrer",
+          "uk": "регулювати, задавати рамки"
+        }
+      ],
+      "questions": [
+        {
+          "q": "De combien a augmenté la productivité des télétravailleurs dans l'expérience de Stanford ?",
+          "options": [
+            "2 %",
+            "13 %",
+            "50 %"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel est le premier facteur cité par les télétravailleurs pour expliquer leur efficacité ?",
+          "options": [
+            "Un meilleur salaire",
+            "Moins de temps dans les transports",
+            "Plus de réunions"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel effet négatif a été observé au centre d'appel ?",
+          "options": [
+            "50 % de promotions en moins pour les télétravailleurs",
+            "Plus d'arrêts maladie",
+            "Une baisse du nombre d'appels"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi l'économie de CO2 est-elle plus faible que prévu ?",
+          "options": [
+            "Les gens prennent plus l'avion",
+            "Des effets compensatoires : chauffage du domicile, vidéos, nouveaux trajets",
+            "Les bureaux restent allumés la nuit"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Que propose l'économiste Nick Bloom ?",
+          "options": [
+            "Supprimer le télétravail",
+            "Que chaque équipe ait les mêmes jours de télétravail et de présentiel",
+            "Le télétravail cinq jours sur cinq"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "C27GErw0B-4",
+      "title": "La semaine de 4 jours : une révolution économique ?",
+      "channel": "Welcome to the Jungle Media",
+      "topic": "work",
+      "level": "B2",
+      "duration": 244,
+      "subs": "auto",
+      "dcl": "B2",
+      "dclTopic": "travail",
+      "about": "Економіст Тома Порше аргументує за чотириденний тиждень: важить продуктивність, а не кількість годин. Досвід Великої Британії та Ісландії і ризики для бізнесу.",
+      "keywords": [
+        {
+          "fr": "le coût du travail",
+          "uk": "вартість праці"
+        },
+        {
+          "fr": "les heures supplémentaires",
+          "uk": "понаднормові години"
+        },
+        {
+          "fr": "l'absentéisme",
+          "uk": "прогули, відсутність на роботі"
+        },
+        {
+          "fr": "la conjoncture",
+          "uk": "економічна кон'юнктура"
+        },
+        {
+          "fr": "être viable",
+          "uk": "бути життєздатним"
+        },
+        {
+          "fr": "l'attractivité",
+          "uk": "привабливість"
+        },
+        {
+          "fr": "un surcroît de productivité",
+          "uk": "додаткова продуктивність"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Selon Thomas Porcher, la vraie question n'est pas le temps de travail mais…",
+          "options": [
+            "les impôts",
+            "la productivité",
+            "les vacances"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Combien d'emplois le passage aux 35 heures a-t-il créés ?",
+          "options": [
+            "Entre 300 000 et 400 000",
+            "1,7 million",
+            "Aucun"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi la semaine de 4 jours payée 5 est-elle difficile pour certaines entreprises ?",
+          "options": [
+            "Elle augmente le coût du travail : il faut plus de productivité",
+            "Elle est interdite par la loi",
+            "Les clients refusent"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quel a été le résultat du test au Royaume-Uni ?",
+          "options": [
+            "Négatif pour la plupart",
+            "Positif pour 91 % des 60 entreprises",
+            "Il a été annulé"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle est sa position finale ?",
+          "options": [
+            "Il faut l'imposer tout de suite par la loi",
+            "Elle s'imposera progressivement, sans l'imposer brutalement",
+            "Il faut l'interdire"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "uAYdZ9VF_RM",
+      "title": "Votre cerveau perd les pédales : le facteur stress",
+      "channel": "France Culture",
+      "topic": "psychology",
+      "level": "C1",
+      "duration": 565,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "sante",
+      "about": "Нейропсихолог Альбер Мукхейбер пояснює, як стан тіла (голод, втома, стрес) змінює наше мислення і чому через це меритократія — ілюзія.",
+      "keywords": [
+        {
+          "fr": "la catastrophisation",
+          "uk": "катастрофізація"
+        },
+        {
+          "fr": "l'hypervigilance",
+          "uk": "надмірна пильність"
+        },
+        {
+          "fr": "l'état corporel",
+          "uk": "стан тіла"
+        },
+        {
+          "fr": "être irritable",
+          "uk": "бути дратівливим"
+        },
+        {
+          "fr": "à notre insu",
+          "uk": "без нашого відома"
+        },
+        {
+          "fr": "moduler",
+          "uk": "впливати, змінювати"
+        },
+        {
+          "fr": "la méritocratie",
+          "uk": "меритократія"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quand on est stressé, on a tendance à…",
+          "options": [
+            "imaginer les pires scénarios et tout trouver important",
+            "mieux dormir",
+            "prendre des décisions plus rapides et justes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Selon lui, le cerveau…",
+          "options": [
+            "fonctionne comme un ordinateur",
+            "obéit aux mêmes règles que le reste du corps",
+            "est séparé du corps"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi certains fast-foods mettent-ils une musique rythmée ?",
+          "options": [
+            "Pour que les clients mangent plus vite",
+            "Pour couvrir le bruit de la cuisine",
+            "Pour les enfants"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi la méritocratie est-elle une illusion selon lui ?",
+          "options": [
+            "Les examens sont trop faciles",
+            "On ne part pas tous du même endroit : sommeil, alimentation, bruit",
+            "Les professeurs trichent"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "2BRi__uvROQ",
+      "title": "Médicaments : un marché mondial | Le Dessous des cartes",
+      "channel": "Le Dessous des Cartes - ARTE",
+      "topic": "business",
+      "level": "C1",
+      "duration": 751,
+      "subs": "manual",
+      "dcl": "C1",
+      "dclTopic": "sante",
+      "about": "Ліки, які колись виробляв Захід, тепер переважно виробляють Індія (генерики) і Китай (діючі речовини). Чому виникає дефіцит і що робить ЄС.",
+      "keywords": [
+        {
+          "fr": "un médicament générique",
+          "uk": "генерик"
+        },
+        {
+          "fr": "un brevet",
+          "uk": "патент"
+        },
+        {
+          "fr": "un principe actif",
+          "uk": "діюча речовина"
+        },
+        {
+          "fr": "une rupture de stock",
+          "uk": "дефіцит, відсутність на складі"
+        },
+        {
+          "fr": "la souveraineté sanitaire",
+          "uk": "незалежність у сфері охорони здоров'я"
+        },
+        {
+          "fr": "relocaliser",
+          "uk": "повернути виробництво в країну"
+        },
+        {
+          "fr": "la dépendance",
+          "uk": "залежність"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi GSK a-t-il modernisé son usine de Mayenne ?",
+          "options": [
+            "Pour produire plus d'amoxicilline en France et éviter les pénuries",
+            "Pour fermer l'usine",
+            "Pour fabriquer des vaccins"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Grâce à quelle loi l'Inde a-t-elle pu copier les médicaments occidentaux ?",
+          "options": [
+            "Le Patents Act de 1970, qui dispensait de respecter les brevets occidentaux",
+            "Un accord avec les États-Unis",
+            "Une loi européenne"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Sur quoi la Chine s'est-elle spécialisée ?",
+          "options": [
+            "Les médicaments génériques finis",
+            "La fabrication des principes actifs",
+            "Les vaccins"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi la relocalisation ne suffit-elle pas, selon la vidéo ?",
+          "options": [
+            "Elle est longue et ne rendra pas une souveraineté complète",
+            "Elle est interdite",
+            "Personne ne veut travailler dans ces usines"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que prévoit l'acte européen sur les médicaments critiques ?",
+          "options": [
+            "Des stocks minimaux, une solidarité entre pays et des fournisseurs diversifiés",
+            "L'interdiction des génériques",
+            "Des prix fixés par Bruxelles"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "hWeksJQQRyU",
+      "title": "Géopolitique des réseaux sociaux | Le Dessous des cartes",
+      "channel": "Le Dessous des Cartes - ARTE",
+      "topic": "tech",
+      "level": "C1",
+      "duration": 735,
+      "subs": "manual",
+      "dcl": "C1",
+      "dclTopic": "societe",
+      "about": "Хто контролює соцмережі: американські гіганти, китайська «цифрова стіна», WeChat і TikTok, російські платформи, Іран — і як демократії намагаються їх регулювати.",
+      "keywords": [
+        {
+          "fr": "réguler",
+          "uk": "регулювати"
+        },
+        {
+          "fr": "les données personnelles",
+          "uk": "персональні дані"
+        },
+        {
+          "fr": "un régime autoritaire",
+          "uk": "авторитарний режим"
+        },
+        {
+          "fr": "la désinformation",
+          "uk": "дезінформація"
+        },
+        {
+          "fr": "bloquer",
+          "uk": "блокувати"
+        },
+        {
+          "fr": "une puissance normative",
+          "uk": "держава, що встановлює норми"
+        },
+        {
+          "fr": "un internaute",
+          "uk": "інтернет-користувач"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quel événement de janvier 2021 a montré le pouvoir des géants du numérique ?",
+          "options": [
+            "La suspension du compte de Donald Trump par Twitter",
+            "Le lancement de TikTok",
+            "Une panne de Facebook"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi les réseaux sociaux sont-ils peu présents dans une partie de l'Afrique ?",
+          "options": [
+            "Ils sont tous interdits",
+            "Pour des raisons techniques : connexion, débit, matériel trop cher",
+            "Les gens ne s'y intéressent pas"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Comment la Chine contrôle-t-elle son Internet ?",
+          "options": [
+            "Avec une « grande muraille numérique » qui bloque les sites étrangers",
+            "En coupant Internet la nuit",
+            "Elle ne le contrôle pas"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce que l'affaire Cambridge Analytica ?",
+          "options": [
+            "Le piratage d'une banque",
+            "La collecte des données de millions d'Américains à des fins électorales",
+            "Une fusion d'entreprises"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Selon la conclusion, quel est le rôle de l'Union européenne ?",
+          "options": [
+            "Elle a créé les plus grands réseaux sociaux",
+            "Une puissance normative qui fixe des règles pour protéger les données",
+            "Elle interdit les réseaux sociaux"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "6eSde1tBqFo",
+      "title": "La montée des eaux, un enjeu mondial | Le Dessous des Cartes",
+      "channel": "Le Dessous des Cartes - ARTE",
+      "topic": "science",
+      "level": "C1",
+      "duration": 756,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "societe",
+      "about": "Підвищення рівня світового океану: причини, найвразливіші регіони (Тувалу, Шанхай, Нідерланди, Західна Африка, північ Франції) і стратегії адаптації.",
+      "keywords": [
+        {
+          "fr": "la montée des eaux",
+          "uk": "підвищення рівня води"
+        },
+        {
+          "fr": "la fonte des glaciers",
+          "uk": "танення льодовиків"
+        },
+        {
+          "fr": "se dilater",
+          "uk": "розширюватися"
+        },
+        {
+          "fr": "une digue",
+          "uk": "дамба"
+        },
+        {
+          "fr": "la submersion",
+          "uk": "затоплення"
+        },
+        {
+          "fr": "l'érosion du littoral",
+          "uk": "ерозія узбережжя"
+        },
+        {
+          "fr": "l'adaptation",
+          "uk": "адаптація"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quelles sont les deux causes de la montée des mers ?",
+          "options": [
+            "La fonte des glaces et la dilatation de l'eau qui se réchauffe",
+            "Les pluies et les fleuves",
+            "Les marées et le vent"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "De combien le niveau des mers a-t-il augmenté entre 1900 et 2020 ?",
+          "options": [
+            "2 cm",
+            "21 cm",
+            "2 m"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Pourquoi Tuvalu veut-il devenir une « nation dématérialisée » ?",
+          "options": [
+            "Pour conserver son histoire, ses langues et ses services publics si les îles disparaissent",
+            "Pour attirer des touristes",
+            "Pour vendre des données"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce que la « ville-éponge » à Shanghai ?",
+          "options": [
+            "Des rues équipées de matériaux qui absorbent l'eau",
+            "Une ville flottante",
+            "Un quartier sans voitures"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quel pays européen est un pionnier de l'adaptation depuis 1953 ?",
+          "options": [
+            "La France",
+            "Les Pays-Bas",
+            "L'Italie"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "rUmcZ3zbwpI",
+      "title": "Les ruptures conventionnelles ruinent-elles l'économie française ?",
+      "channel": "Les Echos",
+      "topic": "work",
+      "level": "B2",
+      "duration": 596,
+      "subs": "manual",
+      "dcl": "B2",
+      "dclTopic": "travail",
+      "about": "Що таке «rupture conventionnelle» (розірвання трудового договору за згодою сторін), звідки вона взялася і чи справді дорого обходиться страхуванню на випадок безробіття.",
+      "keywords": [
+        {
+          "fr": "une rupture conventionnelle",
+          "uk": "розірвання договору за згодою сторін"
+        },
+        {
+          "fr": "un CDI",
+          "uk": "безстроковий трудовий договір"
+        },
+        {
+          "fr": "un licenciement",
+          "uk": "звільнення (роботодавцем)"
+        },
+        {
+          "fr": "une démission",
+          "uk": "звільнення за власним бажанням"
+        },
+        {
+          "fr": "les indemnités",
+          "uk": "компенсація"
+        },
+        {
+          "fr": "l'assurance-chômage",
+          "uk": "страхування на випадок безробіття"
+        },
+        {
+          "fr": "la flexisécurité",
+          "uk": "гнучкість + соціальний захист"
+        },
+        {
+          "fr": "le patronat / les syndicats",
+          "uk": "роботодавці / профспілки"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Qu'est-ce qu'une rupture conventionnelle ?",
+          "options": [
+            "La fin d'un CDI d'un commun accord entre employeur et salarié",
+            "Un licenciement pour faute",
+            "Une démission sans indemnité"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "D'où vient l'idée ?",
+          "options": [
+            "Des syndicats",
+            "Du Medef, sur le modèle du divorce par consentement mutuel",
+            "De l'Union européenne"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle part des licenciements pour motif personnel est remplacée par des ruptures conventionnelles ?",
+          "options": [
+            "12 %",
+            "50 %",
+            "90 %"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que dit l'Unédic sur leur coût net pour l'assurance-chômage ?",
+          "options": [
+            "8 milliards d'euros exactement",
+            "Qu'il ne peut pas le calculer",
+            "Qu'il est nul"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Selon le graphique final, les ruptures conventionnelles…",
+          "options": [
+            "sont la première cause de fin de CDI",
+            "restent loin derrière les démissions",
+            "ont disparu"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "Sast_HZuSr8",
+      "title": "Crédit privé : la bombe à retardement à 1.700 milliards de dollars",
+      "channel": "Les Echos",
+      "topic": "money",
+      "level": "C1",
+      "duration": 875,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "societe",
+      "about": "Приватне кредитування — позики компаніям від фондів, а не банків: чому воно вибухнуло після 2008 року і чи може спричинити нову фінансову кризу.",
+      "keywords": [
+        {
+          "fr": "le crédit privé",
+          "uk": "приватне кредитування"
+        },
+        {
+          "fr": "un fonds",
+          "uk": "фонд"
+        },
+        {
+          "fr": "le rendement",
+          "uk": "дохідність"
+        },
+        {
+          "fr": "une faillite",
+          "uk": "банкрутство"
+        },
+        {
+          "fr": "l'opacité",
+          "uk": "непрозорість"
+        },
+        {
+          "fr": "un risque systémique",
+          "uk": "системний ризик"
+        },
+        {
+          "fr": "un effet de contagion",
+          "uk": "ефект зараження"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Qu'est-ce que le crédit privé ?",
+          "options": [
+            "Un prêt accordé à une entreprise par un fonds privé, pas par une banque",
+            "Un crédit à la consommation",
+            "Une aide de l'État"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi le crédit privé s'est-il développé après 2008 ?",
+          "options": [
+            "Les banques, plus régulées, prêtaient moins, surtout aux entreprises de services",
+            "Les taux étaient très élevés",
+            "L'État l'a imposé"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quel rendement annuel moyen offre-t-il aux investisseurs ?",
+          "options": [
+            "Environ 2 %",
+            "Environ 9 %",
+            "Environ 25 %"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Que voulait dire Jamie Dimon avec l'image du « cafard » ?",
+          "options": [
+            "Que le marché est propre",
+            "Quand on voit un problème, il y en a probablement d'autres",
+            "Qu'il faut fermer les fonds"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle est la conclusion de la BCE ?",
+          "options": [
+            "Une crise est certaine",
+            "Pas de menace pour la stabilité financière « à ce stade »",
+            "Le crédit privé doit être interdit"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g9gzOcpeWY4",
+      "title": "Pourquoi les aides aux entreprises posent problème",
+      "channel": "Les Echos",
+      "topic": "business",
+      "level": "C1",
+      "duration": 803,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "administration",
+      "about": "211 мільярдів євро державної допомоги компаніям: чому ніхто не погоджується, що вважати «допомогою», хто отримує найбільше і як оцінювати ефективність.",
+      "keywords": [
+        {
+          "fr": "les aides aux entreprises",
+          "uk": "державна допомога компаніям"
+        },
+        {
+          "fr": "une exonération de cotisations",
+          "uk": "звільнення від соціальних внесків"
+        },
+        {
+          "fr": "une niche fiscale",
+          "uk": "податкова пільга"
+        },
+        {
+          "fr": "le crédit d'impôt recherche",
+          "uk": "податковий кредит на дослідження"
+        },
+        {
+          "fr": "le périmètre",
+          "uk": "межі (того, що враховують)"
+        },
+        {
+          "fr": "conditionner",
+          "uk": "ставити умови"
+        },
+        {
+          "fr": "la politique de l'offre",
+          "uk": "політика пропозиції"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi les montants (112, 211, 270 milliards) diffèrent-ils ?",
+          "options": [
+            "Les chiffres sont faux",
+            "Personne n'est d'accord sur la définition d'une « aide »",
+            "Ils concernent des années différentes"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Combien de dispositifs d'aide existe-t-il ?",
+          "options": [
+            "Douze",
+            "Une centaine",
+            "Plus de 2 200"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quelle est la plus grosse aide fiscale ?",
+          "options": [
+            "Le crédit d'impôt recherche (7,2 milliards)",
+            "La TVA réduite dans la restauration",
+            "L'aide aux apprentis"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi la complexité des aides désavantage-t-elle les PME ?",
+          "options": [
+            "Elles ont de plus petites équipes et suivent moins les changements",
+            "Elles ne paient pas d'impôts",
+            "Elles n'ont pas le droit aux aides"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Sur quoi tout le monde est-il d'accord ?",
+          "options": [
+            "Supprimer toutes les aides",
+            "Définir les aides, mieux les conditionner et les évaluer",
+            "Doubler les aides"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "xavLnNnZsLc",
+      "title": "La crise du logement expliquée en moins de 7 minutes",
+      "channel": "Matera",
+      "topic": "daily",
+      "level": "B2",
+      "duration": 432,
+      "subs": "auto",
+      "dcl": "B2",
+      "dclTopic": "logement",
+      "about": "Криза житла у Франції за 7 хвилин: ціни зростали швидше за доходи, дешеві кредити, демографія, менше будівництва, Airbnb і порожні квартири.",
+      "keywords": [
+        {
+          "fr": "le logement social (HLM)",
+          "uk": "соціальне житло"
+        },
+        {
+          "fr": "le locataire / le propriétaire",
+          "uk": "орендар / власник"
+        },
+        {
+          "fr": "l'accès à la propriété",
+          "uk": "можливість купити житло"
+        },
+        {
+          "fr": "les mensualités",
+          "uk": "щомісячні платежі"
+        },
+        {
+          "fr": "un permis de construire",
+          "uk": "дозвіл на будівництво"
+        },
+        {
+          "fr": "un logement vacant",
+          "uk": "порожнє житло"
+        },
+        {
+          "fr": "la spéculation immobilière",
+          "uk": "спекуляція нерухомістю"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quelle part des logements en France relève du privé ?",
+          "options": [
+            "Environ 2 sur 10",
+            "Environ 5 sur 10",
+            "Environ 8 sur 10"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Entre 2001 et 2020, les prix des logements anciens et les revenus ont augmenté de…",
+          "options": [
+            "130 % et 30 %",
+            "30 % et 130 %",
+            "50 % et 50 %"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que s'est-il passé quand les taux ont remonté en 2022 ?",
+          "options": [
+            "Les prix ont doublé",
+            "Les mensualités ont explosé et les banques ont resserré le crédit",
+            "On a construit plus"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Qu'est-ce que la « décohabitation » ?",
+          "options": [
+            "Le nombre de personnes par ménage diminue : il faut plus de logements",
+            "Les jeunes restent chez leurs parents",
+            "On démolit de vieux logements"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Combien de logements vacants y a-t-il en France ?",
+          "options": [
+            "300 000",
+            "Plus de 3 millions",
+            "30 millions"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "GykhzRqG3YQ",
+      "title": "Logement étudiant : la grande pénurie",
+      "channel": "franceinfo",
+      "topic": "daily",
+      "level": "C1",
+      "duration": 696,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "logement",
+      "about": "Телерепортаж і дискусія в студії franceinfo: студентам майже нічого не можна винайняти, сотні заявок на студію, причини дефіциту і наслідки для навчання.",
+      "keywords": [
+        {
+          "fr": "un marché tendu",
+          "uk": "ринок із великим попитом і малою пропозицією"
+        },
+        {
+          "fr": "candidater",
+          "uk": "подавати заявку"
+        },
+        {
+          "fr": "une passoire thermique",
+          "uk": "житло з дуже поганою теплоізоляцією"
+        },
+        {
+          "fr": "le DPE",
+          "uk": "енергетичний сертифікат житла"
+        },
+        {
+          "fr": "un logement Crous",
+          "uk": "студентське житло (гуртожиток)"
+        },
+        {
+          "fr": "être boursier",
+          "uk": "отримувати стипендію"
+        },
+        {
+          "fr": "renoncer à",
+          "uk": "відмовитися від"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Combien de personnes ont candidaté pour le studio à 997 € ?",
+          "options": [
+            "7",
+            "70",
+            "550"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Le studio de 17 m² a reçu en quelques heures…",
+          "options": [
+            "5 contacts",
+            "50 contacts",
+            "plus de 550 contacts"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Quelles causes de la pénurie la vidéo cite-t-elle ?",
+          "options": [
+            "La fin du dispositif Pinel, l'interdiction de louer les passoires thermiques, l'accès difficile à la propriété",
+            "Trop de logements construits",
+            "La baisse du nombre d'étudiants"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Pourquoi certains propriétaires abandonnent-ils la location longue durée ?",
+          "options": [
+            "La location courte durée rapporte plus",
+            "La loi l'interdit",
+            "Les étudiants ne paient pas"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle conséquence pour les étudiants, selon les invités ?",
+          "options": [
+            "Ils choisissent toujours Paris",
+            "Certains renoncent à l'école ou à la ville de leur choix",
+            "Ils ne paient plus de loyer"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "RhtF_QZgLL0",
+      "title": "Le scandale des marchés prédictifs",
+      "channel": "HugoDécrypte - Grands formats",
+      "topic": "tech",
+      "level": "C1",
+      "duration": 816,
+      "subs": "auto",
+      "dcl": "C1",
+      "dclTopic": "societe",
+      "about": "«Ринки прогнозів» (Polymarket, Kalshi): ставки на новини — від виборів до війни. Інсайдерська торгівля, вплив родини Трампа, маніпуляції думкою і ризик залежності.",
+      "keywords": [
+        {
+          "fr": "parier / un pari",
+          "uk": "робити ставку / ставка"
+        },
+        {
+          "fr": "un délit d'initié",
+          "uk": "інсайдерська торгівля"
+        },
+        {
+          "fr": "une cote",
+          "uk": "коефіцієнт ставки"
+        },
+        {
+          "fr": "manipuler l'opinion",
+          "uk": "маніпулювати громадською думкою"
+        },
+        {
+          "fr": "l'addiction",
+          "uk": "залежність"
+        },
+        {
+          "fr": "une interdiction",
+          "uk": "заборона"
+        },
+        {
+          "fr": "le gendarme des marchés",
+          "uk": "регулятор ринку"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Si le « oui » d'un pari vaut 60 centimes, que pensent les parieurs ?",
+          "options": [
+            "Que l'événement a 60 % de chances de se réaliser",
+            "Que le pari coûte 60 dollars",
+            "Que l'événement est impossible"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Qu'est-ce qui a choqué avant l'attaque du 28 février ?",
+          "options": [
+            "Le site a été piraté",
+            "Des comptes créés la veille ont parié massivement sur la date exacte",
+            "Personne n'avait parié"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quel rôle joue Donald Trump Junior ?",
+          "options": [
+            "Il dirige la CFTC",
+            "Il conseille Kalshi et siège au conseil de Polymarket",
+            "Il a interdit ces plateformes"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Comment ces marchés pourraient-ils manipuler la démocratie ?",
+          "options": [
+            "Un riche pourrait parier massivement pour créer une fausse dynamique autour d'un candidat",
+            "En annulant les élections",
+            "En votant à la place des citoyens"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Quelle est la situation en France ?",
+          "options": [
+            "Ces sites sont autorisés et populaires",
+            "Ils sont interdits, en théorie (on peut contourner avec un VPN)",
+            "Ils sont réservés aux banques"
+          ],
+          "answer": 1
         }
       ]
     }

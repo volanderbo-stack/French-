@@ -1,0 +1,317 @@
+{
+  "id": "fp-commerce-reclamation",
+  "exam": "FP",
+  "topic": "commerce",
+  "title": "Une cliente mécontente",
+  "titleUk": "Незадоволена клієнтка",
+  "role": "Vous êtes Dmytro Melnyk, conseiller au service client du magasin d'électroménager « ÉlectroPlus », à Lille. Nous sommes le 18 juin.",
+  "interlocutor": "Mme Hélène Dubois, une cliente",
+  "mission": "Une cliente se plaint : son aspirateur ne marche plus. Lisez son e-mail, les conditions de garantie et l'état du stock, puis écoutez son message. Téléphonez-lui pour proposer une solution. Enfin, confirmez la solution par e-mail.",
+  "missionUk": "Клієнтка скаржиться на зламаний пилосос і хоче повернути гроші. Перевірте умови гарантії і склад, зателефонуйте їй із рішенням і підтвердьте домовленість листом.",
+  "vocab": [
+    {
+      "fr": "un aspirateur",
+      "uk": "пилосос"
+    },
+    {
+      "fr": "en panne",
+      "uk": "зламаний, несправний"
+    },
+    {
+      "fr": "être remboursé",
+      "uk": "отримати гроші назад"
+    },
+    {
+      "fr": "le ticket de caisse",
+      "uk": "касовий чек"
+    },
+    {
+      "fr": "la garantie",
+      "uk": "гарантія"
+    },
+    {
+      "fr": "la réparation",
+      "uk": "ремонт"
+    },
+    {
+      "fr": "un échange",
+      "uk": "обмін"
+    },
+    {
+      "fr": "prêter",
+      "uk": "позичати, давати на час"
+    }
+  ],
+  "documents": [
+    {
+      "type": "email",
+      "title": "E-mail de la cliente",
+      "text": "De : helene.dubois@mail.fr\nObjet : Aspirateur en panne\n\nBonjour,\n\nJ'ai acheté un aspirateur Turbo 300 dans votre magasin de Lille le 2 mai (prix : 149 €). Depuis hier, il ne marche plus : il s'arrête après deux minutes. Je suis très déçue ! Je voudrais être remboursée. J'ai gardé le ticket de caisse.\n\nHélène Dubois\n06 22 33 44 55"
+    },
+    {
+      "type": "fiche",
+      "title": "Conditions de retour et garantie – ÉlectroPlus",
+      "text": "• Retour possible sous 30 jours après l'achat, avec le ticket de caisse : produit remboursé s'il est neuf et dans son emballage.\n• Produit en panne : garantie de 2 ans. Réparation gratuite (délai : 2 à 3 semaines) ou échange contre un produit identique s'il est en stock.\n• Pendant la réparation, nous pouvons prêter un appareil de remplacement.\n• Livraison à domicile : 10 € (gratuite avec la carte de fidélité)."
+    },
+    {
+      "type": "note",
+      "title": "Stock du magasin de Lille – 18 juin",
+      "text": "Aspirateur Turbo 300 : 0 (prochaine livraison : 2 juillet)\nAspirateur Turbo 400 : 5 (prix : 179 €)\nAspirateurs de prêt : 2 disponibles"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de Mme Dubois",
+      "voice": "f",
+      "text": "Bonjour, c'est encore Hélène Dubois. Je vous ai envoyé un e-mail hier pour mon aspirateur, et je n'ai toujours pas de réponse ! J'ai besoin d'un aspirateur rapidement, parce que je reçois ma famille dans dix jours. Et je ne peux pas venir au magasin en semaine : je travaille. Rappelez-moi vite, s'il vous plaît, au zéro six, vingt-deux, trente-trois, quarante-quatre, cinquante-cinq, plutôt après dix-huit heures. Merci."
+    }
+  ],
+  "questions": [
+    {
+      "part": "lecture",
+      "q": "Quand Mme Dubois a acheté son aspirateur ?",
+      "options": [
+        "Le 2 mai",
+        "Le 18 juin",
+        "Le 2 juillet"
+      ],
+      "answer": 0,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "Est-ce qu'elle peut être remboursée ?",
+      "options": [
+        "Oui, elle a le ticket",
+        "Non, l'achat date de plus de 30 jours",
+        "Oui, mais seulement la moitié"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "lecture",
+      "q": "Le Turbo 300 est en stock ?",
+      "options": [
+        "Oui, il y en a 5",
+        "Non, prochaine livraison le 2 juillet",
+        "Oui, il y en a 2"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "lecture",
+      "q": "Combien de temps dure une réparation ?",
+      "options": [
+        "2 à 3 jours",
+        "2 à 3 semaines",
+        "2 mois"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "ecoute",
+      "q": "Pourquoi Mme Dubois a besoin d'un aspirateur rapidement ?",
+      "options": [
+        "Elle déménage",
+        "Elle reçoit sa famille dans dix jours",
+        "Elle a un chien"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Pourquoi elle ne peut pas venir au magasin en semaine ?",
+      "options": [
+        "Elle travaille",
+        "Elle est malade",
+        "Elle n'a pas de voiture"
+      ],
+      "answer": 0,
+      "lvl": "A2"
+    },
+    {
+      "part": "ecoute",
+      "q": "Quand faut-il la rappeler ?",
+      "options": [
+        "Le matin",
+        "À midi",
+        "Après 18 h"
+      ],
+      "answer": 2,
+      "lvl": "A2"
+    }
+  ],
+  "oral": {
+    "intro": "Ви передзвонюєте пані Дюбуа. Вибачтеся, ввічливо поясніть, чому повернення грошей неможливе, і запропонуйте рішення (ремонт + пилосос на час або обмін). Вона заперечуватиме — залишайтеся спокійним і знайдіть компроміс.",
+    "turns": [
+      {
+        "examiner": "Allô ?",
+        "task": "Привітайтеся, представтеся (служба клієнтів ÉlectroPlus), вибачтеся за затримку.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Привітання та хто ви"
+          },
+          {
+            "lvl": "A1",
+            "t": "Причина дзвінка"
+          },
+          {
+            "lvl": "A1",
+            "t": "Вибачення"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A2": "Bonjour madame Dubois. Je suis Dmytro Melnyk, du service client d'ÉlectroPlus. Je vous appelle pour votre aspirateur. Excusez-nous pour le retard de réponse."
+        }
+      },
+      {
+        "examiner": "Enfin ! Alors, vous me remboursez ?",
+        "task": "Ввічливо поясніть: повернення лише протягом 30 днів, але є гарантія 2 роки.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Je comprends / Malheureusement"
+          },
+          {
+            "lvl": "A2",
+            "t": "Правило 30 днів"
+          },
+          {
+            "lvl": "A2",
+            "t": "Гарантія 2 роки"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A2": "Je comprends, madame. Malheureusement, le remboursement est possible seulement dans les 30 jours après l'achat. Mais votre aspirateur a une garantie de deux ans."
+        }
+      },
+      {
+        "examiner": "Mais ce n'est pas normal ! Qu'est-ce que vous proposez ?",
+        "task": "Запропонуйте два варіанти: безкоштовний ремонт + пилосос на час, або Turbo 400 з доплатою 30 €.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Ремонт + пилосос на час"
+          },
+          {
+            "lvl": "A2",
+            "t": "Turbo 400 з доплатою 30 €"
+          },
+          {
+            "lvl": "A2",
+            "t": "Зрозуміла структура (première / deuxième solution)"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Je vous propose deux solutions. Première solution : nous réparons votre aspirateur gratuitement, et pendant la réparation, nous vous prêtons un aspirateur. Deuxième solution : vous prenez le Turbo 400, et vous payez seulement la différence, 30 euros."
+        }
+      },
+      {
+        "examiner": "Je prends le prêt et la réparation. Mais je ne peux pas venir au magasin en semaine…",
+        "task": "Запропонуйте суботу або доставку додому.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Запропонували рішення (субота / доставка)"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Pas de problème. Vous pouvez venir le samedi, ou notre livreur peut passer chez vous samedi matin : il apporte l'aspirateur de prêt et il prend le vôtre."
+        }
+      },
+      {
+        "examiner": "La livraison, c'est payant ? Avec tous ces problèmes…",
+        "task": "Запропонуйте безкоштовну доставку як компенсацію.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Ціна доставки"
+          },
+          {
+            "lvl": "A2",
+            "t": "Жест доброї волі (exceptionnellement, gratuit)"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Normalement, la livraison coûte 10 euros. Mais pour vous, exceptionnellement, elle est gratuite."
+        }
+      },
+      {
+        "examiner": "Bon, d'accord. Merci.",
+        "task": "Підсумуйте (субота вранці), пообіцяйте лист-підтвердження, попрощайтеся.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Підсумок домовленості"
+          },
+          {
+            "lvl": "A1",
+            "t": "Обіцянка листа"
+          },
+          {
+            "lvl": "A1",
+            "t": "Прощання"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Je vous en prie. Donc, notre livreur passe chez vous samedi matin. Je vous envoie une confirmation par e-mail. Bonne soirée, madame."
+        }
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail à Mme Dubois pour confirmer la solution : garantie, réparation, aspirateur de prêt, livraison samedi, livraison gratuite. Excusez-vous pour le problème.",
+    "taskUk": "Підтвердьте клієнтці листом: гарантійний ремонт, пилосос на час, доставка в суботу безкоштовно; вибачтеся за незручності.",
+    "minWords": 60,
+    "maxWords": 100,
+    "checklist": [
+      {
+        "lvl": "A1",
+        "t": "Офіційне звертання (Madame,)"
+      },
+      {
+        "lvl": "A2",
+        "t": "Посилання на розмову (Suite à notre conversation…)"
+      },
+      {
+        "lvl": "A2",
+        "t": "Гарантія і безкоштовний ремонт, термін"
+      },
+      {
+        "lvl": "A2",
+        "t": "Пилосос на час"
+      },
+      {
+        "lvl": "A2",
+        "t": "Доставка в суботу, безкоштовно"
+      },
+      {
+        "lvl": "A2",
+        "t": "Вибачення"
+      },
+      {
+        "lvl": "A1",
+        "t": "Cordialement + ім'я і служба"
+      }
+    ],
+    "models": {
+      "A2": "Madame,\n\nSuite à notre conversation téléphonique, je vous confirme notre solution. Votre aspirateur Turbo 300 est sous garantie : nous le réparons gratuitement (délai de 2 à 3 semaines). En attendant, nous vous prêtons un aspirateur.\n\nNotre livreur passe chez vous samedi matin pour vous apporter l'appareil de prêt et récupérer le vôtre. La livraison est gratuite.\n\nNous vous prions de nous excuser pour ce problème.\n\nCordialement,\nDmytro Melnyk\nService client ÉlectroPlus"
+    }
+  },
+  "relatedVideos": [
+    "JGsUQdGX_qM",
+    "nDCVXdenDII"
+  ]
+}

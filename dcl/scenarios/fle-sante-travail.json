@@ -1,0 +1,219 @@
+{
+  "id": "fle-sante-travail",
+  "exam": "FLE",
+  "topic": "sante",
+  "title": "Choisir une action santé au travail",
+  "titleUk": "Обрати програму здоров'я для працівників",
+  "role": "Vous êtes Yuliia Marchenko, membre du comité social de « LogiTrans », une entreprise de logistique de 80 salariés à Rouen.",
+  "interlocutor": "M. Antoine Caron, directeur des ressources humaines (DRH)",
+  "mission": "Le comité social dispose de 3 000 € pour une action en faveur de la santé au travail. Analysez les documents et les enregistrements, choisissez l'action la plus pertinente, puis téléphonez au DRH pour la présenter et la défendre. Enfin, rédigez une note de synthèse à son intention.",
+  "missionUk": "Оберіть програму здоров'я на 3 000 € за опитуванням, звітом лікаря з охорони праці і статтею; захистіть вибір перед директором з персоналу (він заперечуватиме і вимагатиме вимірюваних результатів) і напишіть аналітичну записку.",
+  "vocab": [
+    { "fr": "les troubles musculosquelettiques (TMS)", "uk": "захворювання опорно-рухового апарату" },
+    { "fr": "un arrêt maladie", "uk": "лікарняний" },
+    { "fr": "l'absentéisme", "uk": "відсутність на роботі" },
+    { "fr": "le poste de travail", "uk": "робоче місце" },
+    { "fr": "un créneau", "uk": "часовий проміжок" },
+    { "fr": "un indicateur", "uk": "показник" },
+    { "fr": "la médecine du travail", "uk": "служба медицини праці" },
+    { "fr": "une note de synthèse", "uk": "аналітична записка" }
+  ],
+  "documents": [
+    {
+      "type": "fiche",
+      "title": "Résultats du sondage interne (62 réponses)",
+      "text": "– 58 % des salariés ont mal au dos\n– 45 % se disent stressés\n– 30 % mangent mal à midi (sandwich devant l'ordinateur)\n– 20 % font du sport régulièrement\n\nÀ savoir : 40 % des salariés travaillent dans l'entrepôt (port de charges) et 60 % dans les bureaux."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 1 – Ateliers « Gestes et postures »",
+      "text": "Avec un kinésithérapeute, dans l'entreprise.\n10 séances d'une heure, groupes de 10 personnes, pour l'entrepôt et les bureaux.\nPrix : 2 400 €."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 2 – Salle de sport",
+      "text": "Abonnement à une salle de sport à 3 km : 30 € par mois et par salarié, l'entreprise paie la moitié.\nPour 20 salariés intéressés, pendant un an : 3 600 €."
+    },
+    {
+      "type": "annonce",
+      "title": "Proposition 3 – Bien manger au travail",
+      "text": "Une corbeille de fruits frais chaque semaine + une conférence d'1 h 30 avec une diététicienne.\nPrix pour un an : 1 800 €."
+    },
+    {
+      "type": "note",
+      "title": "Extrait du rapport annuel de la médecine du travail",
+      "text": "Chez LogiTrans, les troubles musculosquelettiques (TMS) sont la première cause d'arrêt maladie : 14 jours d'arrêt en moyenne par salarié concerné, pour un coût estimé à 38 000 € par an. Les arrêts touchent pour deux tiers les salariés de l'entrepôt.\nRecommandation : privilégier des actions de prévention durables, réalisées au plus près du poste de travail, plutôt que des actions ponctuelles ou purement informatives."
+    },
+    {
+      "type": "fiche",
+      "title": "Article – « Bien-être au travail : attention aux fausses bonnes idées »",
+      "text": "Salles de sport, corbeilles de fruits, séances de méditation… Les programmes de bien-être se multiplient. Pourtant, plusieurs études montrent que les abonnements sportifs profitent surtout aux salariés déjà sportifs, et touchent peu ceux qui en auraient le plus besoin. Les experts recommandent de partir des risques réels de l'entreprise, d'associer les salariés au choix des actions et de définir dès le départ des indicateurs pour en mesurer les effets."
+    },
+    {
+      "type": "horaires",
+      "title": "Planning de l'entrepôt",
+      "text": "Lundi – vendredi : 6 h – 20 h\nPics d'activité : livraisons le lundi 8 h – 11 h et le jeudi 13 h – 15 h\nCreux d'activité : mardi 7 h – 9 h et vendredi 14 h – 16 h"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message du kinésithérapeute",
+      "voice": "m",
+      "text": "Bonjour, ici Vincent Leroy, kinésithérapeute, pour les ateliers gestes et postures. Je vous confirme le prix de deux mille quatre cents euros. Je peux commencer en mars, le jeudi, entre treize et quinze heures. Petite information : pour l'entrepôt, je conseille de faire les séances directement sur le poste de travail, et pas dans une salle de réunion. Et si vous voulez, je peux ajouter une séance sur le stress et la respiration, pour trois cents euros. Rappelez-moi."
+    },
+    {
+      "title": "Échange entre le DRH et la déléguée du personnel",
+      "dialog": [
+        { "voice": "f", "who": "Déléguée du personnel", "text": "Les gars de l'entrepôt m'en parlent tous les jours : ce qu'ils veulent, c'est la salle de sport." },
+        { "voice": "m", "who": "DRH", "text": "Je comprends, mais le conseil d'administration ne validera rien sans résultats mesurables. Il faudra pouvoir montrer, par exemple, une baisse des jours d'arrêt." },
+        { "voice": "f", "who": "Déléguée du personnel", "text": "D'accord. Sinon, j'ai vu que la salle de sport propose des séances découverte gratuites, et un tarif de groupe à quinze euros par mois." },
+        { "voice": "m", "who": "DRH", "text": "Intéressant. Gardez ça en tête, mais le budget, c'est trois mille euros, pas un centime de plus." }
+      ]
+    }
+  ],
+  "questions": [
+    { "part": "lecture", "lvl": "A2", "q": "Quel pourcentage de salariés a mal au dos ?", "options": ["20 %", "45 %", "58 %"], "answer": 2 },
+    { "part": "lecture", "lvl": "A2", "q": "Combien coûtent les ateliers « Gestes et postures » ? (en euros)", "accept": ["2400", "2 400", "2 400 €", "2400 €", "2 400 euros"] },
+    { "part": "lecture", "lvl": "B1", "q": "Pourquoi la proposition 2 pose-t-elle problème ?", "options": ["Elle dépasse le budget de 3 000 €", "La salle est fermée le soir", "Personne n'aime le sport"], "answer": 0 },
+    { "part": "lecture", "lvl": "B1", "q": "Quelle part des salariés travaille dans l'entrepôt ?", "options": ["20 %", "40 %", "60 %"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Selon la médecine du travail, quelle est la première cause d'arrêt maladie ?", "options": ["Le stress", "Les troubles musculosquelettiques", "Les accidents de la route"], "answer": 1 },
+    { "part": "lecture", "lvl": "B2", "q": "Quand l'entrepôt a-t-il un creux d'activité le matin ?", "options": ["Le lundi de 8 h à 11 h", "Le mardi de 7 h à 9 h", "Le jeudi de 13 h à 15 h"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Selon l'article, pourquoi un abonnement sportif est-il souvent peu efficace ?", "options": ["Il coûte trop cher aux salariés", "Il profite surtout aux salariés déjà sportifs", "Il est interdit par la loi"], "answer": 1 },
+    { "part": "lecture", "lvl": "C1", "q": "Quel type d'action la médecine du travail recommande-t-elle ?", "options": ["Des actions de prévention durables, au plus près du poste de travail", "Une grande conférence annuelle", "Des primes pour les salariés en bonne santé"], "answer": 0 },
+    { "part": "ecoute", "lvl": "A2", "q": "Quand le kinésithérapeute peut-il commencer ?", "options": ["En janvier, le lundi", "En mars, le jeudi de 13 h à 15 h", "En avril, le vendredi"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Où conseille-t-il de faire les séances pour l'entrepôt ?", "options": ["Dans une salle de réunion", "Sur le poste de travail", "À la salle de sport"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B1", "q": "Combien coûte la séance sur le stress ? (en euros)", "accept": ["300", "300 €", "300€", "300 euros"] },
+    { "part": "ecoute", "lvl": "B2", "q": "Que demandent les salariés de l'entrepôt, selon la déléguée ?", "options": ["Des fruits", "La salle de sport", "Plus de pauses"], "answer": 1 },
+    { "part": "ecoute", "lvl": "B2", "q": "À quelle condition le conseil d'administration validera-t-il un projet ?", "options": ["S'il est gratuit", "S'il donne des résultats mesurables, comme une baisse des jours d'arrêt", "Si tous les salariés votent pour"], "answer": 1 },
+    { "part": "ecoute", "lvl": "C1", "q": "Ateliers + séance stress = 2 700 €. Que pourrait-on proposer avec les 300 € restants aux salariés qui veulent du sport ?", "options": ["Rien, il faut tout dépenser en fruits", "Des séances découverte gratuites et la négociation du tarif de groupe à 15 €", "Un abonnement complet pour tous"], "answer": 1 }
+  ],
+  "oral": {
+    "intro": "Фаза 3: ви телефонуєте директору з персоналу і пропонуєте заняття з фізіотерапевтом + сесію про стрес (2 700 €), спираючись на опитування і звіт лікаря. Фаза 4: він заперечуватиме, повідомить про проблему з розкладом і вимагатиме вимірюваних результатів.",
+    "turns": [
+      {
+        "phase": 3,
+        "examiner": "Bonjour Yuliia, Antoine Caron. Alors, le comité a fait son choix ?",
+        "voice": "m",
+        "task": "Привітайтеся і підтвердьте, що маєте пропозицію.",
+        "models": {
+          "B1": "Bonjour monsieur Caron. Oui, le comité a choisi une action, je voudrais vous la présenter.",
+          "B2": "Bonjour monsieur Caron. Oui, nous avons comparé les trois propositions et le comité s'est mis d'accord ; je souhaiterais vous présenter notre choix.",
+          "C1": "Bonjour monsieur Caron. Oui, après avoir croisé les résultats du sondage, le rapport de la médecine du travail et les trois propositions, le comité est parvenu à une recommandation que j'aimerais vous exposer."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Привітання" },
+          { "lvl": "B1", "t": "Вступ до теми" },
+          { "lvl": "C1", "t": "Згадали, на яких джерелах ґрунтується вибір" }
+        ]
+      },
+      {
+        "phase": 3,
+        "examiner": "Je vous écoute.",
+        "voice": "m",
+        "task": "Представте вибір (заняття + сесія про стрес), аргументи з цифрами (58 %, ТМС, 38 000 €) і ціну.",
+        "models": {
+          "B1": "Nous proposons les ateliers avec le kinésithérapeute. 58 % des salariés ont mal au dos. Nous ajoutons une séance sur le stress. Le total est de 2 700 euros.",
+          "B2": "Nous proposons les ateliers « gestes et postures ». D'après le sondage, 58 % des salariés ont mal au dos, et selon la médecine du travail, les TMS sont la première cause d'arrêt maladie. Les ateliers concernent l'entrepôt et les bureaux. Nous ajoutons une séance sur le stress, puisque 45 % des salariés se disent stressés. Le total est de 2 700 euros, donc dans le budget.",
+          "C1": "Nous recommandons les ateliers « gestes et postures », complétés par une séance sur le stress, pour un total de 2 700 euros. Ce choix part des risques réels de l'entreprise : 58 % des salariés déclarent des douleurs de dos et les TMS sont, selon la médecine du travail, la première cause d'arrêt, avec un coût estimé à 38 000 euros par an. C'est en outre exactement le type d'action préconisé : une prévention durable, au plus près du poste de travail. La séance sur le stress répond, elle, au deuxième problème identifié par le sondage."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Назвали обрану дію" },
+          { "lvl": "B1", "t": "Ціна і бюджет" },
+          { "lvl": "B2", "t": "Цифри з опитування і звіту лікаря" },
+          { "lvl": "C1", "t": "Аргумент про вартість відсутності (38 000 €) і відповідність рекомендаціям" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Pourquoi pas la salle de sport ? Les jeunes de l'entrepôt la demandent beaucoup.",
+        "voice": "m",
+        "task": "Аргументуйте (бюджет, лише 20 осіб, стаття), але запропонуйте компроміс для охочих займатися спортом.",
+        "models": {
+          "B1": "La salle de sport coûte 3 600 euros. C'est trop cher, et c'est seulement pour 20 personnes.",
+          "B2": "Je comprends, c'est une demande réelle. Mais la salle de sport coûte 3 600 euros, au-delà du budget, et elle ne concerne que 20 salariés, alors que les ateliers sont pour tout le monde. En revanche, avec les 300 euros restants, nous pourrions organiser des séances découverte et négocier le tarif de groupe à 15 euros.",
+          "C1": "La demande est légitime et il ne s'agit pas de l'ignorer. Toutefois, outre son coût de 3 600 euros, la salle de sport bénéficierait à une vingtaine de personnes, et les études montrent que ce type d'abonnement profite surtout aux salariés déjà sportifs. Je propose donc une solution intermédiaire : consacrer les 300 euros restants à des séances découverte et négocier le tarif de groupe à 15 euros, ce qui donnerait satisfaction aux plus motivés sans sacrifier la prévention."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Аргумент бюджету" },
+          { "lvl": "B2", "t": "Аргумент «для всіх» проти «для 20»" },
+          { "lvl": "B2", "t": "Компроміс з рештою 300 €" },
+          { "lvl": "C1", "t": "Посилання на статтю (користь лише вже спортивним)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Problème : le jeudi de treize à quinze heures, c'est le moment des livraisons à l'entrepôt. Les équipes ne peuvent pas s'arrêter.",
+        "voice": "m",
+        "task": "Нова інформація! Запропонуйте інший час за графіком складу (вівторок 7–9 або п'ятниця 14–16) і поясніть, що домовитеся з фізіотерапевтом.",
+        "models": {
+          "B1": "D'accord. On peut faire les séances un autre jour, par exemple le mardi matin.",
+          "B2": "Merci de me le signaler. D'après le planning, l'entrepôt a un creux d'activité le mardi de 7 à 9 heures et le vendredi de 14 à 16 heures. Je propose de demander au kinésithérapeute ces créneaux pour l'entrepôt ; pour les bureaux, le jeudi reste possible.",
+          "C1": "C'est un point essentiel, merci. Le planning fait apparaître deux creux d'activité : le mardi de 7 à 9 heures et le vendredi de 14 à 16 heures. Je suggère de réserver ces créneaux aux équipes de l'entrepôt, sur leur poste de travail comme le recommande le kinésithérapeute, et de maintenir le jeudi pour les bureaux. Je le contacte dès cet après-midi pour vérifier sa disponibilité."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Запропонували інший час" },
+          { "lvl": "B2", "t": "Використали графік складу (вівторок / п'ятниця)" },
+          { "lvl": "C1", "t": "Розділили склад і офіси + конкретний наступний крок" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Dernière chose : le conseil d'administration voudra des résultats. Comment saurons-nous que ça marche ?",
+        "voice": "m",
+        "task": "Запропонуйте показники ефективності (дні лікарняних через ТМС, повторне опитування, витрати).",
+        "models": {
+          "B1": "On peut compter les jours d'arrêt maladie et faire un nouveau sondage.",
+          "B2": "Nous pourrions suivre deux indicateurs : le nombre de jours d'arrêt liés aux TMS et les résultats d'un nouveau sondage dans six mois. Si les arrêts baissent, l'économie sera visible, puisqu'ils coûtent aujourd'hui 38 000 euros par an.",
+          "C1": "Je propose de définir dès maintenant trois indicateurs : l'évolution des jours d'arrêt liés aux TMS, comparée à l'année précédente ; la part de salariés déclarant des douleurs de dos, mesurée par un nouveau sondage à six mois ; et le taux de participation aux ateliers. Au regard des 38 000 euros que coûtent actuellement les arrêts, une baisse même modeste suffirait à rentabiliser l'investissement."
+        },
+        "check": [
+          { "lvl": "B1", "t": "Щонайменше один показник" },
+          { "lvl": "B2", "t": "Два показники + зв'язок із витратами" },
+          { "lvl": "C1", "t": "Три показники з методом вимірювання і розрахунком окупності" }
+        ]
+      },
+      {
+        "phase": 4,
+        "examiner": "Bon, vous m'avez convaincu. Vous m'envoyez une note écrite ?",
+        "voice": "m",
+        "task": "Підтвердьте, коли надішлете записку, подякуйте, попрощайтеся.",
+        "models": {
+          "B1": "Oui, je vous envoie la note demain. Merci, au revoir.",
+          "B2": "Oui, je vous envoie une note de synthèse d'ici demain, avec le planning et les indicateurs. Merci pour votre accord, bonne journée.",
+          "C1": "Bien sûr : vous recevrez demain une note de synthèse reprenant la recommandation, le calendrier ajusté et les indicateurs de suivi, afin que vous puissiez la présenter au conseil d'administration. Merci pour votre écoute, bonne fin de journée."
+        },
+        "check": [
+          { "lvl": "A2", "t": "Подякували і попрощалися" },
+          { "lvl": "B1", "t": "Коли надішлете записку" },
+          { "lvl": "B2", "t": "Що буде в записці" },
+          { "lvl": "C1", "t": "Для чого (для ради директорів)" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Rédigez une note de synthèse au DRH : l'action recommandée et ses raisons, les autres propositions et pourquoi elles n'ont pas été retenues, le calendrier tenant compte de l'entrepôt, le budget et les indicateurs de suivi.",
+    "taskUk": "Аналітична записка директору з персоналу: рекомендована дія і чому, чому відхилено інші, графік з урахуванням складу, бюджет, показники ефективності.",
+    "minWords": 150,
+    "maxWords": 250,
+    "models": {
+      "B1": "Objet : action santé au travail\n\nMonsieur Caron,\n\nLe comité propose les ateliers « gestes et postures » avec un kinésithérapeute. 58 % des salariés ont mal au dos et c'est la première cause d'arrêt maladie. Nous ajoutons une séance sur le stress. Le prix total est de 2 700 euros.\n\nLa salle de sport est trop chère et elle est seulement pour 20 personnes. Les fruits ne règlent pas le problème du dos.\n\nPour l'entrepôt, les séances auront lieu le mardi de 7 h à 9 h. Pour les bureaux, le jeudi.\n\nNous allons compter les jours d'arrêt et faire un sondage dans six mois.\n\nCordialement,\nYuliia Marchenko",
+      "B2": "Objet : Note de synthèse – action santé au travail\n\nMonsieur,\n\nLe comité social recommande de financer les ateliers « gestes et postures », complétés par une séance sur le stress, pour un montant total de 2 700 €.\n\nCe choix répond aux principaux risques identifiés : 58 % des salariés ont mal au dos et, selon la médecine du travail, les TMS sont la première cause d'arrêt maladie, pour un coût de 38 000 € par an. De plus, 45 % des salariés se disent stressés.\n\nLes autres propositions n'ont pas été retenues : la salle de sport dépasse le budget (3 600 €) et ne concerne que 20 personnes ; les fruits ne répondent pas au problème principal. Avec les 300 € restants, nous proposons toutefois des séances découverte à la salle de sport.\n\nCalendrier : à partir de mars, le mardi de 7 h à 9 h pour l'entrepôt, sur les postes de travail, et le jeudi de 13 h à 15 h pour les bureaux.\n\nSuivi : nombre de jours d'arrêt liés aux TMS et nouveau sondage dans six mois.\n\nCordialement,\nYuliia Marchenko\nComité social",
+      "C1": "Objet : Note de synthèse – programme de prévention santé\n\nMonsieur,\n\nÀ la suite de notre entretien, je vous présente la recommandation du comité social concernant l'utilisation de l'enveloppe de 3 000 €.\n\n1. Recommandation\nNous préconisons des ateliers « gestes et postures » animés par un kinésithérapeute (2 400 €), complétés par une séance consacrée au stress (300 €), soit 2 700 €.\n\n2. Justification\nCe choix part des risques réels : 58 % des salariés déclarent des douleurs de dos, et les TMS constituent la première cause d'arrêt, pour un coût estimé à 38 000 € par an. Il correspond par ailleurs à la recommandation de la médecine du travail, qui privilégie une prévention durable au plus près du poste.\n\n3. Options écartées\nL'abonnement sportif, outre son coût (3 600 €), ne toucherait qu'une vingtaine de salariés, souvent déjà sportifs ; la corbeille de fruits ne traite pas le problème principal. Afin de ne pas ignorer la demande de l'entrepôt, les 300 € restants financeraient des séances découverte, tandis qu'un tarif de groupe serait négocié.\n\n4. Mise en œuvre\nÀ partir de mars : mardi de 7 h à 9 h pour l'entrepôt, sur les postes de travail ; jeudi de 13 h à 15 h pour les bureaux.\n\n5. Indicateurs\nÉvolution des jours d'arrêt liés aux TMS, part de salariés déclarant des douleurs (sondage à six mois) et taux de participation.\n\nJe reste à votre disposition pour toute précision.\n\nBien cordialement,\nYuliia Marchenko"
+    },
+    "checklist": [
+      { "lvl": "A2", "t": "Тема, звертання, підпис" },
+      { "lvl": "A2", "t": "Названо рекомендовану дію" },
+      { "lvl": "B1", "t": "Ціна і відповідність бюджету" },
+      { "lvl": "B1", "t": "Чому відхилено інші пропозиції" },
+      { "lvl": "B2", "t": "Цифри з опитування і звіту лікаря" },
+      { "lvl": "B2", "t": "Графік з урахуванням складу" },
+      { "lvl": "B2", "t": "Показники ефективності" },
+      { "lvl": "C1", "t": "Структура записки з пунктами / підзаголовками" },
+      { "lvl": "C1", "t": "Компроміс для прихильників спортзалу і посилання на рекомендації експертів" },
+      { "lvl": "C1", "t": "Офіційний аналітичний стиль (préconiser, outre, afin de…)" }
+    ]
+  },
+  "relatedVideos": ["uAYdZ9VF_RM", "071rT-6irr8"]
+}

@@ -1,17 +1,18 @@
 {
-  "_instructions": "Список файлів сценаріїв DCL. Щоб додати сценарій: скопіюйте dcl/scenarios/_template.json, перейменуйте (наприклад a2-banque-compte.json), заповніть і допишіть назву файлу в масив scenarios нижче (через кому).",
+  "_instructions": "Список файлів сценаріїв DCL. Кожен сценарій — повний пробний іспит. Поле exam у файлі: FP (DCL FP, рівні A1–A2) або FLE (DCL FLE, рівні A2–C1). Щоб додати сценарій: скопіюйте dcl/scenarios/_template.json, перейменуйте, заповніть і допишіть назву файлу сюди (через кому).",
   "scenarios": [
-    "a1-stage-boulangerie.json",
-    "a1-fleuriste-commande.json",
-    "a1-transport-retard.json",
-    "a1-sante-rendez-vous.json",
-    "a2-logement-colocation.json",
-    "a2-evenement-repas.json",
-    "a2-administration-ecole.json",
-    "a2-commerce-reclamation.json",
-    "b1-travail-stagiaire.json",
-    "b1-evenement-seminaire.json",
-    "b1-transport-deplacement.json",
-    "b1-sante-travail.json"
+    "fle-stagiaire.json",
+    "fle-crise-livraisons.json",
+    "fle-seminaire.json",
+    "fle-relocation.json",
+    "fle-sante-travail.json",
+    "fp-stage-boulangerie.json",
+    "fp-commerce-reclamation.json",
+    "fp-logement-colocation.json",
+    "fp-administration-ecole.json",
+    "fp-evenement-repas.json",
+    "fp-fleuriste-commande.json",
+    "fp-transport-retard.json",
+    "fp-sante-rendez-vous.json"
   ]
 }

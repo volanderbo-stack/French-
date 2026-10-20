@@ -1,0 +1,292 @@
+{
+  "id": "fp-transport-retard",
+  "exam": "FP",
+  "topic": "transport",
+  "title": "Un bus en retard",
+  "titleUk": "Автобус запізнюється",
+  "role": "Vous êtes Ivan Petrenko. Vous travaillez pour l'entreprise de nettoyage « NettoPro ».",
+  "interlocutor": "M. Marc Durand, votre responsable",
+  "mission": "Demain matin, vous travaillez chez un client. Lisez l'e-mail de votre responsable et les horaires du bus, puis écoutez l'annonce. Il y a un problème : téléphonez à votre responsable. Ensuite, écrivez un SMS au client.",
+  "missionUk": "Завтра ви працюєте в клієнта. Знайдіть потрібний автобус, послухайте оголошення про зміни, зателефонуйте керівнику про запізнення і напишіть SMS клієнту.",
+  "vocab": [
+    {
+      "fr": "un arrêt de bus",
+      "uk": "автобусна зупинка"
+    },
+    {
+      "fr": "le départ",
+      "uk": "відправлення"
+    },
+    {
+      "fr": "le trajet",
+      "uk": "дорога, поїздка"
+    },
+    {
+      "fr": "des travaux",
+      "uk": "ремонтні роботи"
+    },
+    {
+      "fr": "un retard",
+      "uk": "затримка, запізнення"
+    },
+    {
+      "fr": "prévenir",
+      "uk": "попередити"
+    },
+    {
+      "fr": "à tout à l'heure",
+      "uk": "до зустрічі (сьогодні)"
+    }
+  ],
+  "documents": [
+    {
+      "type": "email",
+      "title": "E-mail de votre responsable",
+      "text": "De : marc.durand@nettopro.fr\nObjet : Demain\n\nBonjour Ivan,\n\nDemain, mardi, vous travaillez chez notre client, la pharmacie Centrale, 25 avenue de la Gare. Vous commencez à 9 h.\nPrenez le bus 12 à l'arrêt « Mairie ».\nLe client s'appelle M. Roux. Son numéro : 06 98 76 54 32.\n\nBonne journée,\nMarc Durand"
+    },
+    {
+      "type": "horaires",
+      "title": "Horaires – Ligne 12",
+      "text": "LIGNE 12 : Mairie → Gare\n\nDéparts de l'arrêt « Mairie » :\n8 h 05 – 8 h 20 – 8 h 35 – 8 h 50\n\nTrajet jusqu'à l'arrêt « Gare » : 15 minutes\n\nTicket : 1,70 € (2 € dans le bus)"
+    }
+  ],
+  "audio": [
+    {
+      "title": "Annonce aux voyageurs",
+      "voice": "f",
+      "text": "Information voyageurs. Ce matin, à cause de travaux, la ligne douze ne passe pas par l'arrêt Mairie. Prenez la ligne douze à l'arrêt Poste, rue Pasteur, à trois cents mètres. Les bus ont environ vingt minutes de retard. Merci de votre compréhension."
+    }
+  ],
+  "questions": [
+    {
+      "part": "lecture",
+      "q": "À quelle heure Ivan commence chez le client ?",
+      "options": [
+        "À 8 h",
+        "À 9 h",
+        "À 9 h 30"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "Combien coûte le ticket dans le bus ?",
+      "options": [
+        "1,70 €",
+        "2 €",
+        "1,50 €"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "Normalement, quel bus Ivan prend pour arriver avant 9 h ?",
+      "options": [
+        "Le bus de 8 h 35",
+        "Le bus de 8 h 50",
+        "Le bus de 9 h"
+      ],
+      "answer": 0,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "Quel est le nom du client ?",
+      "accept": [
+        "m. roux",
+        "monsieur roux",
+        "roux",
+        "m roux"
+      ],
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Pourquoi le bus ne passe pas à l'arrêt Mairie ?",
+      "options": [
+        "À cause d'une grève",
+        "À cause de travaux",
+        "À cause de la neige"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Où Ivan doit prendre le bus ?",
+      "options": [
+        "À l'arrêt Poste",
+        "À l'arrêt Gare",
+        "À la mairie"
+      ],
+      "answer": 0,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Les bus ont combien de minutes de retard ?",
+      "options": [
+        "5 minutes",
+        "20 minutes",
+        "1 heure"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "lvl": "A2",
+      "q": "Normalement, avec le bus de 8 h 50, Ivan arrive à la Gare à quelle heure ?",
+      "options": [
+        "À 8 h 50",
+        "À 9 h 05",
+        "À 9 h 15"
+      ],
+      "answer": 1
+    },
+    {
+      "part": "ecoute",
+      "lvl": "A2",
+      "q": "Avec 20 minutes de retard, à quelle heure arrive à la Gare le bus de 8 h 35 ?",
+      "options": [
+        "À 8 h 50",
+        "À 9 h 10",
+        "À 9 h 30"
+      ],
+      "answer": 1
+    }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте керівнику, пану Дюрану. Поясніть, чому запізнюєтеся, скажіть, коли будете, і пообіцяйте попередити клієнта.",
+    "turns": [
+      {
+        "examiner": "Allô, Marc Durand, NettoPro.",
+        "task": "Привітайтеся і назвіться.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Привітання"
+          },
+          {
+            "lvl": "A1",
+            "t": "Ім'я"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A1": "Bonjour monsieur Durand, c'est Ivan Petrenko."
+        }
+      },
+      {
+        "examiner": "Bonjour Ivan. Il y a un problème ?",
+        "task": "Поясніть: через роботи автобус не їде через «Mairie», затримка 20 хвилин.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Причина: роботи (travaux)"
+          },
+          {
+            "lvl": "A2",
+            "t": "Затримка 20 хвилин"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A1": "Oui. Il y a des travaux, le bus 12 ne passe pas à l'arrêt Mairie. Je prends le bus à l'arrêt Poste, mais il a vingt minutes de retard."
+        }
+      },
+      {
+        "examiner": "D'accord. Vous arrivez à quelle heure à la pharmacie ?",
+        "task": "Назвіть час: близько 9:20.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Час прибуття"
+          },
+          {
+            "lvl": "A2",
+            "t": "Вибачення"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "J'arrive vers 9 h 20. Je suis désolé."
+        }
+      },
+      {
+        "examiner": "Ce n'est pas grave. Vous pouvez prévenir M. Roux ?",
+        "task": "Скажіть, що напишете йому SMS.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Згода (Oui, bien sûr)"
+          },
+          {
+            "lvl": "A2",
+            "t": "Що зробите (SMS)"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "Oui, bien sûr. J'envoie un SMS à M. Roux tout de suite."
+        }
+      },
+      {
+        "examiner": "Merci Ivan. Bon courage !",
+        "task": "Подякуйте і попрощайтеся.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Подяка"
+          },
+          {
+            "lvl": "A1",
+            "t": "Прощання"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A1": "Merci, monsieur. Au revoir !"
+        }
+      }
+    ]
+  },
+  "writing": {
+    "format": "sms",
+    "task": "Écrivez un SMS à M. Roux. Dites qui vous êtes, expliquez le problème et donnez votre heure d'arrivée.",
+    "taskUk": "Напишіть SMS пану Ру: хто ви, що сталося і о котрій прийдете.",
+    "minWords": 20,
+    "maxWords": 40,
+    "checklist": [
+      {
+        "lvl": "A1",
+        "t": "Привітання"
+      },
+      {
+        "lvl": "A2",
+        "t": "Хто ви (ім'я, компанія)"
+      },
+      {
+        "lvl": "A2",
+        "t": "Причина запізнення"
+      },
+      {
+        "lvl": "A2",
+        "t": "Новий час"
+      },
+      {
+        "lvl": "A1",
+        "t": "Вибачення і ввічливе завершення"
+      }
+    ],
+    "models": {
+      "A1": "Bonjour Monsieur Roux, je suis Ivan, de NettoPro. Le bus a du retard à cause de travaux. J'arrive à la pharmacie vers 9 h 20. Excusez-moi pour le retard. À tout à l'heure !"
+    }
+  },
+  "relatedVideos": [
+    "NkCc4U3QhIA",
+    "6yi9N-5MDgs"
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": "fp-evenement-repas",
+  "exam": "FP",
+  "topic": "evenement",
+  "title": "Organiser le repas de fin d'année",
+  "titleUk": "Організувати новорічний обід команди",
+  "role": "Vous êtes Sofia Tkachenko, assistante dans l'agence de voyages « Évasion », à Paris.",
+  "interlocutor": "Thomas, responsable du restaurant « La Table verte »",
+  "mission": "Votre directrice vous demande d'organiser le repas de fin d'année de l'équipe. Lisez son e-mail et les présentations de deux restaurants, choisissez le bon restaurant et écoutez son message. Téléphonez au restaurant pour réserver. Enfin, écrivez un e-mail d'invitation à vos collègues.",
+  "missionUk": "Оберіть ресторан для обіду команди з урахуванням бюджету, вегетаріанського меню і доступності для колеги на візку, забронюйте телефоном і запросіть колег листом.",
+  "vocab": [
+    {
+      "fr": "le repas de fin d'année",
+      "uk": "новорічний (підсумковий) обід"
+    },
+    {
+      "fr": "le budget",
+      "uk": "бюджет"
+    },
+    {
+      "fr": "végétarien",
+      "uk": "вегетаріанський"
+    },
+    {
+      "fr": "un fauteuil roulant",
+      "uk": "інвалідний візок"
+    },
+    {
+      "fr": "accessible",
+      "uk": "доступний (без сходів)"
+    },
+    {
+      "fr": "le rez-de-chaussée",
+      "uk": "перший поверх"
+    },
+    {
+      "fr": "un acompte",
+      "uk": "передоплата"
+    },
+    {
+      "fr": "réserver",
+      "uk": "бронювати"
+    }
+  ],
+  "documents": [
+    {
+      "type": "email",
+      "title": "E-mail de la directrice",
+      "text": "De : isabelle.moreau@evasion-voyages.fr\nObjet : Repas de fin d'année\n\nBonjour Sofia,\n\nPouvez-vous organiser notre repas de fin d'année ? Nous serons 12.\nDate : vendredi 13 décembre, à midi.\nBudget : 25 € maximum par personne, boisson comprise. L'agence paie.\nAttention : Clara est végétarienne et Marc se déplace en fauteuil roulant.\nMerci de m'envoyer les informations avant mercredi.\n\nIsabelle Moreau"
+    },
+    {
+      "type": "annonce",
+      "title": "Le Petit Bistrot",
+      "text": "LE PETIT BISTROT – cuisine française traditionnelle\nMenu groupe (à partir de 10 personnes) : 22 €\n(entrée + plat + dessert)\nBoisson : 3 €\nPlats végétariens sur demande.\nSalle de groupe au 1er étage (escalier).\nFermé le dimanche."
+    },
+    {
+      "type": "annonce",
+      "title": "La Table verte",
+      "text": "LA TABLE VERTE – cuisine de saison\n12, rue Saint-Antoine – Paris 4e\nMenu du midi : 19 € (plat + dessert), café offert\nBoissons : 4 €\nMenu végétarien tous les jours.\nSalle au rez-de-chaussée, accessible aux personnes à mobilité réduite.\nRéservation obligatoire pour les groupes."
+    }
+  ],
+  "audio": [
+    {
+      "title": "Message de La Table verte",
+      "voice": "m",
+      "text": "Bonjour, ici Thomas, du restaurant La Table verte. Merci pour votre demande. Le vendredi treize décembre à midi, nous avons de la place pour douze personnes. Pour les groupes, nous demandons un acompte de cinquante euros à la réservation. Et attention : il faut confirmer le nombre de personnes trois jours avant, donc au plus tard le mardi. Vous pouvez me rappeler au zéro un, quarante-deux, cinquante-six, soixante-dix-huit, quatre-vingt-dix. Bonne journée !"
+    }
+  ],
+  "questions": [
+    {
+      "part": "lecture",
+      "q": "Quel est le problème du Petit Bistrot pour Marc ?",
+      "options": [
+        "Il n'y a pas de plat végétarien",
+        "La salle est au 1er étage, avec un escalier",
+        "Il est fermé le vendredi"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "lecture",
+      "q": "À La Table verte, combien coûte le menu avec une boisson ?",
+      "options": [
+        "19 €",
+        "23 €",
+        "25 €"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "lecture",
+      "q": "Qui est végétarien dans l'équipe ?",
+      "options": [
+        "Marc",
+        "Isabelle",
+        "Clara"
+      ],
+      "answer": 2,
+      "lvl": "A2"
+    },
+    {
+      "part": "lecture",
+      "q": "Avant quel jour Sofia doit envoyer les informations à la directrice ?",
+      "options": [
+        "Avant mardi",
+        "Avant mercredi",
+        "Avant vendredi"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "ecoute",
+      "q": "Combien coûte l'acompte ?",
+      "options": [
+        "25 €",
+        "50 €",
+        "100 €"
+      ],
+      "answer": 1,
+      "lvl": "A1"
+    },
+    {
+      "part": "ecoute",
+      "q": "Quand faut-il confirmer le nombre de personnes ?",
+      "options": [
+        "Le jour du repas",
+        "Au plus tard le mardi",
+        "Une semaine avant"
+      ],
+      "answer": 1,
+      "lvl": "A2"
+    },
+    {
+      "part": "ecoute",
+      "q": "Le restaurant a de la place pour combien de personnes ? (chiffre)",
+      "accept": [
+        "12",
+        "douze"
+      ],
+      "lvl": "A2"
+    }
+  ],
+  "oral": {
+    "intro": "Ви телефонуєте Тома в ресторан «La Table verte». Забронюйте обід на 12 осіб, згадайте особливі побажання. Він повідомить про проблему зі столом — запитайте про інше рішення.",
+    "turns": [
+      {
+        "examiner": "La Table verte, bonjour !",
+        "task": "Привітайтеся, представтеся (агенція «Évasion»), скажіть мету дзвінка.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Привітання"
+          },
+          {
+            "lvl": "A1",
+            "t": "Хто ви і звідки"
+          },
+          {
+            "lvl": "A1",
+            "t": "Мета: бронювання"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A2": "Bonjour monsieur. Je suis Sofia Tkachenko, de l'agence de voyages Évasion. Je vous appelle pour réserver une table pour un groupe."
+        }
+      },
+      {
+        "examiner": "Ah oui, pour le vendredi 13 décembre. Vous êtes combien ?",
+        "task": "Скажіть: 12 осіб, о 12:00, обідне меню.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "12 осіб"
+          },
+          {
+            "lvl": "A2",
+            "t": "Дата і час"
+          },
+          {
+            "lvl": "A2",
+            "t": "Обідне меню"
+          }
+        ],
+        "phase": 3,
+        "models": {
+          "A2": "Nous sommes douze personnes, le vendredi 13 décembre à midi. Nous voudrions prendre le menu du midi."
+        }
+      },
+      {
+        "examiner": "Très bien. Il y a des demandes particulières ?",
+        "task": "Згадайте вегетаріанку і колегу на візку — запитайте про доступ.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Вегетаріанське меню"
+          },
+          {
+            "lvl": "A2",
+            "t": "Доступність для візка"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Oui : une collègue est végétarienne, et un collègue est en fauteuil roulant. La salle est bien accessible ?"
+        }
+      },
+      {
+        "examiner": "Pas de problème. Mais attention : pour douze personnes, la seule grande table est sur la terrasse couverte. En décembre, il peut faire un peu froid…",
+        "task": "Відреагуйте: запитайте, чи є обігрів або інше рішення всередині.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Реакція на проблему"
+          },
+          {
+            "lvl": "A2",
+            "t": "Запропонували альтернативу / поставили запитання"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Ah, c'est dommage. Est-ce qu'il y a un chauffage sur la terrasse ? Ou bien est-ce que c'est possible de manger à l'intérieur, avec deux petites tables par exemple ?"
+        }
+      },
+      {
+        "examiner": "À l'intérieur, je peux mettre deux tables de six, côte à côte. Ça vous convient ?",
+        "task": "Погодьтеся і запитайте, як заплатити передоплату.",
+        "check": [
+          {
+            "lvl": "A2",
+            "t": "Згода"
+          },
+          {
+            "lvl": "A2",
+            "t": "Запитання про передоплату"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Oui, c'est très bien, merci. Et pour l'acompte de 50 euros, comment est-ce que je peux payer ?"
+        }
+      },
+      {
+        "examiner": "Par carte, par téléphone ou sur place. Autre chose ?",
+        "task": "Скажіть, що підтвердите кількість у вівторок, подякуйте і попрощайтеся.",
+        "check": [
+          {
+            "lvl": "A1",
+            "t": "Підтвердження до вівторка"
+          },
+          {
+            "lvl": "A1",
+            "t": "Подяка і прощання"
+          }
+        ],
+        "phase": 4,
+        "models": {
+          "A2": "Je paie par carte cet après-midi. Je vous confirme le nombre de personnes mardi au plus tard. Merci beaucoup, au revoir !"
+        }
+      }
+    ]
+  },
+  "writing": {
+    "format": "email",
+    "task": "Écrivez un e-mail d'invitation à vos collègues : date, heure, nom et adresse du restaurant, menu, et demandez une réponse avant lundi soir.",
+    "taskUk": "Напишіть запрошення колегам: дата, час, ресторан і адреса, меню; попросіть відповісти до вечора понеділка.",
+    "minWords": 60,
+    "maxWords": 100,
+    "checklist": [
+      {
+        "lvl": "A1",
+        "t": "Звертання до колег"
+      },
+      {
+        "lvl": "A2",
+        "t": "Дата і час"
+      },
+      {
+        "lvl": "A2",
+        "t": "Назва ресторану та адреса"
+      },
+      {
+        "lvl": "A2",
+        "t": "Інформація про меню (вегетаріанське, оплачує агенція)"
+      },
+      {
+        "lvl": "A2",
+        "t": "Прохання відповісти до понеділка + чому"
+      },
+      {
+        "lvl": "A1",
+        "t": "Завершальна формула"
+      }
+    ],
+    "models": {
+      "A2": "Bonjour à toutes et à tous,\n\nNotre repas de fin d'année aura lieu le vendredi 13 décembre à midi, au restaurant La Table verte, 12 rue Saint-Antoine. C'est une cuisine de saison, il y a un menu végétarien et la salle est accessible. Le menu (plat, dessert et boisson) est offert par l'agence.\n\nMerci de me confirmer votre présence avant lundi soir, parce que je dois confirmer le nombre de personnes mardi.\n\nÀ bientôt,\nSofia"
+    }
+  },
+  "relatedVideos": [
+    "nDCVXdenDII",
+    "M3SFh_d6iGk"
+  ]
+}
