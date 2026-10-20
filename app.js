@@ -581,8 +581,9 @@ function createPlayer(v) {
           if (e.data === YT.PlayerState.ENDED && current) { current.L.watched = true; save(); }
         },
         onError: (e) => {
-          const msg = { 2: 'Неправильний ID відео.', 5: 'Помилка плеєра.', 100: 'Відео видалене або приватне.', 101: 'Автор заборонив показ на інших сайтах.', 150: 'Автор заборонив показ на інших сайтах.', 153: 'Плеєр не отримав адресу сайту. Відкрий застосунок через http(s).' }[e.data] || 'Не вдалося відтворити відео.';
-          playerMessage(`${esc(msg)}<br><a href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">Відкрити на YouTube ↗</a>`);
+          const msg = { 2: 'Неправильний ID відео.', 5: 'Помилка плеєра.', 100: 'Відео видалене або приватне.', 101: 'YouTube не дозволив відтворити відео тут.', 150: 'YouTube не дозволив відтворити відео тут.', 152: 'YouTube не дозволив відтворити відео тут.', 153: 'Плеєр не отримав адресу сайту. Відкрий застосунок через http(s).' }[e.data] || 'Не вдалося відтворити відео.';
+          const hint = [101, 150, 152].includes(e.data) ? '<br><span style="font-size:.85em">Або автор заборонив вбудовування, або YouTube тимчасово перевіряє вашу мережу «на робота». Спробуй пізніше чи через мобільний інтернет.</span>' : '';
+          playerMessage(`${esc(msg)}${hint}<br><a href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">Відкрити на YouTube ↗</a>`);
         },
       },
     });
